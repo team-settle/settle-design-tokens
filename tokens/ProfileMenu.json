@@ -1,0 +1,32 @@
+{
+  "profileMenu": {
+    "color": {
+      "background": {
+        "value": "{basic.color.teal.900}",
+        "type": "color"
+      }
+    },
+    "spacing": {
+      "desktop": {
+        "padding-h": {
+          "value": "$basic.size.scale.desktop.none",
+          "type": "spacing"
+        },
+        "padding-v": {
+          "value": "$basic.size.scale.desktop.100",
+          "type": "spacing"
+        }
+      },
+      "mobile": {
+        "padding-h": {
+          "value": "$basic.size.scale.mobile.none",
+          "type": "spacing"
+        },
+        "padding-v": {
+          "value": "$basic.size.scale.mobile.100",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

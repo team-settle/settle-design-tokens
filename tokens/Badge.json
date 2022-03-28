@@ -1,0 +1,22 @@
+{
+  "badge": {
+    "size": {
+      "desktop": {
+        "value": "$basic.size.scale.desktop.300",
+        "type": "sizing"
+      },
+      "mobile": {
+        "value": "$basic.size.scale.mobile.300",
+        "type": "sizing"
+      }
+    },
+    "color": {
+      "primary": {
+        "background": {
+          "value": "$theme.color.secondary",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
