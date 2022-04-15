@@ -1,0 +1,102 @@
+{
+  "statusChipGroup": {
+    "size": {
+      "desktop": {
+        "large": {
+          "value": "{theme.size.shape.desktop.large}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{theme.size.shape.desktop.medium}",
+          "type": "sizing"
+        },
+        "small": {
+          "value": "{theme.size.shape.desktop.small}",
+          "type": "sizing"
+        }
+      },
+      "mobile": {
+        "large": {
+          "value": "{theme.size.shape.mobile.large}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{theme.size.shape.mobile.medium}",
+          "type": "sizing"
+        },
+        "small": {
+          "value": "{theme.size.shape.mobile.small}",
+          "type": "sizing"
+        }
+      }
+    },
+    "spacing": {
+      "small": {
+        "desktop": {
+          "vertical": {
+            "value": "({statusChipGroup.size.desktop.small} - {statusChip.size.desktop.small}) / 2",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "$basic.size.scale.desktop.25 / 2",
+            "type": "spacing"
+          }
+        },
+        "mobile": {
+          "vertical": {
+            "value": "({statusChipGroup.size.mobile.small} - {statusChip.size.mobile.small}) / 2",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "$basic.size.scale.mobile.25 / 2",
+            "type": "spacing"
+          }
+        }
+      },
+      "medium": {
+        "desktop": {
+          "vertical": {
+            "value": "({statusChipGroup.size.desktop.medium} - {statusChip.size.desktop.medium}) / 2",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "$basic.size.scale.desktop.25",
+            "type": "spacing"
+          }
+        },
+        "mobile": {
+          "vertical": {
+            "value": "({statusChipGroup.size.mobile.medium} - {statusChip.size.mobile.medium}) / 2",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "$basic.size.scale.mobile.25",
+            "type": "spacing"
+          }
+        }
+      },
+      "large": {
+        "desktop": {
+          "vertical": {
+            "value": "({statusChipGroup.size.desktop.large} - {statusChip.size.desktop.large}) / 2",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "$basic.size.scale.desktop.50",
+            "type": "spacing"
+          }
+        },
+        "mobile": {
+          "vertical": {
+            "value": "({statusChipGroup.size.mobile.large} - {statusChip.size.mobile.large}) / 2",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "$basic.size.scale.mobile.50",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  }
+}

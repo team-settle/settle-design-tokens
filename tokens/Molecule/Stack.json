@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "spacing": {
+      "small": {
+        "padding-h": {
+          "desktop": {
+            "value": "$basic.size.scale.desktop.300",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "$basic.size.scale.mobile.300",
+            "type": "spacing"
+          }
+        }
+      },
+      "medium": {
+        "padding-h": {
+          "desktop": {
+            "value": "$basic.size.scale.desktop.300",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "$basic.size.scale.mobile.300",
+            "type": "spacing"
+          }
+        }
+      },
+      "large": {
+        "padding-h": {
+          "desktop": {
+            "value": "$basic.size.scale.desktop.300",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "$basic.size.scale.mobile.300",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  }
+}
