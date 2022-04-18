@@ -260,7 +260,7 @@
             "type": "color"
           },
           "onBackground": {
-            "value": "{theme.color.onSurfacePrimary}",
+            "value": "{theme.color.onSurfaceSecondary}",
             "type": "color"
           },
           "outline": {
