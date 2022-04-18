@@ -1,13 +1,35 @@
 {
   "badge": {
     "size": {
-      "desktop": {
-        "value": "$basic.size.scale.desktop.300",
-        "type": "sizing"
+      "number": {
+        "desktop": {
+          "value": "$basic.size.scale.desktop.250",
+          "type": "sizing"
+        },
+        "mobile": {
+          "value": "$basic.size.scale.mobile.250",
+          "type": "sizing"
+        }
       },
-      "mobile": {
-        "value": "$basic.size.scale.mobile.300",
-        "type": "sizing"
+      "dot": {
+        "mobile": {
+          "value": "$basic.size.scale.mobile.100",
+          "type": "sizing"
+        },
+        "desktop": {
+          "value": "$basic.size.scale.desktop.100",
+          "type": "sizing"
+        }
+      },
+      "body": {
+        "desktop": {
+          "value": "{basic.size.scale.desktop.300}",
+          "type": "sizing"
+        },
+        "mobile": {
+          "value": "{basic.size.scale.mobile.300}",
+          "type": "sizing"
+        }
       }
     },
     "color": {
@@ -22,6 +44,16 @@
         }
       },
       "secondary": {
+        "background": {
+          "value": "$theme.color.background",
+          "type": "color"
+        },
+        "text": {
+          "value": "$theme.color.onSurfaceSecondary",
+          "type": "color"
+        }
+      },
+      "tertiary": {
         "background": {
           "value": "$theme.color.none",
           "type": "color"
