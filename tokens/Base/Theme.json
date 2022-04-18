@@ -323,7 +323,7 @@
             "fontWeight": "{basic.fontWeights.regular}",
             "lineHeight": "{basic.lineHeights.mobile.100}",
             "fontSize": "{basic.fontSizes.mobile.50}",
-            "letterSpacing": "{letterSpacing.mobile.500}",
+            "letterSpacing": "{basic.letterSpacing.mobile.500}",
             "paragraphSpacing": "{basic.paragraphSpacing.50}",
             "textDecoration": " ",
             "textCase": " "
