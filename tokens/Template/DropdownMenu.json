@@ -8,7 +8,7 @@
             "type": "color"
           },
           "text": {
-            "value": "{theme.color.onSurfaceSecondary}",
+            "value": "{theme.color.onSurfacePrimary}",
             "type": "color"
           },
           "icon": {

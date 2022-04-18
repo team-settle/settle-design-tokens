@@ -23,7 +23,7 @@
       },
       "secondary": {
         "background": {
-          "value": "$theme.color.background",
+          "value": "$theme.color.none",
           "type": "color"
         },
         "text": {
