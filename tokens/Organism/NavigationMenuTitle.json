@@ -1,0 +1,58 @@
+{
+  "navigationMenuTitle": {
+    "color": {
+      "default": {
+        "background": {
+          "value": "{theme.color.none}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.onSurfaceTertiary}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.onSurfaceSecondary}",
+          "type": "color"
+        }
+      },
+      "hovered": {
+        "background": {
+          "value": "{theme.color.none}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.onSurfacePrimary}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.onSurfacePrimary}",
+          "type": "color"
+        }
+      },
+      "selected": {
+        "background": {
+          "value": "{theme.color.none}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.onSurfaceTertiary}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.onSurfacePrimary}",
+          "type": "color"
+        }
+      }
+    },
+    "borderRadius": {
+      "desktop": {
+        "value": "{theme.size.shape.desktop.small} * {basic.borderRadius.small}",
+        "type": "borderRadius"
+      },
+      "mobile": {
+        "value": "{theme.size.shape.mobile.small} * {basic.borderRadius.small}",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

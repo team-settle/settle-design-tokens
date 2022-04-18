@@ -1,0 +1,100 @@
+{
+  "dropdownMenu": {
+    "item": {
+      "color": {
+        "default": {
+          "background": {
+            "value": "{theme.color.none}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{theme.color.onSurfacePrimary}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{theme.color.onSurfaceTertiary}",
+            "type": "color"
+          }
+        },
+        "hovered": {
+          "background": {
+            "value": "rgba({theme.color.onSurfaceOpaque}, {basic.opacity.100})",
+            "type": "color"
+          },
+          "text": {
+            "value": "{theme.color.onSurfacePrimary}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{theme.color.onSurfaceTertiary}",
+            "type": "color"
+          }
+        },
+        "selected": {
+          "background": {
+            "value": "rgba({theme.color.secondary}, {theme.opacity.state.focused})",
+            "type": "color"
+          },
+          "text": {
+            "value": "{theme.color.onSurfacePrimary}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{theme.color.secondary}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "{theme.color.none}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{theme.color.onSurfaceTertiary}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{theme.color.onSurfaceTertiary}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "container": {
+      "color": {
+        "background": {
+          "value": "{theme.color.surface}",
+          "type": "color"
+        }
+      },
+      "borderRadius": {
+        "desktop": {
+          "value": "{theme.size.shape.desktop.small} * {basic.borderRadius.small}",
+          "type": "borderRadius"
+        }
+      },
+      "spacing": {
+        "desktop": {
+          "padding-h": {
+            "value": "$basic.size.scale.desktop.none",
+            "type": "spacing"
+          },
+          "padding-v": {
+            "value": "$basic.size.scale.desktop.100",
+            "type": "spacing"
+          }
+        },
+        "mobile": {
+          "padding-h": {
+            "value": "$basic.size.scale.mobile.none",
+            "type": "spacing"
+          },
+          "padding-v": {
+            "value": "$basic.size.scale.mobile.100",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  }
+}
