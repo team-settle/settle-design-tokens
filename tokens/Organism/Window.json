@@ -35,12 +35,16 @@
       }
     },
     "color": {
-      "background": {
+      "surface": {
         "value": "{theme.color.surface}",
         "type": "color"
       },
       "overlay": {
         "value": "rgba({theme.color.onSurfaceOpaque}, 0.08)",
+        "type": "color"
+      },
+      "outline": {
+        "value": "{theme.color.none}",
         "type": "color"
       }
     }
