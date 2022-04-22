@@ -45,11 +45,11 @@
       },
       "secondary": {
         "background": {
-          "value": "$theme.color.background",
+          "value": "$theme.color.onSurfaceTertiary",
           "type": "color"
         },
         "text": {
-          "value": "$theme.color.onSurfaceSecondary",
+          "value": "#FFFFFF",
           "type": "color"
         }
       },

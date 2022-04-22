@@ -1,0 +1,52 @@
+{
+  "window": {
+    "size": {
+      "width": {
+        "desktop": {
+          "small": {
+            "value": "320",
+            "type": "sizing"
+          },
+          "medium": {
+            "value": "480",
+            "type": "sizing"
+          },
+          "xlarge": {
+            "value": "960",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "640",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "desktop": {
+        "top": {
+          "value": "{basic.size.scale.desktop.200}",
+          "type": "spacing"
+        },
+        "bottom": {
+          "value": "{basic.size.scale.desktop.200}",
+          "type": "spacing"
+        }
+      }
+    },
+    "color": {
+      "surface": {
+        "value": "{theme.color.surface}",
+        "type": "color"
+      },
+      "overlay": {
+        "value": "rgba({theme.color.onSurfaceOpaque}, 0.08)",
+        "type": "color"
+      },
+      "outline": {
+        "value": "{theme.color.none}",
+        "type": "color"
+      }
+    }
+  }
+}
