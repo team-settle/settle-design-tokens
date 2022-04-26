@@ -35,21 +35,21 @@
     "color": {
       "primary": {
         "background": {
-          "value": "$theme.color.secondary",
+          "value": "{basic.color.teal.600}",
           "type": "color"
         },
         "text": {
-          "value": "$theme.color.onSecondary",
+          "value": "{basic.color.base.white}",
           "type": "color"
         }
       },
       "secondary": {
         "background": {
-          "value": "rgba({theme.color.onSurfaceTertiary}, {basic.opacity.400})",
+          "value": "{basic.color.grey.400}",
           "type": "color"
         },
         "text": {
-          "value": "#FFFFFF",
+          "value": "{basic.color.grey.900}",
           "type": "color"
         }
       },
@@ -59,7 +59,7 @@
           "type": "color"
         },
         "text": {
-          "value": "$theme.color.onSurfaceSecondary",
+          "value": "{basic.color.grey.700}",
           "type": "color"
         }
       }
