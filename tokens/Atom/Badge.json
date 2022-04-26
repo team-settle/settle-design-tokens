@@ -45,7 +45,7 @@
       },
       "secondary": {
         "background": {
-          "value": "$theme.color.onSurfaceTertiary",
+          "value": "rgba({theme.color.onSurfaceTertiary}, {basic.opacity.400})",
           "type": "color"
         },
         "text": {
