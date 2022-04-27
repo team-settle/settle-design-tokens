@@ -204,7 +204,7 @@
             "fontWeight": "{basic.fontWeights.regular}",
             "lineHeight": "{basic.lineHeights.desktop.300}",
             "fontSize": "{basic.fontSizes.desktop.300}",
-            "letterSpacing": "{basic.letterSpacing.desktop.400}",
+            "letterSpacing": "{basic.letterSpacing.desktop.300}",
             "paragraphSpacing": "{basic.paragraphSpacing.50}",
             "textDecoration": " ",
             "textCase": " "
@@ -375,7 +375,7 @@
             "fontWeight": "{basic.fontWeights.regular}",
             "lineHeight": "{basic.lineHeights.mobile.300}",
             "fontSize": "{basic.fontSizes.mobile.300}",
-            "letterSpacing": "{basic.letterSpacing.mobile.400}",
+            "letterSpacing": "{basic.letterSpacing.mobile.300}",
             "paragraphSpacing": "{basic.paragraphSpacing.50}",
             "textDecoration": " ",
             "textCase": " "
