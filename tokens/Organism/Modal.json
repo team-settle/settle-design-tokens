@@ -63,13 +63,15 @@
       }
     },
     "borderRadius": {
-      "desktop": {
-        "value": "8",
-        "type": "borderRadius"
-      },
-      "mobile": {
-        "value": "8",
-        "type": "borderRadius"
+      "container": {
+        "desktop": {
+          "value": "8",
+          "type": "borderRadius"
+        },
+        "mobile": {
+          "value": "8",
+          "type": "borderRadius"
+        }
       }
     }
   }
