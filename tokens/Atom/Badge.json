@@ -17,7 +17,7 @@
           "type": "sizing"
         },
         "mobile": {
-          "value": "{basic.size.scale.mobile.300}",
+          "value": "{basic.size.scale.mobile.250}",
           "type": "sizing"
         }
       }
