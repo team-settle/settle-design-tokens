@@ -35,6 +35,18 @@
           }
         }
       },
+      "header": {
+        "bottom": {
+          "desktop": {
+            "value": "{basic.size.scale.desktop.200}",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "{basic.size.scale.mobile.200}",
+            "type": "spacing"
+          }
+        }
+      },
       "content": {
         "vertical": {
           "desktop": {
@@ -71,6 +83,18 @@
         "mobile": {
           "value": "8",
           "type": "borderRadius"
+        }
+      }
+    },
+    "shadow": {
+      "container": {
+        "desktop": {
+          "value": "{theme.shadow.desktop.large}",
+          "type": "boxShadow"
+        },
+        "mobile": {
+          "value": "{theme.shadow.mobile.large}",
+          "type": "boxShadow"
         }
       }
     }
