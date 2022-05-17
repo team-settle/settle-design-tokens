@@ -395,15 +395,15 @@
       },
       "deleted": {
         "background": {
-          "value": "$basic.color.bluegrey.50",
+          "value": "$basic.color.grey.100",
           "type": "color"
         },
         "text": {
-          "value": "$basic.color.bluegrey.300",
+          "value": "$basic.color.grey.500",
           "type": "color"
         },
         "icon": {
-          "value": "$basic.color.bluegrey.300",
+          "value": "$basic.color.grey.500",
           "type": "color"
         },
         "outline": {

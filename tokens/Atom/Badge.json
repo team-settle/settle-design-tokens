@@ -1,33 +1,23 @@
 {
   "badge": {
     "size": {
-      "number": {
-        "desktop": {
-          "value": "$basic.size.scale.desktop.250",
-          "type": "sizing"
-        },
-        "mobile": {
-          "value": "$basic.size.scale.mobile.250",
-          "type": "sizing"
-        }
-      },
-      "dot": {
-        "mobile": {
-          "value": "$basic.size.scale.mobile.100",
-          "type": "sizing"
-        },
+      "number-off": {
         "desktop": {
           "value": "$basic.size.scale.desktop.100",
           "type": "sizing"
+        },
+        "mobile": {
+          "value": "$basic.size.scale.mobile.100",
+          "type": "sizing"
         }
       },
-      "body": {
+      "number-on": {
         "desktop": {
-          "value": "{basic.size.scale.desktop.300}",
+          "value": "{basic.size.scale.desktop.250}",
           "type": "sizing"
         },
         "mobile": {
-          "value": "{basic.size.scale.mobile.300}",
+          "value": "{basic.size.scale.mobile.250}",
           "type": "sizing"
         }
       }

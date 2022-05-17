@@ -1,0 +1,102 @@
+{
+  "modal": {
+    "size": {
+      "width": {
+        "desktop": {
+          "small": {
+            "value": "320",
+            "type": "spacing"
+          },
+          "medium": {
+            "value": "480",
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": "960",
+            "type": "spacing"
+          },
+          "large": {
+            "value": "640",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "container": {
+        "vertical": {
+          "desktop": {
+            "value": "{basic.size.scale.desktop.200}",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "{basic.size.scale.mobile.200}",
+            "type": "spacing"
+          }
+        }
+      },
+      "header": {
+        "bottom": {
+          "desktop": {
+            "value": "{basic.size.scale.desktop.200}",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "{basic.size.scale.mobile.200}",
+            "type": "spacing"
+          }
+        }
+      },
+      "content": {
+        "vertical": {
+          "desktop": {
+            "value": "{basic.size.scale.desktop.100}",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "{basic.size.scale.mobile.100}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "color": {
+      "surface": {
+        "value": "{theme.color.surface}",
+        "type": "color"
+      },
+      "overlay": {
+        "value": "rgba({theme.color.onSurfaceOpaque}, 0.08)",
+        "type": "color"
+      },
+      "outline": {
+        "value": "{theme.color.none}",
+        "type": "color"
+      }
+    },
+    "borderRadius": {
+      "container": {
+        "desktop": {
+          "value": "8",
+          "type": "borderRadius"
+        },
+        "mobile": {
+          "value": "8",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "shadow": {
+      "container": {
+        "desktop": {
+          "value": "{theme.shadow.desktop.large}",
+          "type": "boxShadow"
+        },
+        "mobile": {
+          "value": "{theme.shadow.mobile.large}",
+          "type": "boxShadow"
+        }
+      }
+    }
+  }
+}

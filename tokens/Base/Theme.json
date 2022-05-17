@@ -489,16 +489,75 @@
       }
     },
     "shadow": {
-      "medium": {
-        "value": {
-          "x": "0",
-          "y": "0",
-          "blur": "32",
-          "spread": "0",
-          "color": "rgba({theme.color.onSurfaceOpaque}, 0.15)",
-          "type": "dropShadow"
+      "desktop": {
+        "large": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "24",
+            "spread": "0",
+            "color": "rgba({theme.color.onSurfaceOpaque}, 0.15)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         },
-        "type": "boxShadow"
+        "medium": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "16",
+            "spread": "0",
+            "color": "rgba({theme.color.onSurfaceOpaque}, 0.15)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "small": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "8",
+            "spread": "0",
+            "color": "rgba({theme.color.onSurfaceOpaque}, 0.15)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "mobile": {
+        "large": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "24",
+            "spread": "0",
+            "color": "rgba({theme.color.onSurfaceOpaque}, 0.15)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "medium": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "16",
+            "spread": "0",
+            "color": "rgba({theme.color.onSurfaceOpaque}, 0.15)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "small": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "8",
+            "spread": "0",
+            "color": "rgba({theme.color.onSurfaceOpaque}, 0.15)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
       }
     },
     "size": {

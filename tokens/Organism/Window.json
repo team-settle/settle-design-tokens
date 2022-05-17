@@ -5,19 +5,19 @@
         "desktop": {
           "small": {
             "value": "320",
-            "type": "sizing"
+            "type": "spacing"
           },
           "medium": {
             "value": "480",
-            "type": "sizing"
+            "type": "spacing"
           },
           "xlarge": {
             "value": "960",
-            "type": "sizing"
+            "type": "spacing"
           },
           "large": {
             "value": "640",
-            "type": "sizing"
+            "type": "spacing"
           }
         }
       }
@@ -46,6 +46,16 @@
       "outline": {
         "value": "{theme.color.none}",
         "type": "color"
+      }
+    },
+    "borderRadius": {
+      "desktop": {
+        "value": "8",
+        "type": "borderRadius"
+      },
+      "mobile": {
+        "value": "8",
+        "type": "borderRadius"
       }
     }
   }
