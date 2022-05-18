@@ -2,11 +2,11 @@
   "attentionItem": {
     "borderRadius": {
       "desktop": {
-        "value": "{theme.size.shape.desktop.large} * {basic.borderRadius.round}",
+        "value": "{theme.borderRadius.desktop.medium}",
         "type": "borderRadius"
       },
       "mobile": {
-        "value": "{theme.size.shape.mobile.large} * {basic.borderRadius.round}",
+        "value": "{theme.borderRadius.mobile.medium}",
         "type": "borderRadius"
       }
     },
