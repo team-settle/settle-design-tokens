@@ -35,7 +35,7 @@
       },
       "secondary": {
         "background": {
-          "value": "{basic.color.grey.400}",
+          "value": "{basic.color.grey.300}",
           "type": "color"
         },
         "text": {
