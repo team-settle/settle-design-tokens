@@ -99,12 +99,20 @@
         "value": "$basic.color.base.white",
         "type": "color"
       },
+      "primaryContainer": {
+        "value": "$basic.color.teal.50",
+        "type": "color"
+      },
       "secondary": {
         "value": "$basic.color.teal.700",
         "type": "color"
       },
       "onSecondary": {
         "value": "$basic.color.base.white",
+        "type": "color"
+      },
+      "secondaryContainer": {
+        "value": "$basic.color.teal.50",
         "type": "color"
       },
       "error": {
@@ -115,6 +123,10 @@
         "value": "$basic.color.base.white",
         "type": "color"
       },
+      "errorContainer": {
+        "value": "$basic.color.red.50",
+        "type": "color"
+      },
       "alert": {
         "value": "$basic.color.amber.700",
         "type": "color"
@@ -123,12 +135,20 @@
         "value": "$basic.color.base.white",
         "type": "color"
       },
+      "alertContainer": {
+        "value": "$basic.color.amber.50",
+        "type": "color"
+      },
       "success": {
-        "value": "$basic.color.teal.800",
+        "value": "$basic.color.lightgreen.700",
         "type": "color"
       },
       "onSuccess": {
         "value": "$basic.color.base.white",
+        "type": "color"
+      },
+      "successContainer": {
+        "value": "$basic.color.lightgreen.50",
         "type": "color"
       },
       "destructive": {
@@ -137,6 +157,10 @@
       },
       "onDestructive": {
         "value": "$basic.color.base.white",
+        "type": "color"
+      },
+      "destructiveContainer": {
+        "value": "$basic.color.red.50",
         "type": "color"
       },
       "none": {
