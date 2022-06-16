@@ -14,12 +14,12 @@
     },
     "color": {
       "background": {
-        "value": "{theme.color.surface}",
-        "type": "color"
+        "type": "color",
+        "value": "{theme.color.common.surface}"
       },
       "outline": {
-        "value": "{theme.color.outline}",
-        "type": "color"
+        "type": "color",
+        "value": "{theme.color.common.outline}"
       }
     },
     "borderRadius": {

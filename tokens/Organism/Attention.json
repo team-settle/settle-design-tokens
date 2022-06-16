@@ -2,12 +2,12 @@
   "attention": {
     "color": {
       "background": {
-        "value": "{theme.color.surface}",
-        "type": "color"
+        "type": "color",
+        "value": "{theme.color.common.surface}"
       },
       "separator": {
-        "value": "{theme.color.onSurfaceTertiary}",
-        "type": "color"
+        "type": "color",
+        "value": "{theme.color.common.onSurfaceTertiary}"
       }
     },
     "spacing": {

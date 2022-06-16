@@ -3,16 +3,16 @@
     "color": {
       "default": {
         "background": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         },
         "text": {
           "value": "rgba({theme.color.onPrimary}, {basic.opacity.600})",
           "type": "color"
         },
         "pictogram-outline": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         },
         "pictogram-background": {
           "value": "rgba({theme.color.onPrimary}, {basic.opacity.200})",
@@ -25,12 +25,12 @@
           "type": "color"
         },
         "text": {
-          "value": "{theme.color.onPrimary}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.onPrimary}"
         },
         "pictogram-outline": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         },
         "pictogram-background": {
           "value": "rgba({theme.color.onPrimary}, {basic.opacity.200})",
@@ -39,16 +39,16 @@
       },
       "selected": {
         "background": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         },
         "text": {
-          "value": "{theme.color.onPrimary}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.onPrimary}"
         },
         "pictogram-outline": {
-          "value": "{theme.color.onPrimary}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.onPrimary}"
         },
         "pictogram-background": {
           "value": "rgba({theme.color.onPrimary}, {basic.opacity.200})",

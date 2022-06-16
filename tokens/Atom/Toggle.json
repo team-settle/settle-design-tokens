@@ -173,8 +173,8 @@
           "type": "color"
         },
         "knob": {
-          "value": "{theme.color.secondary}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.secondary}"
         }
       },
       "selected-hovered": {
@@ -183,8 +183,8 @@
           "type": "color"
         },
         "knob": {
-          "value": "{theme.color.secondary}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.secondary}"
         }
       },
       "selected-disabled": {

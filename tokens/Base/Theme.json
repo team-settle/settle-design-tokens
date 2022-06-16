@@ -59,113 +59,333 @@
       }
     },
     "color": {
-      "surface": {
-        "value": "$basic.color.base.white",
-        "type": "color"
+      "common": {
+        "surface": {
+          "value": "$basic.color.base.white",
+          "type": "color"
+        },
+        "onSurfaceOpaque": {
+          "value": "$basic.color.base.black",
+          "type": "color"
+        },
+        "onSurfacePrimary": {
+          "value": "rgba($basic.color.base.black, {basic.opacity.900})",
+          "type": "color"
+        },
+        "onSurfaceSecondary": {
+          "value": "rgba($basic.color.base.black, {basic.opacity.600})",
+          "type": "color"
+        },
+        "onSurfaceTertiary": {
+          "value": "rgba($basic.color.base.black, {basic.opacity.400})",
+          "type": "color"
+        },
+        "outline": {
+          "value": "rgba($basic.color.base.black, {basic.opacity.200})",
+          "type": "color"
+        },
+        "separator": {
+          "value": "rgba($basic.color.base.black, {basic.opacity.150})",
+          "type": "color"
+        },
+        "background": {
+          "value": "#F7F6F6",
+          "type": "color"
+        },
+        "primary": {
+          "value": "$basic.color.teal.900",
+          "type": "color"
+        },
+        "onPrimary": {
+          "value": "$basic.color.base.white",
+          "type": "color"
+        },
+        "primaryContainer": {
+          "value": "$basic.color.teal.50",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "$basic.color.teal.700",
+          "type": "color"
+        },
+        "onSecondary": {
+          "value": "$basic.color.base.white",
+          "type": "color"
+        },
+        "secondaryContainer": {
+          "value": "$basic.color.teal.50",
+          "type": "color"
+        },
+        "error": {
+          "value": "$basic.color.red.500",
+          "type": "color"
+        },
+        "onError": {
+          "value": "$basic.color.base.white",
+          "type": "color"
+        },
+        "errorContainer": {
+          "value": "$basic.color.red.50",
+          "type": "color"
+        },
+        "alert": {
+          "value": "$basic.color.amber.700",
+          "type": "color"
+        },
+        "onAlert": {
+          "value": "$basic.color.base.white",
+          "type": "color"
+        },
+        "alertContainer": {
+          "value": "$basic.color.amber.50",
+          "type": "color"
+        },
+        "success": {
+          "value": "$basic.color.lightgreen.700",
+          "type": "color"
+        },
+        "onSuccess": {
+          "value": "$basic.color.base.white",
+          "type": "color"
+        },
+        "successContainer": {
+          "value": "$basic.color.lightgreen.50",
+          "type": "color"
+        },
+        "destructive": {
+          "value": "$basic.color.red.500",
+          "type": "color"
+        },
+        "onDestructive": {
+          "value": "$basic.color.base.white",
+          "type": "color"
+        },
+        "destructiveContainer": {
+          "value": "$basic.color.red.50",
+          "type": "color"
+        },
+        "none": {
+          "value": "rgba($basic.color.base.white, 0)",
+          "type": "color"
+        }
       },
-      "onSurfaceOpaque": {
-        "value": "$basic.color.base.black",
-        "type": "color"
-      },
-      "onSurfacePrimary": {
-        "value": "rgba($basic.color.base.black, {basic.opacity.900})",
-        "type": "color"
-      },
-      "onSurfaceSecondary": {
-        "value": "rgba($basic.color.base.black, {basic.opacity.600})",
-        "type": "color"
-      },
-      "onSurfaceTertiary": {
-        "value": "rgba($basic.color.base.black, {basic.opacity.400})",
-        "type": "color"
-      },
-      "outline": {
-        "value": "rgba($basic.color.base.black, {basic.opacity.200})",
-        "type": "color"
-      },
-      "separator": {
-        "value": "rgba($basic.color.base.black, {basic.opacity.150})",
-        "type": "color"
-      },
-      "background": {
-        "value": "#F7F6F6",
-        "type": "color"
-      },
-      "primary": {
-        "value": "$basic.color.teal.900",
-        "type": "color"
-      },
-      "onPrimary": {
-        "value": "$basic.color.base.white",
-        "type": "color"
-      },
-      "primaryContainer": {
-        "value": "$basic.color.teal.50",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "$basic.color.teal.700",
-        "type": "color"
-      },
-      "onSecondary": {
-        "value": "$basic.color.base.white",
-        "type": "color"
-      },
-      "secondaryContainer": {
-        "value": "$basic.color.teal.50",
-        "type": "color"
-      },
-      "error": {
-        "value": "$basic.color.red.500",
-        "type": "color"
-      },
-      "onError": {
-        "value": "$basic.color.base.white",
-        "type": "color"
-      },
-      "errorContainer": {
-        "value": "$basic.color.red.50",
-        "type": "color"
-      },
-      "alert": {
-        "value": "$basic.color.amber.700",
-        "type": "color"
-      },
-      "onAlert": {
-        "value": "$basic.color.base.white",
-        "type": "color"
-      },
-      "alertContainer": {
-        "value": "$basic.color.amber.50",
-        "type": "color"
-      },
-      "success": {
-        "value": "$basic.color.lightgreen.700",
-        "type": "color"
-      },
-      "onSuccess": {
-        "value": "$basic.color.base.white",
-        "type": "color"
-      },
-      "successContainer": {
-        "value": "$basic.color.lightgreen.50",
-        "type": "color"
-      },
-      "destructive": {
-        "value": "$basic.color.red.500",
-        "type": "color"
-      },
-      "onDestructive": {
-        "value": "$basic.color.base.white",
-        "type": "color"
-      },
-      "destructiveContainer": {
-        "value": "$basic.color.red.50",
-        "type": "color"
-      },
-      "none": {
-        "value": "rgba($basic.color.base.white, 0)",
-        "type": "color"
+      "invoiceStatus": {
+        "draft": {
+          "background": {
+            "value": "$basic.color.bluegrey.50",
+            "type": "color"
+          },
+          "text": {
+            "value": "$basic.color.bluegrey.700",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.bluegrey.300",
+            "type": "color"
+          },
+          "outline": {
+            "value": "$basic.color.bluegrey.200",
+            "type": "color"
+          }
+        },
+        "unscheduled": {
+          "background": {
+            "value": "$basic.color.bluegrey.50",
+            "type": "color"
+          },
+          "text": {
+            "value": "$basic.color.bluegrey.700",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.bluegrey.300",
+            "type": "color"
+          },
+          "outline": {
+            "value": "$basic.color.bluegrey.200",
+            "type": "color"
+          }
+        },
+        "onApproval": {
+          "background": {
+            "value": "$basic.color.bluegrey.50",
+            "type": "color"
+          },
+          "text": {
+            "value": "$basic.color.indigo.700",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.indigo.300",
+            "type": "color"
+          },
+          "outline": {
+            "value": "$basic.color.indigo.200",
+            "type": "color"
+          }
+        },
+        "approved": {
+          "background": {
+            "value": "$basic.color.green.50",
+            "type": "color"
+          },
+          "text": {
+            "value": "$basic.color.green.700",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.green.300",
+            "type": "color"
+          },
+          "outline": {
+            "value": "$basic.color.green.300",
+            "type": "color"
+          }
+        },
+        "rejected": {
+          "background": {
+            "value": "$basic.color.red.50",
+            "type": "color"
+          },
+          "text": {
+            "value": "$basic.color.red.700",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.red.300",
+            "type": "color"
+          },
+          "outline": {
+            "value": "$basic.color.red.300",
+            "type": "color"
+          }
+        },
+        "scheduled": {
+          "background": {
+            "value": "$basic.color.blue.50",
+            "type": "color"
+          },
+          "text": {
+            "value": "$basic.color.bluegrey.900",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.blue.300",
+            "type": "color"
+          },
+          "outline": {
+            "value": "$basic.color.base.none",
+            "type": "color"
+          }
+        },
+        "processed": {
+          "background": {
+            "value": "$basic.color.green.50",
+            "type": "color"
+          },
+          "text": {
+            "value": "$basic.color.bluegrey.900",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.green.300",
+            "type": "color"
+          },
+          "outline": {
+            "value": "$basic.color.base.none",
+            "type": "color"
+          }
+        },
+        "paid": {
+          "background": {
+            "value": "$basic.color.green.50",
+            "type": "color"
+          },
+          "text": {
+            "value": "$basic.color.bluegrey.900",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.green.300",
+            "type": "color"
+          },
+          "outline": {
+            "value": "$basic.color.base.none",
+            "type": "color"
+          }
+        },
+        "failed": {
+          "background": {
+            "value": "$basic.color.red.50",
+            "type": "color"
+          },
+          "text": {
+            "value": "$basic.color.red.700",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.red.300",
+            "type": "color"
+          },
+          "outline": {
+            "value": "$basic.color.base.none",
+            "type": "color"
+          }
+        },
+        "refunded": {
+          "background": {
+            "value": "$basic.color.bluegrey.50",
+            "type": "color"
+          },
+          "text": {
+            "value": "$basic.color.bluegrey.900",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.bluegrey.300",
+            "type": "color"
+          },
+          "outline": {
+            "value": "$basic.color.base.none",
+            "type": "color"
+          }
+        },
+        "partPaid": {
+          "background": {
+            "value": "$basic.color.amber.50",
+            "type": "color"
+          },
+          "text": {
+            "value": "$basic.color.amber.900",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.amber.300",
+            "type": "color"
+          },
+          "outline": {
+            "value": "$basic.color.base.none",
+            "type": "color"
+          }
+        },
+        "deleted": {
+          "background": {
+            "value": "$basic.color.grey.100",
+            "type": "color"
+          },
+          "text": {
+            "value": "$basic.color.grey.500",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.grey.500",
+            "type": "color"
+          },
+          "outline": {
+            "value": "$basic.color.base.none",
+            "type": "color"
+          }
+        }
       }
     },
     "typography": {

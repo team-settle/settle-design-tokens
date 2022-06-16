@@ -305,58 +305,58 @@
     "color": {
       "default": {
         "background": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         },
         "onBackground": {
-          "value": "{theme.color.onSurfaceSecondary}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.onSurfaceSecondary}"
         },
         "outline": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         }
       },
       "hovered": {
         "background": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         },
         "onBackground": {
-          "value": "{theme.color.onSurfacePrimary}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.onSurfacePrimary}"
         },
         "outline": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         }
       },
       "active": {
         "background": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         },
         "onBackground": {
-          "value": "{theme.color.onSurfacePrimary}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.onSurfacePrimary}"
         },
         "outline": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         }
       },
       "disabled": {
         "background": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         },
         "onBackground": {
-          "value": "{theme.color.onSurfaceTertiary}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.onSurfaceTertiary}"
         },
         "outline": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         }
       }
     }

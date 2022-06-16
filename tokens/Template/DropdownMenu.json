@@ -4,16 +4,16 @@
       "color": {
         "default": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "icon": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           }
         },
         "hovered": {
@@ -22,12 +22,12 @@
             "type": "color"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "icon": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           }
         },
         "selected": {
@@ -36,26 +36,26 @@
             "type": "color"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "icon": {
-            "value": "{theme.color.secondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.secondary}"
           }
         },
         "disabled": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "text": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "icon": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           }
         }
       }
@@ -63,8 +63,8 @@
     "container": {
       "color": {
         "background": {
-          "value": "{theme.color.surface}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.surface}"
         }
       },
       "borderRadius": {

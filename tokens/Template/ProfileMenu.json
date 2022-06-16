@@ -2,8 +2,8 @@
   "profileMenu": {
     "color": {
       "background": {
-        "value": "{theme.color.primary}",
-        "type": "color"
+        "type": "color",
+        "value": "{theme.color.common.primary}"
       }
     },
     "spacing": {

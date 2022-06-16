@@ -62,16 +62,16 @@
     },
     "color": {
       "surface": {
-        "value": "{theme.color.surface}",
-        "type": "color"
+        "type": "color",
+        "value": "{theme.color.common.surface}"
       },
       "overlay": {
         "value": "rgba({theme.color.onSurfaceOpaque}, 0.08)",
         "type": "color"
       },
       "outline": {
-        "value": "{theme.color.none}",
-        "type": "color"
+        "type": "color",
+        "value": "{theme.color.common.none}"
       }
     },
     "borderRadius": {
