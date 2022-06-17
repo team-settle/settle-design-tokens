@@ -3,31 +3,67 @@
     "common": {
       "size": {
         "desktop": {
-          "large": {
-            "value": "{theme.size.shape.desktop.large}",
-            "type": "sizing"
+          "small": {
+            "height": {
+              "value": "{theme.size.shape.desktop.small}",
+              "type": "sizing"
+            },
+            "min-width": {
+              "value": "{basic.size.scale.desktop.1200}",
+              "type": "sizing"
+            }
           },
           "medium": {
-            "value": "{theme.size.shape.desktop.medium}",
-            "type": "sizing"
+            "height": {
+              "value": "{theme.size.shape.desktop.medium}",
+              "type": "sizing"
+            },
+            "min-width": {
+              "value": "{basic.size.scale.desktop.1200}",
+              "type": "sizing"
+            }
           },
-          "small": {
-            "value": "{theme.size.shape.desktop.small}",
-            "type": "sizing"
+          "large": {
+            "height": {
+              "value": "{theme.size.shape.desktop.large}",
+              "type": "sizing"
+            },
+            "min-width": {
+              "value": "{basic.size.scale.desktop.1200}",
+              "type": "sizing"
+            }
           }
         },
         "mobile": {
-          "large": {
-            "value": "{theme.size.shape.mobile.large}",
-            "type": "sizing"
+          "small": {
+            "height": {
+              "value": "{theme.size.shape.mobile.small}",
+              "type": "sizing"
+            },
+            "min-width": {
+              "value": "{basic.size.scale.mobile.1200}",
+              "type": "sizing"
+            }
           },
           "medium": {
-            "value": "{theme.size.shape.mobile.medium}",
-            "type": "sizing"
+            "height": {
+              "value": "{theme.size.shape.mobile.medium}",
+              "type": "sizing"
+            },
+            "min-width": {
+              "value": "{basic.size.scale.mobile.1200}",
+              "type": "sizing"
+            }
           },
-          "small": {
-            "value": "{theme.size.shape.mobile.small}",
-            "type": "sizing"
+          "large": {
+            "height": {
+              "value": "{theme.size.shape.mobile.large}",
+              "type": "sizing"
+            },
+            "min-width": {
+              "value": "{basic.size.scale.mobile.1200}",
+              "type": "sizing"
+            }
           }
         }
       },
