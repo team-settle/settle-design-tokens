@@ -331,7 +331,7 @@
       },
       "hovered": {
         "background": {
-          "value": "rgba({theme.color.onSurfaceOpaque}, {theme.opacity.state.hovered})",
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {theme.opacity.state.hovered})",
           "type": "color"
         },
         "text": {

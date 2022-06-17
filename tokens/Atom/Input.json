@@ -692,7 +692,7 @@
       "color": {
         "idle": {
           "background": {
-            "value": "rgba({theme.color.onSurfaceOpaque},{theme.opacity.state.default})",
+            "value": "rgba({theme.color.common.onSurfaceOpaque},{theme.opacity.state.default})",
             "type": "color"
           },
           "leading-icon": {
@@ -722,7 +722,7 @@
         },
         "default": {
           "background": {
-            "value": "rgba({theme.color.onSurfaceOpaque},{theme.opacity.state.default})",
+            "value": "rgba({theme.color.common.onSurfaceOpaque},{theme.opacity.state.default})",
             "type": "color"
           },
           "leading-icon": {
@@ -752,7 +752,7 @@
         },
         "hovered": {
           "background": {
-            "value": "rgba({theme.color.onSurfaceOpaque},{theme.opacity.state.hovered})",
+            "value": "rgba({theme.color.common.onSurfaceOpaque},{theme.opacity.state.hovered})",
             "type": "color"
           },
           "leading-icon": {
@@ -782,7 +782,7 @@
         },
         "focused": {
           "background": {
-            "value": "rgba({theme.color.secondary}, {theme.opacity.state.focused})",
+            "value": "rgba({theme.color.common.secondary}, {theme.opacity.state.focused})",
             "type": "color"
           },
           "leading-icon": {
@@ -812,7 +812,7 @@
         },
         "disabled": {
           "background": {
-            "value": "rgba({theme.color.onSurfaceOpaque},{theme.opacity.state.default})",
+            "value": "rgba({theme.color.common.onSurfaceOpaque},{theme.opacity.state.default})",
             "type": "color"
           },
           "leading-icon": {
@@ -842,7 +842,7 @@
         },
         "error": {
           "background": {
-            "value": "rgba({theme.color.error}, {theme.opacity.state.default})",
+            "value": "rgba({theme.color.common.error}, {theme.opacity.state.default})",
             "type": "color"
           },
           "leading-icon": {
@@ -872,7 +872,7 @@
         },
         "error-focused": {
           "background": {
-            "value": "rgba({theme.color.error}, {theme.opacity.state.hovered})",
+            "value": "rgba({theme.color.common.error}, {theme.opacity.state.hovered})",
             "type": "color"
           },
           "leading-icon": {

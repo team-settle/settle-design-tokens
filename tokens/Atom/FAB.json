@@ -192,7 +192,7 @@
         },
         "hovered": {
           "background": {
-            "value": "rgba({theme.color.primary}, {theme.opacity.state.hoveredInverted})",
+            "value": "rgba({theme.color.common.primary}, {theme.opacity.state.hoveredInverted})",
             "type": "color"
           },
           "onBackground": {
@@ -206,7 +206,7 @@
         },
         "pressed": {
           "background": {
-            "value": "rgba({theme.color.primary}, {theme.opacity.state.pressedInverted})",
+            "value": "rgba({theme.color.common.primary}, {theme.opacity.state.pressedInverted})",
             "type": "color"
           },
           "onBackground": {
@@ -256,7 +256,7 @@
       "color": {
         "default": {
           "background": {
-            "value": "rgba({theme.color.surface}, 1)",
+            "value": "rgba({theme.color.common.surface}, 1)",
             "type": "color"
           },
           "onBackground": {
@@ -270,7 +270,7 @@
         },
         "hovered": {
           "background": {
-            "value": "rgba({theme.color.onSurfacePrimary}, {theme.opacity.state.hovered})",
+            "value": "rgba({theme.color.common.onSurfacePrimary}, {theme.opacity.state.hovered})",
             "type": "color"
           },
           "onBackground": {
@@ -284,7 +284,7 @@
         },
         "pressed": {
           "background": {
-            "value": "rgba({theme.color.onSurfacePrimary}, {theme.opacity.state.pressed})",
+            "value": "rgba({theme.color.common.onSurfacePrimary}, {theme.opacity.state.pressed})",
             "type": "color"
           },
           "onBackground": {
@@ -348,7 +348,7 @@
         },
         "hovered": {
           "background": {
-            "value": "rgba({theme.color.destructive}, {theme.opacity.state.hoveredInverted})",
+            "value": "rgba({theme.color.common.destructive}, {theme.opacity.state.hoveredInverted})",
             "type": "color"
           },
           "onBackground": {
@@ -362,7 +362,7 @@
         },
         "pressed": {
           "background": {
-            "value": "rgba({theme.color.destructive}, {theme.opacity.state.pressedInverted})",
+            "value": "rgba({theme.color.common.destructive}, {theme.opacity.state.pressedInverted})",
             "type": "color"
           },
           "onBackground": {
@@ -426,7 +426,7 @@
         },
         "hovered": {
           "background": {
-            "value": "rgba({theme.color.destructive}, {theme.opacity.state.hovered})",
+            "value": "rgba({theme.color.common.destructive}, {theme.opacity.state.hovered})",
             "type": "color"
           },
           "onBackground": {
@@ -440,7 +440,7 @@
         },
         "pressed": {
           "background": {
-            "value": "rgba({theme.color.destructive}, {theme.opacity.state.pressed})",
+            "value": "rgba({theme.color.common.destructive}, {theme.opacity.state.pressed})",
             "type": "color"
           },
           "onBackground": {

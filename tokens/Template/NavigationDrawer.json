@@ -1,15 +1,15 @@
 {
-  "profileDrawer": {
+  "navigationDrawer": {
     "color": {
       "background": {
-        "type": "color",
-        "value": "{theme.color.common.primary}"
+        "value": "$theme.color.common.background",
+        "type": "color"
       }
     },
     "spacing": {
       "desktop": {
         "padding-h": {
-          "value": "$basic.size.scale.desktop.none",
+          "value": "$basic.size.scale.desktop.200",
           "type": "spacing"
         },
         "padding-v": {
@@ -25,6 +25,20 @@
         "padding-v": {
           "value": "$basic.size.scale.mobile.100",
           "type": "spacing"
+        }
+      }
+    },
+    "size": {
+      "desktop": {
+        "width": {
+          "expanded": {
+            "value": "248",
+            "type": "sizing"
+          },
+          "collapsed": {
+            "value": "74",
+            "type": "sizing"
+          }
         }
       }
     }

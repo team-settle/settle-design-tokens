@@ -45,7 +45,7 @@
       },
       "tertiary": {
         "background": {
-          "value": "$theme.color.none",
+          "value": "$theme.color.common.none",
           "type": "color"
         },
         "text": {

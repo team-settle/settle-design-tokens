@@ -419,7 +419,7 @@
     "color": {
       "default": {
         "background": {
-          "value": "rgba($theme.color.onSurfaceOpaque, {theme.opacity.state.default})",
+          "value": "rgba($theme.color.common.onSurfaceOpaque, {theme.opacity.state.default})",
           "type": "color"
         },
         "text": {
@@ -437,7 +437,7 @@
       },
       "hovered": {
         "background": {
-          "value": "rgba($theme.color.onSurfaceOpaque, {theme.opacity.state.hovered})",
+          "value": "rgba($theme.color.common.onSurfaceOpaque, {theme.opacity.state.hovered})",
           "type": "color"
         },
         "text": {
@@ -455,7 +455,7 @@
       },
       "selected": {
         "background": {
-          "value": "rgba({theme.color.secondary}, {theme.opacity.state.focused})",
+          "value": "rgba({theme.color.common.secondary}, {theme.opacity.state.focused})",
           "type": "color"
         },
         "text": {
@@ -473,7 +473,7 @@
       },
       "disabled": {
         "background": {
-          "value": "rgba($theme.color.onSurfaceOpaque, {theme.opacity.state.default})",
+          "value": "rgba($theme.color.common.onSurfaceOpaque, {theme.opacity.state.default})",
           "type": "color"
         },
         "text": {

@@ -1,9 +1,15 @@
 {
-  "profileDrawer": {
+  "dropdownMenu": {
     "color": {
       "background": {
         "type": "color",
-        "value": "{theme.color.common.primary}"
+        "value": "{theme.color.common.surface}"
+      }
+    },
+    "borderRadius": {
+      "desktop": {
+        "value": "{theme.size.shape.desktop.small} * {basic.borderRadius.small}",
+        "type": "borderRadius"
       }
     },
     "spacing": {

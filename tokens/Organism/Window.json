@@ -40,7 +40,7 @@
         "value": "{theme.color.common.surface}"
       },
       "overlay": {
-        "value": "rgba({theme.color.onSurfaceOpaque}, 0.08)",
+        "value": "rgba({theme.color.common.onSurfaceOpaque}, 0.08)",
         "type": "color"
       },
       "outline": {
