@@ -894,29 +894,5 @@
         }
       }
     }
-  },
-  "colors": {
-    "statuses": {
-      "approved": {
-        "value": "#CCF1DB",
-        "type": "color"
-      },
-      "scheduled": {
-        "value": "#CCEFF1",
-        "type": "color"
-      },
-      "pending": {
-        "value": "#FEF4CB",
-        "type": "color"
-      },
-      "parsing": {
-        "value": "#D8D9FF",
-        "type": "color"
-      },
-      "error": {
-        "value": "#FFE1E9",
-        "type": "color"
-      }
-    }
   }
 }
