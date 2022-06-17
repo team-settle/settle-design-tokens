@@ -80,6 +80,10 @@
           "value": "rgba($basic.color.base.black, {basic.opacity.400})",
           "type": "color"
         },
+        "onSurfaceContainer": {
+          "value": "rgba($basic.color.base.black, {basic.opacity.50})",
+          "type": "color"
+        },
         "outline": {
           "value": "rgba($basic.color.base.black, {basic.opacity.200})",
           "type": "color"
