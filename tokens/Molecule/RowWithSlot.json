@@ -3,8 +3,8 @@
     "row": {
       "colors": {
         "background": {
-          "value": "{theme.color.none}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.none}"
         }
       },
       "spacing": {

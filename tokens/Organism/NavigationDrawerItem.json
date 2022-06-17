@@ -1,5 +1,5 @@
 {
-  "navigationMenuTitle": {
+  "navigationDrawerItem": {
     "color": {
       "default": {
         "background": {
@@ -17,12 +17,12 @@
       },
       "hovered": {
         "background": {
-          "type": "color",
-          "value": "{theme.color.common.none}"
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {theme.opacity.state.hovered})",
+          "type": "color"
         },
         "icon": {
           "type": "color",
-          "value": "{theme.color.common.onSurfacePrimary}"
+          "value": "{theme.color.common.onSurfaceSecondary}"
         },
         "text": {
           "type": "color",
@@ -31,12 +31,12 @@
       },
       "selected": {
         "background": {
-          "type": "color",
-          "value": "{theme.color.common.none}"
+          "value": "rgba({theme.color.common.secondary}, {theme.opacity.state.focused})",
+          "type": "color"
         },
         "icon": {
           "type": "color",
-          "value": "{theme.color.common.onSurfaceTertiary}"
+          "value": "{theme.color.common.secondary}"
         },
         "text": {
           "type": "color",

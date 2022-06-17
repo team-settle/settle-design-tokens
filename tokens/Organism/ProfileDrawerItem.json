@@ -1,5 +1,5 @@
 {
-  "profileMenuItem": {
+  "profileDrawerItem": {
     "color": {
       "default": {
         "background": {
@@ -7,7 +7,7 @@
           "value": "{theme.color.common.none}"
         },
         "text": {
-          "value": "rgba({theme.color.onPrimary}, {basic.opacity.600})",
+          "value": "rgba({theme.color.common.onPrimary}, {basic.opacity.600})",
           "type": "color"
         },
         "pictogram-outline": {
@@ -15,13 +15,13 @@
           "value": "{theme.color.common.none}"
         },
         "pictogram-background": {
-          "value": "rgba({theme.color.onPrimary}, {basic.opacity.200})",
+          "value": "rgba({theme.color.common.onPrimary}, {basic.opacity.200})",
           "type": "color"
         }
       },
       "hovered": {
         "background": {
-          "value": "rgba({theme.color.onPrimary}, {basic.opacity.200})",
+          "value": "rgba({theme.color.common.onPrimary}, {basic.opacity.200})",
           "type": "color"
         },
         "text": {
@@ -33,7 +33,7 @@
           "value": "{theme.color.common.none}"
         },
         "pictogram-background": {
-          "value": "rgba({theme.color.onPrimary}, {basic.opacity.200})",
+          "value": "rgba({theme.color.common.onPrimary}, {basic.opacity.200})",
           "type": "color"
         }
       },
@@ -51,7 +51,7 @@
           "value": "{theme.color.common.onPrimary}"
         },
         "pictogram-background": {
-          "value": "rgba({theme.color.onPrimary}, {basic.opacity.200})",
+          "value": "rgba({theme.color.common.onPrimary}, {basic.opacity.200})",
           "type": "color"
         }
       }

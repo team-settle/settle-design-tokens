@@ -436,8 +436,8 @@
     },
     "color": {
       "border": {
-        "value": "{theme.color.separator}",
-        "type": "color"
+        "type": "color",
+        "value": "{theme.color.common.separator}"
       }
     }
   }

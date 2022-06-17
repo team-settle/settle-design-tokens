@@ -139,61 +139,61 @@
     "color": {
       "unselected-default": {
         "body": {
-          "value": "rgba({theme.color.onSurfaceOpaque}, {basic.opacity.200})",
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.200})",
           "type": "color"
         },
         "knob": {
-          "value": "rgba({theme.color.onSurfaceOpaque}, {basic.opacity.400})",
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.400})",
           "type": "color"
         }
       },
       "unselected-hovered": {
         "body": {
-          "value": "rgba({theme.color.onSurfaceOpaque}, {basic.opacity.200})",
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.200})",
           "type": "color"
         },
         "knob": {
-          "value": "rgba({theme.color.onSurfaceOpaque}, {basic.opacity.400})",
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.400})",
           "type": "color"
         }
       },
       "unselected-disabled": {
         "body": {
-          "value": "rgba({theme.color.onSurfaceOpaque}, {basic.opacity.100})",
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.100})",
           "type": "color"
         },
         "knob": {
-          "value": "rgba({theme.color.onSurfaceOpaque}, {basic.opacity.200})",
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.200})",
           "type": "color"
         }
       },
       "selected-default": {
         "body": {
-          "value": "rgba({theme.color.secondary}, {theme.opacity.state.focused})",
+          "value": "rgba({theme.color.common.secondary}, {theme.opacity.state.focused})",
           "type": "color"
         },
         "knob": {
-          "value": "{theme.color.secondary}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.secondary}"
         }
       },
       "selected-hovered": {
         "body": {
-          "value": "rgba({theme.color.secondary}, {basic.opacity.200})",
+          "value": "rgba({theme.color.common.secondary}, {basic.opacity.200})",
           "type": "color"
         },
         "knob": {
-          "value": "{theme.color.secondary}",
-          "type": "color"
+          "type": "color",
+          "value": "{theme.color.common.secondary}"
         }
       },
       "selected-disabled": {
         "body": {
-          "value": "rgba({theme.color.onSurfaceOpaque}, {basic.opacity.100})",
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.100})",
           "type": "color"
         },
         "knob": {
-          "value": "rgba({theme.color.onSurfaceOpaque}, {basic.opacity.200})",
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.200})",
           "type": "color"
         }
       }

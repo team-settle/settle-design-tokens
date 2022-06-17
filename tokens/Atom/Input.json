@@ -692,212 +692,212 @@
       "color": {
         "idle": {
           "background": {
-            "value": "rgba({theme.color.onSurfaceOpaque},{theme.opacity.state.default})",
+            "value": "rgba({theme.color.common.onSurfaceOpaque},{theme.opacity.state.default})",
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "outline": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "text": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "label": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           }
         },
         "default": {
           "background": {
-            "value": "rgba({theme.color.onSurfaceOpaque},{theme.opacity.state.default})",
+            "value": "rgba({theme.color.common.onSurfaceOpaque},{theme.opacity.state.default})",
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "outline": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           }
         },
         "hovered": {
           "background": {
-            "value": "rgba({theme.color.onSurfaceOpaque},{theme.opacity.state.hovered})",
+            "value": "rgba({theme.color.common.onSurfaceOpaque},{theme.opacity.state.hovered})",
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "outline": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           }
         },
         "focused": {
           "background": {
-            "value": "rgba({theme.color.secondary}, {theme.opacity.state.focused})",
+            "value": "rgba({theme.color.common.secondary}, {theme.opacity.state.focused})",
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "outline": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.secondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.secondary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           }
         },
         "disabled": {
           "background": {
-            "value": "rgba({theme.color.onSurfaceOpaque},{theme.opacity.state.default})",
+            "value": "rgba({theme.color.common.onSurfaceOpaque},{theme.opacity.state.default})",
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "outline": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "text": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "label": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           }
         },
         "error": {
           "background": {
-            "value": "rgba({theme.color.error}, {theme.opacity.state.default})",
+            "value": "rgba({theme.color.common.error}, {theme.opacity.state.default})",
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "outline": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "helper": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           }
         },
         "error-focused": {
           "background": {
-            "value": "rgba({theme.color.error}, {theme.opacity.state.hovered})",
+            "value": "rgba({theme.color.common.error}, {theme.opacity.state.hovered})",
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "outline": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "helper": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           }
         }
       }
@@ -1614,212 +1614,212 @@
       "color": {
         "idle": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "outline": {
-            "value": "{theme.color.outline}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.outline}"
           },
           "text": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "label": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           }
         },
         "default": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "outline": {
-            "value": "{theme.color.outline}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.outline}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           }
         },
         "hovered": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "outline": {
-            "value": "{theme.color.outline}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.outline}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           }
         },
         "focused": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "outline": {
-            "value": "{theme.color.secondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.secondary}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.secondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.secondary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           }
         },
         "disabled": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "outline": {
-            "value": "{theme.color.outline}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.outline}"
           },
           "text": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "label": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           }
         },
         "error": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "outline": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "helper": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           }
         },
         "error-focused": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "outline": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "helper": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           }
         }
       }
@@ -2472,212 +2472,212 @@
       "color": {
         "idle": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "outline": {
-            "value": "{theme.color.outline}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.outline}"
           },
           "text": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "label": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           }
         },
         "default": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "outline": {
-            "value": "{theme.color.outline}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.outline}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           }
         },
         "hovered": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "outline": {
-            "value": "{theme.color.outline}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.outline}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           }
         },
         "focused": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "outline": {
-            "value": "{theme.color.secondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.secondary}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.secondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.secondary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           }
         },
         "disabled": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "outline": {
-            "value": "{theme.color.outline}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.outline}"
           },
           "text": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "label": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           },
           "helper": {
-            "value": "{theme.color.onSurfaceTertiary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
           }
         },
         "error": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "outline": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "helper": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           }
         },
         "error-focused": {
           "background": {
-            "value": "{theme.color.none}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.none}"
           },
           "leading-icon": {
-            "value": "{theme.color.onSurfaceSecondary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
           },
           "trailing-icon": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "outline": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "text": {
-            "value": "{theme.color.onSurfacePrimary}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
           },
           "label": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           },
           "helper": {
-            "value": "{theme.color.error}",
-            "type": "color"
+            "type": "color",
+            "value": "{theme.color.common.error}"
           }
         }
       }
