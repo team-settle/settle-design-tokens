@@ -390,6 +390,48 @@
             "type": "color"
           }
         }
+      },
+      "ept": {
+        "100": {
+          "background": {
+            "value": "{basic.color.teal.200}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.base.white}",
+            "type": "color"
+          }
+        },
+        "200": {
+          "background": {
+            "value": "{basic.color.teal.400}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.base.white}",
+            "type": "color"
+          }
+        },
+        "300": {
+          "background": {
+            "value": "{basic.color.teal.600}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.base.white}",
+            "type": "color"
+          }
+        },
+        "400": {
+          "background": {
+            "value": "{basic.color.teal.800}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.base.white}",
+            "type": "color"
+          }
+        }
       }
     },
     "typography": {
