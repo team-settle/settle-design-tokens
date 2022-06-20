@@ -431,6 +431,16 @@
             "value": "{basic.color.base.white}",
             "type": "color"
           }
+        },
+        "500": {
+          "background": {
+            "value": "{basic.color.teal.900}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.base.white}",
+            "type": "color"
+          }
         }
       }
     },
