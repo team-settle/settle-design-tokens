@@ -394,7 +394,7 @@
       "ept": {
         "100": {
           "background": {
-            "value": "{basic.color.teal.200}",
+            "value": "{basic.color.teal.900}",
             "type": "color"
           },
           "text": {
@@ -404,7 +404,7 @@
         },
         "200": {
           "background": {
-            "value": "{basic.color.teal.400}",
+            "value": "{basic.color.teal.800}",
             "type": "color"
           },
           "text": {
@@ -424,7 +424,17 @@
         },
         "400": {
           "background": {
-            "value": "{basic.color.teal.800}",
+            "value": "{basic.color.teal.400}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.base.white}",
+            "type": "color"
+          }
+        },
+        "500": {
+          "background": {
+            "value": "{basic.color.teal.200}",
             "type": "color"
           },
           "text": {
