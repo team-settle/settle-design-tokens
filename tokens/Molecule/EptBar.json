@@ -1,0 +1,38 @@
+{
+  "eptBar": {
+    "size": {
+      "height": {
+        "desktop": {
+          "value": "{basic.size.scale.desktop.400}",
+          "type": "spacing"
+        },
+        "mobile": {
+          "value": "{basic.size.scale.mobile.400}",
+          "type": "spacing"
+        }
+      }
+    },
+    "borderRadius": {
+      "desktop": {
+        "value": "{theme.borderRadius.desktop.small}",
+        "type": "borderRadius"
+      },
+      "mobile": {
+        "value": "{theme.borderRadius.mobile.small}",
+        "type": "borderRadius"
+      }
+    },
+    "color": {
+      "outline": {
+        "value": "{theme.color.common.outline}",
+        "type": "color"
+      }
+    },
+    "borderWidth": {
+      "default": {
+        "value": "{basic.borderWidth.100}",
+        "type": "borderWidth"
+      }
+    }
+  }
+}
