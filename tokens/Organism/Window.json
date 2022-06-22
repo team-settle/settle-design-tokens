@@ -3,20 +3,24 @@
     "size": {
       "width": {
         "desktop": {
-          "small": {
+          "xsmall": {
             "value": "320",
             "type": "spacing"
           },
-          "medium": {
+          "small": {
             "value": "480",
+            "type": "spacing"
+          },
+          "medium": {
+            "value": "640",
+            "type": "spacing"
+          },
+          "large": {
+            "value": "800",
             "type": "spacing"
           },
           "xlarge": {
             "value": "960",
-            "type": "spacing"
-          },
-          "large": {
-            "value": "640",
             "type": "spacing"
           }
         }
