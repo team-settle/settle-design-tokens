@@ -1,0 +1,48 @@
+{
+  "input": {
+    "base": {
+      "size": {
+        "contentHeight": {
+          "desktop": {
+            "value": "{basic.size.scale.desktop.300}",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "{basic.size.scale.mobile.300}",
+            "type": "spacing"
+          }
+        },
+        "minHeight": {
+          "desktop": {
+            "large": {
+              "value": "{theme.size.shape.desktop.large}",
+              "type": "spacing"
+            },
+            "medium": {
+              "value": "{theme.size.shape.desktop.medium}",
+              "type": "spacing"
+            },
+            "small": {
+              "value": "{theme.size.shape.desktop.small}",
+              "type": "spacing"
+            }
+          },
+          "mobile": {
+            "large": {
+              "value": "{theme.size.shape.mobile.large}",
+              "type": "spacing"
+            },
+            "medium": {
+              "value": "{theme.size.shape.mobile.medium}",
+              "type": "spacing"
+            },
+            "small": {
+              "value": "{theme.size.shape.mobile.small}",
+              "type": "spacing"
+            }
+          }
+        }
+      }
+    }
+  }
+}

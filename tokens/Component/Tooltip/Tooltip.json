@@ -1,0 +1,14 @@
+{
+  "tooltip": {
+    "color": {
+      "background": {
+        "value": "{basic.color.grey.400}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{basic.color.base.white}",
+        "type": "color"
+      }
+    }
+  }
+}

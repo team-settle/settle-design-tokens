@@ -1,0 +1,202 @@
+{
+  "toggle": {
+    "size": {
+      "google": {
+        "desktop": {
+          "body-width": {
+            "value": "$basic.size.scale.desktop.400",
+            "type": "sizing"
+          },
+          "body-height": {
+            "value": "$basic.size.scale.desktop.150",
+            "type": "sizing"
+          },
+          "knob": {
+            "value": "$basic.size.scale.desktop.250",
+            "type": "sizing"
+          }
+        },
+        "mobile": {
+          "body-width": {
+            "value": "$basic.size.scale.mobile.400",
+            "type": "sizing"
+          },
+          "body-height": {
+            "value": "$basic.size.scale.desktop.150",
+            "type": "sizing"
+          },
+          "knob": {
+            "value": "$basic.size.scale.mobile.250",
+            "type": "sizing"
+          }
+        }
+      },
+      "apple": {
+        "desktop": {
+          "body-width": {
+            "value": "$basic.size.scale.desktop.400",
+            "type": "sizing"
+          },
+          "body-height": {
+            "value": "$basic.size.scale.desktop.250",
+            "type": "sizing"
+          },
+          "knob": {
+            "value": "$basic.size.scale.desktop.200",
+            "type": "sizing"
+          }
+        },
+        "mobile": {
+          "body-width": {
+            "value": "$basic.size.scale.mobile.400",
+            "type": "sizing"
+          },
+          "body-height": {
+            "value": "$basic.size.scale.mobile.250",
+            "type": "sizing"
+          },
+          "knob": {
+            "value": "$basic.size.scale.mobile.200",
+            "type": "sizing"
+          }
+        }
+      },
+      "desktop": {
+        "large": {
+          "value": "{theme.size.shape.desktop.large}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{theme.size.shape.desktop.medium}",
+          "type": "sizing"
+        },
+        "small": {
+          "value": "{theme.size.shape.desktop.small}",
+          "type": "sizing"
+        }
+      },
+      "mobile": {
+        "large": {
+          "value": "{theme.size.shape.mobile.large}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{theme.size.shape.mobile.medium}",
+          "type": "sizing"
+        },
+        "small": {
+          "value": "{theme.size.shape.mobile.small}",
+          "type": "sizing"
+        }
+      }
+    },
+    "borderRadius": {
+      "google": {
+        "desktop": {
+          "body": {
+            "value": "$toggle.size.google.desktop.body-height * {basic.borderRadius.round}",
+            "type": "borderRadius"
+          },
+          "knob": {
+            "value": "$toggle.size.google.desktop.knob * {basic.borderRadius.round}",
+            "type": "borderRadius"
+          }
+        },
+        "mobile": {
+          "body": {
+            "value": "$toggle.size.google.mobile.body-height * {basic.borderRadius.round}",
+            "type": "borderRadius"
+          },
+          "knob": {
+            "value": "$toggle.size.google.mobile.knob * {basic.borderRadius.round}",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "apple": {
+        "desktop": {
+          "body": {
+            "value": "$toggle.size.apple.desktop.body-height * {basic.borderRadius.round}",
+            "type": "borderRadius"
+          },
+          "knob": {
+            "value": "$toggle.size.apple.desktop.knob* {basic.borderRadius.round}",
+            "type": "borderRadius"
+          }
+        },
+        "mobile": {
+          "body": {
+            "value": "$toggle.size.apple.mobile.body-height * {basic.borderRadius.round}",
+            "type": "borderRadius"
+          },
+          "knob": {
+            "value": "$toggle.size.apple.mobile.knob* {basic.borderRadius.round}",
+            "type": "borderRadius"
+          }
+        }
+      }
+    },
+    "color": {
+      "unselected-default": {
+        "body": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.200})",
+          "type": "color"
+        },
+        "knob": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.400})",
+          "type": "color"
+        }
+      },
+      "unselected-hovered": {
+        "body": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.200})",
+          "type": "color"
+        },
+        "knob": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.400})",
+          "type": "color"
+        }
+      },
+      "unselected-disabled": {
+        "body": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.100})",
+          "type": "color"
+        },
+        "knob": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.200})",
+          "type": "color"
+        }
+      },
+      "selected-default": {
+        "body": {
+          "value": "rgba({theme.color.common.secondary}, {theme.opacity.state.focused})",
+          "type": "color"
+        },
+        "knob": {
+          "type": "color",
+          "value": "{theme.color.common.secondary}"
+        }
+      },
+      "selected-hovered": {
+        "body": {
+          "value": "rgba({theme.color.common.secondary}, {basic.opacity.200})",
+          "type": "color"
+        },
+        "knob": {
+          "type": "color",
+          "value": "{theme.color.common.secondary}"
+        }
+      },
+      "selected-disabled": {
+        "body": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.100})",
+          "type": "color"
+        },
+        "knob": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.200})",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
