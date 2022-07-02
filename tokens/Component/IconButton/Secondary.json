@@ -1,6 +1,6 @@
 {
   "iconButton": {
-    "tertiary": {
+    "secondary": {
       "borderWidth": {
         "positive": {
           "default": {
