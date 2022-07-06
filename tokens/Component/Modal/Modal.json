@@ -11,12 +11,16 @@
             "value": "480",
             "type": "spacing"
           },
-          "xlarge": {
-            "value": "960",
-            "type": "spacing"
-          },
           "large": {
             "value": "640",
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": "800",
+            "type": "spacing"
+          },
+          "xxlarge": {
+            "value": "1200",
             "type": "spacing"
           }
         }

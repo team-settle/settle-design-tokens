@@ -80,6 +80,10 @@
           "value": "rgba($basic.color.base.black, {basic.opacity.400})",
           "type": "color"
         },
+        "onSurfaceLink": {
+          "value": "$basic.color.teal.700",
+          "type": "color"
+        },
         "onSurfaceContainer": {
           "value": "rgba($basic.color.base.black, {basic.opacity.50})",
           "type": "color"
@@ -106,6 +110,10 @@
         },
         "primaryContainer": {
           "value": "$basic.color.teal.50",
+          "type": "color"
+        },
+        "onPrimaryLink": {
+          "value": "$basic.color.teal.300",
           "type": "color"
         },
         "secondary": {

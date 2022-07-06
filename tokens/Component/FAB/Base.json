@@ -1,0 +1,160 @@
+{
+  "fab": {
+    "base": {
+      "size": {
+        "desktop": {
+          "medium": {
+            "value": "{theme.size.shape.desktop.xlarge}",
+            "type": "sizing"
+          },
+          "small": {
+            "value": "{theme.size.shape.desktop.medium}",
+            "type": "sizing"
+          }
+        },
+        "mobile": {
+          "medium": {
+            "value": "{theme.size.shape.mobile.xlarge}",
+            "type": "sizing"
+          },
+          "small": {
+            "value": "{theme.size.shape.mobile.medium}",
+            "type": "sizing"
+          }
+        }
+      },
+      "borderRadius": {
+        "desktop": {
+          "medium": {
+            "value": "{theme.size.shape.desktop.medium} * {basic.borderRadius.round}",
+            "type": "borderRadius"
+          },
+          "small": {
+            "value": "{theme.size.shape.desktop.small} * {basic.borderRadius.round}",
+            "type": "borderRadius"
+          }
+        },
+        "mobile": {
+          "medium": {
+            "value": "{theme.size.shape.mobile.medium} * {basic.borderRadius.round}",
+            "type": "borderRadius"
+          },
+          "small": {
+            "value": "{theme.size.shape.mobile.small} * {basic.borderRadius.round}",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "spacing": {
+        "label-on": {
+          "desktop": {
+            "small": {
+              "left": {
+                "value": "$basic.size.scale.desktop.100",
+                "type": "spacing"
+              },
+              "right": {
+                "value": "$basic.size.scale.desktop.200",
+                "type": "spacing"
+              },
+              "gap": {
+                "value": "$basic.size.scale.desktop.100",
+                "type": "spacing"
+              }
+            },
+            "medium": {
+              "left": {
+                "value": "$basic.size.scale.desktop.200",
+                "type": "spacing"
+              },
+              "right": {
+                "value": "$basic.size.scale.desktop.300",
+                "type": "spacing"
+              },
+              "gap": {
+                "value": "$basic.size.scale.desktop.200",
+                "type": "spacing"
+              }
+            }
+          },
+          "mobile": {
+            "small": {
+              "left": {
+                "value": "$basic.size.scale.mobile.100",
+                "type": "spacing"
+              },
+              "right": {
+                "value": "$basic.size.scale.mobile.200",
+                "type": "spacing"
+              },
+              "gap": {
+                "value": "$basic.size.scale.mobile.100",
+                "type": "spacing"
+              }
+            },
+            "medium": {
+              "left": {
+                "value": "$basic.size.scale.mobile.200",
+                "type": "spacing"
+              },
+              "right": {
+                "value": "$basic.size.scale.mobile.300",
+                "type": "spacing"
+              },
+              "gap": {
+                "value": "$basic.size.scale.mobile.200",
+                "type": "spacing"
+              }
+            }
+          }
+        },
+        "label-off": {
+          "desktop": {
+            "small": {
+              "left": {
+                "value": "$basic.size.scale.desktop.100",
+                "type": "spacing"
+              },
+              "right": {
+                "value": "$basic.size.scale.desktop.100",
+                "type": "spacing"
+              }
+            },
+            "medium": {
+              "left": {
+                "value": "$basic.size.scale.desktop.200",
+                "type": "spacing"
+              },
+              "right": {
+                "value": "$basic.size.scale.desktop.200",
+                "type": "spacing"
+              }
+            }
+          },
+          "mobile": {
+            "small": {
+              "left": {
+                "value": "$basic.size.scale.mobile.100",
+                "type": "spacing"
+              },
+              "right": {
+                "value": "$basic.size.scale.mobile.100",
+                "type": "spacing"
+              }
+            },
+            "medium": {
+              "left": {
+                "value": "$basic.size.scale.mobile.200",
+                "type": "spacing"
+              },
+              "right": {
+                "value": "$basic.size.scale.mobile.200",
+                "type": "spacing"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
