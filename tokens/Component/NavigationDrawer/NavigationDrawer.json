@@ -8,21 +8,21 @@
     },
     "spacing": {
       "desktop": {
-        "padding-h": {
+        "horizontal": {
           "value": "$basic.size.scale.desktop.200",
           "type": "spacing"
         },
-        "padding-v": {
+        "vertical": {
           "value": "$basic.size.scale.desktop.100",
           "type": "spacing"
         }
       },
       "mobile": {
-        "padding-h": {
+        "horizontal": {
           "value": "$basic.size.scale.mobile.none",
           "type": "spacing"
         },
-        "padding-v": {
+        "vertical": {
           "value": "$basic.size.scale.mobile.100",
           "type": "spacing"
         }
