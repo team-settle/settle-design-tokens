@@ -119,11 +119,11 @@
     "borderRadius": {
       "pictogram": {
         "desktop": {
-          "value": "{basic.borderRadius.round} * {profileDrawerItem.size.pictogram.desktop.size}",
+          "value": "{basic.borderRadius.round} * {businessDrawerItem.size.pictogram.desktop.size}",
           "type": "borderRadius"
         },
         "mobile": {
-          "value": "{basic.borderRadius.round} * {profileDrawerItem.size.pictogram.mobile.size}",
+          "value": "{basic.borderRadius.round} * {businessDrawerItem.size.pictogram.mobile.size}",
           "type": "borderRadius"
         }
       },
