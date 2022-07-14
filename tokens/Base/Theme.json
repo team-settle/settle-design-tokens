@@ -41,6 +41,10 @@
         "small": {
           "value": "{theme.size.shape.desktop.small} * {basic.borderRadius.small}",
           "type": "borderRadius"
+        },
+        "none": {
+          "value": "0",
+          "type": "borderRadius"
         }
       },
       "mobile": {
@@ -54,6 +58,10 @@
         },
         "small": {
           "value": "{theme.size.shape.mobile.small} * {basic.borderRadius.small}",
+          "type": "borderRadius"
+        },
+        "none": {
+          "value": "0",
           "type": "borderRadius"
         }
       }

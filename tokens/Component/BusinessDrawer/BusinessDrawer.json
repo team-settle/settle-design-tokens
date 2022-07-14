@@ -1,0 +1,64 @@
+{
+  "businessDrawer": {
+    "color": {
+      "background": {
+        "type": "color",
+        "value": "{theme.color.common.primary}"
+      }
+    },
+    "spacing": {
+      "desktop": {
+        "horizontal": {
+          "value": "$basic.size.scale.desktop.none",
+          "type": "spacing"
+        },
+        "top": {
+          "value": "$basic.size.scale.desktop.100",
+          "type": "spacing"
+        },
+        "bottom": {
+          "value": "$basic.size.scale.desktop.1300",
+          "type": "spacing"
+        }
+      },
+      "mobile": {
+        "horizontal": {
+          "value": "$basic.size.scale.mobile.none",
+          "type": "spacing"
+        },
+        "top": {
+          "value": "$basic.size.scale.mobile.100",
+          "type": "spacing"
+        },
+        "bottom": {
+          "value": "$basic.size.scale.mobile.1300",
+          "type": "spacing"
+        }
+      }
+    },
+    "size": {
+      "width": {
+        "desktop": {
+          "expanded": {
+            "value": "240",
+            "type": "sizing"
+          },
+          "collapsed": {
+            "value": "64",
+            "type": "sizing"
+          }
+        },
+        "mobile": {
+          "expanded": {
+            "value": "240",
+            "type": "sizing"
+          },
+          "collapsed": {
+            "value": "64",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}
