@@ -23,7 +23,7 @@
       }
     },
     "color": {
-      "primary": {
+      "secondary": {
         "background": {
           "value": "{basic.color.teal.600}",
           "type": "color"
@@ -33,7 +33,7 @@
           "type": "color"
         }
       },
-      "secondary": {
+      "tertiary": {
         "background": {
           "value": "{basic.color.grey.300}",
           "type": "color"
@@ -43,13 +43,23 @@
           "type": "color"
         }
       },
-      "tertiary": {
+      "blank": {
         "background": {
           "value": "$theme.color.common.none",
           "type": "color"
         },
         "text": {
           "value": "{basic.color.grey.700}",
+          "type": "color"
+        }
+      },
+      "primary": {
+        "background": {
+          "value": "{basic.color.amber.600}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{basic.color.base.white}",
           "type": "color"
         }
       }
