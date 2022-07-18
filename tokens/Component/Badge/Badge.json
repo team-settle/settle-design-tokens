@@ -25,6 +25,16 @@
     "color": {
       "primary": {
         "background": {
+          "value": "{basic.color.amber.600}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{basic.color.grey.900}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "background": {
           "value": "{basic.color.teal.600}",
           "type": "color"
         },
@@ -33,7 +43,7 @@
           "type": "color"
         }
       },
-      "secondary": {
+      "tertiary": {
         "background": {
           "value": "{basic.color.grey.300}",
           "type": "color"
@@ -43,7 +53,7 @@
           "type": "color"
         }
       },
-      "tertiary": {
+      "blank": {
         "background": {
           "value": "$theme.color.common.none",
           "type": "color"
