@@ -109,6 +109,16 @@
           "type": "color"
         }
       }
+    },
+    "shadow": {
+      "desktop": {
+        "value": "$theme.shadow.desktop.large",
+        "type": "boxShadow"
+      },
+      "mobile": {
+        "value": "$theme.shadow.desktop.large",
+        "type": "boxShadow"
+      }
     }
   }
 }
