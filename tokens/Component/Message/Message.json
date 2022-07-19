@@ -209,7 +209,7 @@
           "type": "color"
         }
       },
-      "caution": {
+      "alert": {
         "background": {
           "value": "$basic.color.amber.50",
           "type": "color"
@@ -223,7 +223,7 @@
           "type": "color"
         }
       },
-      "alert": {
+      "error": {
         "background": {
           "value": "$basic.color.red.50",
           "type": "color"
