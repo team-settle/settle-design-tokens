@@ -197,11 +197,11 @@
     "color": {
       "info": {
         "background": {
-          "value": "$basic.color.bluegrey.50",
+          "value": "$theme.color.common.onSurfaceContainer",
           "type": "color"
         },
         "onBackground": {
-          "value": "$basic.color.bluegrey.900",
+          "value": "$theme.color.common.onSurfacePrimary",
           "type": "color"
         },
         "outline": {
@@ -211,11 +211,11 @@
       },
       "alert": {
         "background": {
-          "value": "$basic.color.amber.50",
+          "value": "$theme.color.common.alertContainer",
           "type": "color"
         },
         "onBackground": {
-          "value": "$basic.color.amber.900",
+          "value": "$theme.color.common.alert",
           "type": "color"
         },
         "outline": {
@@ -225,11 +225,11 @@
       },
       "error": {
         "background": {
-          "value": "$basic.color.red.50",
+          "value": "$theme.color.common.errorContainer",
           "type": "color"
         },
         "onBackground": {
-          "value": "$basic.color.red.900",
+          "value": "$theme.color.common.error",
           "type": "color"
         },
         "outline": {
@@ -239,11 +239,11 @@
       },
       "success": {
         "background": {
-          "value": "$basic.color.green.50",
+          "value": "$theme.color.common.successContainer",
           "type": "color"
         },
         "onBackground": {
-          "value": "$basic.color.green.900",
+          "value": "$theme.color.common.success",
           "type": "color"
         },
         "outline": {
