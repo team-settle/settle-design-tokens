@@ -209,13 +209,13 @@
           "type": "color"
         }
       },
-      "alert": {
+      "warning": {
         "background": {
-          "value": "$theme.color.common.alertContainer",
+          "value": "{theme.color.common.warningContainer}",
           "type": "color"
         },
         "onBackground": {
-          "value": "$theme.color.common.alert",
+          "value": "{theme.color.common.warning}",
           "type": "color"
         },
         "outline": {

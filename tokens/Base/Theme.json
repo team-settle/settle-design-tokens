@@ -148,15 +148,15 @@
           "value": "$basic.color.red.50",
           "type": "color"
         },
-        "alert": {
+        "warning": {
           "value": "$basic.color.amber.700",
           "type": "color"
         },
-        "onAlert": {
+        "onWarning": {
           "value": "$basic.color.base.white",
           "type": "color"
         },
-        "alertContainer": {
+        "warningContainer": {
           "value": "$basic.color.amber.50",
           "type": "color"
         },
