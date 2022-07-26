@@ -10,36 +10,6 @@
         "type": "sizing"
       }
     },
-    "borderRadius": {
-      "desktop": {
-        "large": {
-          "value": "$message.size.desktop.large * {basic.borderRadius.small}",
-          "type": "borderRadius"
-        },
-        "medium": {
-          "value": "$message.size.desktop.medium * {basic.borderRadius.small}",
-          "type": "borderRadius"
-        },
-        "small": {
-          "value": "$message.size.desktop.small * {basic.borderRadius.small}",
-          "type": "borderRadius"
-        }
-      },
-      "mobile": {
-        "large": {
-          "value": "$message.size.mobile.large * {basic.borderRadius.small}",
-          "type": "borderRadius"
-        },
-        "medium": {
-          "value": "$message.size.mobile.medium * {basic.borderRadius.small}",
-          "type": "borderRadius"
-        },
-        "small": {
-          "value": "$message.size.mobile.small * {basic.borderRadius.small}",
-          "type": "borderRadius"
-        }
-      }
-    },
     "spacing": {
       "small": {
         "desktop": {
