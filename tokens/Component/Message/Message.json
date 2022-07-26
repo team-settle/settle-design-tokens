@@ -201,7 +201,7 @@
           "type": "color"
         },
         "onBackground": {
-          "value": "$theme.color.common.onSurfacePrimary",
+          "value": "$theme.color.common.onSurfaceSecondary",
           "type": "color"
         },
         "outline": {
