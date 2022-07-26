@@ -29,7 +29,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{basic.color.grey.900}",
+          "value": "$theme.color.common.primary",
           "type": "color"
         }
       },
