@@ -11,118 +11,40 @@
       }
     },
     "spacing": {
-      "small": {
-        "desktop": {
-          "left": {
-            "value": "$basic.size.scale.desktop.50",
-            "type": "spacing"
-          },
-          "right": {
-            "value": "$basic.size.scale.desktop.100",
-            "type": "spacing"
-          },
-          "vertical": {
-            "value": "$basic.size.scale.desktop.50",
-            "type": "spacing"
-          },
-          "gap": {
-            "value": "$basic.size.scale.desktop.50",
-            "type": "spacing"
-          }
+      "desktop": {
+        "left": {
+          "value": "$basic.size.scale.desktop.300",
+          "type": "spacing"
         },
-        "mobile": {
-          "left": {
-            "value": "$basic.size.scale.mobile.50",
-            "type": "spacing"
-          },
-          "right": {
-            "value": "$basic.size.scale.mobile.100",
-            "type": "spacing"
-          },
-          "vertical": {
-            "value": "$basic.size.scale.mobile.50",
-            "type": "spacing"
-          },
-          "gap": {
-            "value": "$basic.size.scale.mobile.50",
-            "type": "spacing"
-          }
+        "right": {
+          "value": "$basic.size.scale.desktop.300",
+          "type": "spacing"
+        },
+        "vertical": {
+          "value": "$basic.size.scale.desktop.150",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "$basic.size.scale.desktop.100",
+          "type": "spacing"
         }
       },
-      "medium": {
-        "desktop": {
-          "left": {
-            "value": "$basic.size.scale.desktop.100",
-            "type": "spacing"
-          },
-          "right": {
-            "value": "$basic.size.scale.desktop.150",
-            "type": "spacing"
-          },
-          "vertical": {
-            "value": "$basic.size.scale.desktop.100",
-            "type": "spacing"
-          },
-          "gap": {
-            "value": "$basic.size.scale.desktop.100",
-            "type": "spacing"
-          }
+      "mobile": {
+        "left": {
+          "value": "$basic.size.scale.mobile.300",
+          "type": "spacing"
         },
-        "mobile": {
-          "left": {
-            "value": "$basic.size.scale.mobile.100",
-            "type": "spacing"
-          },
-          "right": {
-            "value": "$basic.size.scale.mobile.150",
-            "type": "spacing"
-          },
-          "vertical": {
-            "value": "$basic.size.scale.mobile.100",
-            "type": "spacing"
-          },
-          "gap": {
-            "value": "$basic.size.scale.mobile.100",
-            "type": "spacing"
-          }
-        }
-      },
-      "large": {
-        "desktop": {
-          "left": {
-            "value": "$basic.size.scale.desktop.150",
-            "type": "spacing"
-          },
-          "right": {
-            "value": "$basic.size.scale.desktop.200",
-            "type": "spacing"
-          },
-          "vertical": {
-            "value": "$basic.size.scale.desktop.150",
-            "type": "spacing"
-          },
-          "gap": {
-            "value": "$basic.size.scale.desktop.150",
-            "type": "spacing"
-          }
+        "right": {
+          "value": "$basic.size.scale.mobile.300",
+          "type": "spacing"
         },
-        "mobile": {
-          "left": {
-            "value": "$basic.size.scale.mobile.150",
-            "type": "spacing"
-          },
-          "right": {
-            "value": "$basic.size.scale.mobile.200",
-            "type": "spacing"
-          },
-          "vertical": {
-            "value": "$basic.size.scale.mobile.150",
-            "type": "spacing"
-          },
-          "gap": {
-            "value": "$basic.size.scale.mobile.150",
-            "type": "spacing"
-          }
+        "vertical": {
+          "value": "$basic.size.scale.mobile.150",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "$basic.size.scale.mobile.100",
+          "type": "spacing"
         }
       }
     },
