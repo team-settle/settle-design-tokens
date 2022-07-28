@@ -148,15 +148,15 @@
           "value": "$basic.color.red.50",
           "type": "color"
         },
-        "alert": {
+        "warning": {
           "value": "$basic.color.amber.700",
           "type": "color"
         },
-        "onAlert": {
+        "onWarning": {
           "value": "$basic.color.base.white",
           "type": "color"
         },
-        "alertContainer": {
+        "warningContainer": {
           "value": "$basic.color.amber.50",
           "type": "color"
         },
@@ -857,54 +857,62 @@
       },
       "shape": {
         "desktop": {
-          "xxlarge": {
-            "value": "$basic.size.scale.desktop.1200",
-            "type": "sizing"
-          },
-          "xlarge": {
-            "value": "$basic.size.scale.desktop.700",
-            "type": "sizing"
-          },
-          "large": {
-            "value": "$basic.size.scale.desktop.600",
-            "type": "sizing"
-          },
-          "medium": {
-            "value": "$basic.size.scale.desktop.500",
+          "xsmall": {
+            "value": "$basic.size.scale.desktop.300",
             "type": "sizing"
           },
           "small": {
             "value": "$basic.size.scale.desktop.400",
             "type": "sizing"
           },
-          "xsmall": {
-            "value": "$basic.size.scale.desktop.300",
+          "medium": {
+            "value": "$basic.size.scale.desktop.500",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "$basic.size.scale.desktop.600",
+            "type": "sizing"
+          },
+          "xlarge": {
+            "value": "$basic.size.scale.desktop.700",
+            "type": "sizing"
+          },
+          "xxlarge": {
+            "value": "$basic.size.scale.desktop.1200",
+            "type": "sizing"
+          },
+          "xxxlarge": {
+            "value": "$basic.size.scale.desktop.1400",
             "type": "sizing"
           }
         },
         "mobile": {
-          "xxlarge": {
-            "value": "$basic.size.scale.mobile.1200",
-            "type": "sizing"
-          },
-          "xlarge": {
-            "value": "$basic.size.scale.mobile.700",
-            "type": "sizing"
-          },
-          "large": {
-            "value": "$basic.size.scale.mobile.600",
-            "type": "sizing"
-          },
-          "medium": {
-            "value": "$basic.size.scale.mobile.500",
+          "xsmall": {
+            "value": "$basic.size.scale.mobile.300",
             "type": "sizing"
           },
           "small": {
             "value": "$basic.size.scale.mobile.400",
             "type": "sizing"
           },
-          "xsmall": {
-            "value": "$basic.size.scale.mobile.300",
+          "medium": {
+            "value": "$basic.size.scale.mobile.500",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "$basic.size.scale.mobile.600",
+            "type": "sizing"
+          },
+          "xlarge": {
+            "value": "$basic.size.scale.mobile.700",
+            "type": "sizing"
+          },
+          "xxlarge": {
+            "value": "$basic.size.scale.mobile.1200",
+            "type": "sizing"
+          },
+          "xxxlarge": {
+            "value": "$basic.size.scale.mobile.1400",
             "type": "sizing"
           }
         }

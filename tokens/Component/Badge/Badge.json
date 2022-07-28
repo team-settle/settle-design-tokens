@@ -29,7 +29,7 @@
           "type": "color"
         },
         "text": {
-          "value": "$theme.color.common.primary",
+          "value": "{theme.color.common.primary}",
           "type": "color"
         }
       },
