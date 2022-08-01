@@ -2,12 +2,86 @@
   "tooltip": {
     "color": {
       "background": {
-        "value": "{basic.color.grey.400}",
+        "value": "{basic.color.grey.900}",
         "type": "color"
       },
       "text": {
         "value": "{basic.color.base.white}",
         "type": "color"
+      },
+      "outline": {
+        "value": "{basic.color.base.none}",
+        "type": "color"
+      }
+    },
+    "size": {
+      "min-height": {
+        "desktop": {
+          "value": "$theme.size.shape.desktop.small",
+          "type": "sizing"
+        },
+        "mobile": {
+          "value": "$theme.size.shape.mobile.small",
+          "type": "sizing"
+        }
+      }
+    },
+    "spacing": {
+      "desktop": {
+        "vertical": {
+          "value": "$basic.size.scale.desktop.50",
+          "type": "spacing"
+        },
+        "horizontal": {
+          "value": "$basic.size.scale.desktop.100",
+          "type": "spacing"
+        }
+      },
+      "mobile": {
+        "vertical": {
+          "value": "$basic.size.scale.mobile.50",
+          "type": "spacing"
+        },
+        "horizontal": {
+          "value": "$basic.size.scale.mobile.100",
+          "type": "spacing"
+        }
+      }
+    },
+    "borderRadius": {
+      "desktop": {
+        "value": "$theme.borderRadius.desktop.small",
+        "type": "borderRadius"
+      },
+      "mobile": {
+        "value": "$theme.borderRadius.mobile.small",
+        "type": "borderRadius"
+      }
+    },
+    "borderWidth": {
+      "default": {
+        "value": "$basic.borderWidth.none",
+        "type": "borderWidth"
+      }
+    },
+    "shadow": {
+      "desktop": {
+        "value": "$theme.shadow.desktop.small",
+        "type": "boxShadow"
+      },
+      "mobile": {
+        "value": "$theme.shadow.mobile.small",
+        "type": "boxShadow"
+      }
+    },
+    "typography": {
+      "desktop": {
+        "value": "$theme.typography.desktop.Caption",
+        "type": "typography"
+      },
+      "mobile": {
+        "value": "$theme.typography.mobile.Caption",
+        "type": "typography"
       }
     }
   }
