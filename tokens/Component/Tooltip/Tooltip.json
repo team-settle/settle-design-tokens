@@ -17,11 +17,21 @@
     "size": {
       "min-height": {
         "desktop": {
-          "value": "$theme.size.shape.desktop.small",
+          "value": "$theme.size.shape.desktop.xsmall",
           "type": "sizing"
         },
         "mobile": {
-          "value": "$theme.size.shape.mobile.small",
+          "value": "$theme.size.shape.mobile.xsmall",
+          "type": "sizing"
+        }
+      },
+      "max-width": {
+        "desktop": {
+          "value": "216",
+          "type": "sizing"
+        },
+        "mobile": {
+          "value": "216",
           "type": "sizing"
         }
       }
@@ -32,6 +42,10 @@
           "value": "$basic.size.scale.desktop.50",
           "type": "spacing"
         },
+        "margin-top": {
+          "value": "$basic.size.scale.desktop.200",
+          "type": "spacing"
+        },
         "horizontal": {
           "value": "$basic.size.scale.desktop.100",
           "type": "spacing"
@@ -40,6 +54,10 @@
       "mobile": {
         "vertical": {
           "value": "$basic.size.scale.mobile.50",
+          "type": "spacing"
+        },
+        "margin-top": {
+          "value": "$basic.size.scale.mobile.200",
           "type": "spacing"
         },
         "horizontal": {
