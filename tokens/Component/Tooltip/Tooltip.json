@@ -43,7 +43,7 @@
           "type": "spacing"
         },
         "margin-top": {
-          "value": "$basic.size.scale.desktop.200",
+          "value": "$basic.size.scale.desktop.100",
           "type": "spacing"
         },
         "horizontal": {
@@ -57,7 +57,7 @@
           "type": "spacing"
         },
         "margin-top": {
-          "value": "$basic.size.scale.mobile.200",
+          "value": "$basic.size.scale.mobile.100",
           "type": "spacing"
         },
         "horizontal": {
