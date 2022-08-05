@@ -1,0 +1,82 @@
+{
+  "fap": {
+    "size": {
+      "desktop": {
+        "value": "$basic.size.scale.desktop.800",
+        "type": "sizing"
+      },
+      "mobile": {
+        "value": "$basic.size.scale.mobile.800",
+        "type": "sizing"
+      }
+    },
+    "spacing": {
+      "desktop": {
+        "vertical": {
+          "value": "$basic.size.scale.desktop.150",
+          "type": "spacing"
+        },
+        "horizontal": {
+          "value": "$basic.size.scale.desktop.150",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "$basic.size.scale.desktop.150",
+          "type": "spacing"
+        }
+      },
+      "mobile": {
+        "vertical": {
+          "value": "$basic.size.scale.mobile.150",
+          "type": "spacing"
+        },
+        "horizontal": {
+          "value": "$basic.size.scale.mobile.150",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "$basic.size.scale.mobile.150",
+          "type": "spacing"
+        }
+      }
+    },
+    "color": {
+      "default": {
+        "background": {
+          "value": "$theme.color.common.surface",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$theme.color.common.none",
+          "type": "color"
+        }
+      }
+    },
+    "borderRadius": {
+      "desktop": {
+        "value": "$theme.borderRadius.desktop.medium",
+        "type": "borderRadius"
+      },
+      "mobile": {
+        "value": "$theme.borderRadius.mobile.medium",
+        "type": "borderRadius"
+      }
+    },
+    "borderWidth": {
+      "default": {
+        "value": "$basic.borderWidth.none",
+        "type": "borderWidth"
+      }
+    },
+    "shadow": {
+      "desktop": {
+        "value": "$theme.shadow.desktop.large",
+        "type": "boxShadow"
+      },
+      "mobile": {
+        "value": "$theme.shadow.mobile.large",
+        "type": "boxShadow"
+      }
+    }
+  }
+}

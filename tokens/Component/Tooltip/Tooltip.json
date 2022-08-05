@@ -1,17 +1,19 @@
 {
   "tooltip": {
     "color": {
-      "background": {
-        "value": "{basic.color.grey.900}",
-        "type": "color"
-      },
-      "text": {
-        "value": "{basic.color.base.white}",
-        "type": "color"
-      },
-      "outline": {
-        "value": "{basic.color.base.none}",
-        "type": "color"
+      "default": {
+        "background": {
+          "value": "{basic.color.grey.900}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{basic.color.base.white}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{basic.color.base.none}",
+          "type": "color"
+        }
       }
     },
     "size": {
