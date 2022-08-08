@@ -1,6 +1,6 @@
 {
   "invoiceDetails": {
-    "body": {
+    "emailBody": {
       "spacing": {
         "desktop": {
           "gap": {

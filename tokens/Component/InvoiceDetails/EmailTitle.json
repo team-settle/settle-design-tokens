@@ -1,6 +1,6 @@
 {
   "invoiceDetails": {
-    "title": {
+    "emailTitle": {
       "spacing": {
         "desktop": {
           "left": {

@@ -1,10 +1,14 @@
 {
-  "invoiceDetails": {
-    "sidebar": {
+  "invoiceModal": {
+    "content": {
       "spacing": {
         "desktop": {
-          "horizontal": {
-            "value": "$basic.size.scale.desktop.300",
+          "left": {
+            "value": "$basic.size.scale.desktop.1100",
+            "type": "spacing"
+          },
+          "right": {
+            "value": "$basic.size.scale.desktop.1100",
             "type": "spacing"
           },
           "vertical": {
@@ -13,7 +17,11 @@
           }
         },
         "mobile": {
-          "horizontal": {
+          "left": {
+            "value": "$basic.size.scale.mobile.300",
+            "type": "spacing"
+          },
+          "right": {
             "value": "$basic.size.scale.mobile.300",
             "type": "spacing"
           },
@@ -26,22 +34,8 @@
       "color": {
         "default": {
           "background": {
-            "value": "$theme.color.common.surface",
+            "value": "$theme.color.common.background",
             "type": "color"
-          }
-        }
-      },
-      "size": {
-        "desktop": {
-          "width": {
-            "value": "343",
-            "type": "sizing"
-          }
-        },
-        "mobile": {
-          "width": {
-            "value": "100%",
-            "type": "sizing"
           }
         }
       }
