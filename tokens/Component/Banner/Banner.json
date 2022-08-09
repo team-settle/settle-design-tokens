@@ -69,11 +69,11 @@
     "color": {
       "info": {
         "background": {
-          "value": "$theme.color.common.onSurfaceContainer",
+          "value": "$theme.color.common.infoContainer",
           "type": "color"
         },
         "onBackground": {
-          "value": "$theme.color.common.onSurfacePrimary",
+          "value": "$theme.color.common.info",
           "type": "color"
         },
         "outline": {

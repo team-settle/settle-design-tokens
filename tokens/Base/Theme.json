@@ -136,6 +136,18 @@
           "value": "$basic.color.teal.50",
           "type": "color"
         },
+        "info": {
+          "value": "$basic.color.bluegrey.500",
+          "type": "color"
+        },
+        "onInfo": {
+          "value": "$basic.color.base.white",
+          "type": "color"
+        },
+        "infoContainer": {
+          "value": "$basic.color.bluegrey.50",
+          "type": "color"
+        },
         "error": {
           "value": "$basic.color.red.500",
           "type": "color"
