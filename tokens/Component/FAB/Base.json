@@ -26,21 +26,21 @@
       "borderRadius": {
         "desktop": {
           "medium": {
-            "value": "{theme.size.shape.desktop.medium} * {basic.borderRadius.round}",
+            "value": "{theme.size.shape.desktop.large} * {basic.borderRadius.round}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{theme.size.shape.desktop.small} * {basic.borderRadius.round}",
+            "value": "{theme.size.shape.desktop.medium} * {basic.borderRadius.round}",
             "type": "borderRadius"
           }
         },
         "mobile": {
           "medium": {
-            "value": "{theme.size.shape.mobile.medium} * {basic.borderRadius.round}",
+            "value": "{theme.size.shape.mobile.large} * {basic.borderRadius.round}",
             "type": "borderRadius"
           },
           "small": {
-            "value": "{theme.size.shape.mobile.small} * {basic.borderRadius.round}",
+            "value": "{theme.size.shape.mobile.medium} * {basic.borderRadius.round}",
             "type": "borderRadius"
           }
         }
