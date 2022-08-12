@@ -1,0 +1,30 @@
+{
+  "repaymentGraph": {
+    "color": {
+      "default": {
+        "bars": {
+          "fees": {
+            "value": "$basic.color.bluegrey.100",
+            "type": "color"
+          },
+          "financedPmt": {
+            "value": "$basic.color.teal.600",
+            "type": "color"
+          },
+          "cashPmt": {
+            "value": "$basic.color.teal.100",
+            "type": "color"
+          },
+          "failed": {
+            "value": "$basic.color.red.100",
+            "type": "color"
+          },
+          "card": {
+            "value": "$basic.color.orange.100",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

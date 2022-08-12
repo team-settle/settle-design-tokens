@@ -2,7 +2,7 @@
   "container": {
     "borderRadius": {
       "desktop": {
-        "value": "$theme.borderRadius.desktop.medium",
+        "value": "$theme.borderRadius.desktop.large",
         "type": "borderRadius"
       },
       "mobile": {
@@ -11,12 +11,8 @@
       }
     },
     "borderWidth": {
-      "desktop": {
+      "default": {
         "value": "$basic.borderWidth.100",
-        "type": "borderWidth"
-      },
-      "mobile": {
-        "value": "$basic.borderWidth.none",
         "type": "borderWidth"
       }
     },
