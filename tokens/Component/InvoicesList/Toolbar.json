@@ -1,0 +1,64 @@
+{
+  "toolbar": {
+    "size": {
+      "desktop": {
+        "height": {
+          "value": "$basic.size.scale.desktop.800",
+          "type": "sizing"
+        }
+      },
+      "mobile": {
+        "height": {
+          "value": "$basic.size.scale.mobile.800",
+          "type": "sizing"
+        }
+      }
+    },
+    "spacing": {
+      "desktop": {
+        "horizontal": {
+          "value": "$basic.size.scale.desktop.300",
+          "type": "spacing"
+        },
+        "vertical": {
+          "value": "$basic.size.scale.desktop.150",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "$basic.size.scale.desktop.150",
+          "type": "spacing"
+        }
+      },
+      "mobile": {
+        "horizontal": {
+          "value": "$basic.size.scale.mobile.300",
+          "type": "spacing"
+        },
+        "vertical": {
+          "value": "$basic.size.scale.mobile.150",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "$basic.size.scale.mobile.150",
+          "type": "spacing"
+        }
+      }
+    },
+    "color": {
+      "default": {
+        "background": {
+          "value": "$theme.color.common.surface",
+          "type": "color"
+        },
+        "separator": {
+          "value": "$theme.color.common.separator",
+          "type": "color"
+        },
+        "scrim": {
+          "value": "linear-gradient($theme.color.common.none 0%, $theme.color.common.surface 100%)",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
