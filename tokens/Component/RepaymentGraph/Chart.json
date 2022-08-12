@@ -1,8 +1,8 @@
 {
-  "repaymentGraph": {
+  "chart": {
     "color": {
       "default": {
-        "bars": {
+        "segment": {
           "fees": {
             "value": "$basic.color.bluegrey.100",
             "type": "color"
@@ -23,7 +23,25 @@
             "value": "$basic.color.orange.100",
             "type": "color"
           }
+        },
+        "hover": {
+          "value": "$theme.color.common.onSurfaceContainer",
+          "type": "color"
         }
+      }
+    },
+    "spacing": {
+      "desktop": {
+        "gap": {
+          "value": "$basic.size.scale.desktop.200",
+          "type": "spacing"
+        }
+      }
+    },
+    "borderRadius": {
+      "desktop": {
+        "value": "$theme.borderRadius.desktop.small",
+        "type": "borderRadius"
       }
     }
   }
