@@ -17,7 +17,7 @@
       },
       "mobile": {
         "left": {
-          "value": "$basic.size.scale.mobile.300",
+          "value": "$basic.size.scale.mobile.900",
           "type": "spacing"
         },
         "right": {
