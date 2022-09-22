@@ -30,7 +30,7 @@
             "type": "borderRadius"
           },
           "small": {
-            "value": "{theme.size.shape.desktop.large} * {basic.borderRadius.round}",
+            "value": "{theme.size.shape.desktop.medium} * {basic.borderRadius.round}",
             "type": "borderRadius"
           }
         },
@@ -40,7 +40,7 @@
             "type": "borderRadius"
           },
           "small": {
-            "value": "{theme.size.shape.mobile.large} * {basic.borderRadius.round}",
+            "value": "{theme.size.shape.mobile.medium} * {basic.borderRadius.round}",
             "type": "borderRadius"
           }
         }
