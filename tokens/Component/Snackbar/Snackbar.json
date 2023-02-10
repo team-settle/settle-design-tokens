@@ -97,7 +97,7 @@
       },
       "success": {
         "background": {
-          "value": "$theme.color.common.success",
+          "value": "{theme.color.common.success}",
           "type": "color"
         },
         "onBackground": {

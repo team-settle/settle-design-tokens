@@ -137,7 +137,7 @@
           "type": "color"
         },
         "info": {
-          "value": "$basic.color.bluegrey.500",
+          "value": "$basic.color.bluegrey.700",
           "type": "color"
         },
         "onInfo": {
@@ -148,8 +148,12 @@
           "value": "$basic.color.bluegrey.50",
           "type": "color"
         },
+        "onInfoContainer": {
+          "value": "$basic.color.bluegrey.700",
+          "type": "color"
+        },
         "error": {
-          "value": "$basic.color.red.500",
+          "value": "$basic.color.deeporange.700",
           "type": "color"
         },
         "onError": {
@@ -157,11 +161,15 @@
           "type": "color"
         },
         "errorContainer": {
-          "value": "$basic.color.red.50",
+          "value": "$basic.color.deeporange.50",
+          "type": "color"
+        },
+        "onErrorContainer": {
+          "value": "$basic.color.deeporange.700",
           "type": "color"
         },
         "warning": {
-          "value": "$basic.color.amber.700",
+          "value": "$basic.color.orange.700",
           "type": "color"
         },
         "onWarning": {
@@ -169,7 +177,11 @@
           "type": "color"
         },
         "warningContainer": {
-          "value": "$basic.color.amber.50",
+          "value": "$basic.color.orange.50",
+          "type": "color"
+        },
+        "onWarningContainer": {
+          "value": "$basic.color.orange.700",
           "type": "color"
         },
         "success": {
@@ -184,8 +196,12 @@
           "value": "$basic.color.lightgreen.50",
           "type": "color"
         },
+        "onSuccessContainer": {
+          "value": "$basic.color.lightgreen.700",
+          "type": "color"
+        },
         "destructive": {
-          "value": "$basic.color.red.500",
+          "value": "$basic.color.deeporange.700",
           "type": "color"
         },
         "onDestructive": {
@@ -193,7 +209,11 @@
           "type": "color"
         },
         "destructiveContainer": {
-          "value": "$basic.color.red.50",
+          "value": "$basic.color.deeporange.50",
+          "type": "color"
+        },
+        "onDestructiveContainer": {
+          "value": "$basic.color.deeporange.700",
           "type": "color"
         },
         "none": {
