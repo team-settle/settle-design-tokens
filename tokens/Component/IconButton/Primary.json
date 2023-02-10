@@ -44,7 +44,7 @@
           "default": {
             "background": {
               "type": "color",
-              "value": "{theme.color.common.primary}"
+              "value": "{theme.color.common.secondary}"
             },
             "onBackground": {
               "type": "color",
@@ -57,7 +57,7 @@
           },
           "hovered": {
             "background": {
-              "value": "rgba({theme.color.common.primary}, {theme.opacity.state.hoveredInverted})",
+              "value": "rgba({theme.color.common.secondary}, {theme.opacity.state.hoveredInverted})",
               "type": "color"
             },
             "onBackground": {
@@ -71,7 +71,7 @@
           },
           "pressed": {
             "background": {
-              "value": "rgba({theme.color.common.primary}, {theme.opacity.state.pressedInverted})",
+              "value": "rgba({theme.color.common.secondary}, {theme.opacity.state.pressedInverted})",
               "type": "color"
             },
             "onBackground": {

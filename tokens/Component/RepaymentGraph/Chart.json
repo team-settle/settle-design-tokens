@@ -1,0 +1,48 @@
+{
+  "chart": {
+    "color": {
+      "default": {
+        "segment": {
+          "fees": {
+            "value": "$basic.color.bluegrey.100",
+            "type": "color"
+          },
+          "financedPmt": {
+            "value": "$basic.color.teal.600",
+            "type": "color"
+          },
+          "cashPmt": {
+            "value": "$basic.color.teal.100",
+            "type": "color"
+          },
+          "failed": {
+            "value": "$basic.color.red.100",
+            "type": "color"
+          },
+          "card": {
+            "value": "$basic.color.orange.100",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "value": "$theme.color.common.onSurfaceContainer",
+          "type": "color"
+        }
+      }
+    },
+    "spacing": {
+      "desktop": {
+        "gap": {
+          "value": "$basic.size.scale.desktop.200",
+          "type": "spacing"
+        }
+      }
+    },
+    "borderRadius": {
+      "desktop": {
+        "value": "$theme.borderRadius.desktop.small",
+        "type": "borderRadius"
+      }
+    }
+  }
+}
