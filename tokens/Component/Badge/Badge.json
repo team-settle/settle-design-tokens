@@ -25,11 +25,11 @@
     "color": {
       "primary": {
         "background": {
-          "value": "{basic.color.amber.600}",
+          "value": "{basic.color.orange.700}",
           "type": "color"
         },
         "text": {
-          "value": "{theme.color.common.primary}",
+          "value": "{basic.color.base.white}",
           "type": "color"
         }
       },

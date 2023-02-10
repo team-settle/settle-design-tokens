@@ -41,168 +41,184 @@
       }
     },
     "color": {
-      "status": {
-        "unscheduled": {
-          "background": {
-            "value": "$basic.color.bluegrey.50",
-            "type": "color"
-          },
-          "text": {
-            "value": "$basic.color.bluegrey.900",
-            "type": "color"
-          },
-          "icon": {
-            "value": "$basic.color.bluegrey.300",
-            "type": "color"
-          },
-          "outline": {
-            "value": "$basic.color.base.none",
-            "type": "color"
-          }
+      "unscheduled": {
+        "background": {
+          "value": "{theme.color.invoiceStatus.unscheduled.background}",
+          "type": "color"
         },
-        "inReview": {
-          "background": {
-            "value": "$basic.color.indigo.50",
-            "type": "color"
-          },
-          "text": {
-            "value": "$basic.color.bluegrey.900",
-            "type": "color"
-          },
-          "icon": {
-            "value": "$basic.color.indigo.300",
-            "type": "color"
-          },
-          "outline": {
-            "value": "$basic.color.base.none",
-            "type": "color"
-          }
+        "text": {
+          "value": "{theme.color.invoiceStatus.unscheduled.text}",
+          "type": "color"
         },
-        "approved": {
-          "background": {
-            "value": "$basic.color.green.50",
-            "type": "color"
-          },
-          "text": {
-            "value": "$basic.color.green.700",
-            "type": "color"
-          },
-          "icon": {
-            "value": "$basic.color.green.300",
-            "type": "color"
-          },
-          "outline": {
-            "value": "$basic.color.base.none",
-            "type": "color"
-          }
+        "icon": {
+          "value": "{theme.color.invoiceStatus.unscheduled.icon}",
+          "type": "color"
         },
-        "rejected": {
-          "background": {
-            "value": "$basic.color.red.50",
-            "type": "color"
-          },
-          "text": {
-            "value": "$basic.color.red.700",
-            "type": "color"
-          },
-          "icon": {
-            "value": "$basic.color.red.300",
-            "type": "color"
-          },
-          "outline": {
-            "value": "$basic.color.base.none",
-            "type": "color"
-          }
+        "outline": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "inReview": {
+        "background": {
+          "value": "{theme.color.invoiceStatus.inReview.background}",
+          "type": "color"
         },
-        "scheduled": {
-          "background": {
-            "value": "$basic.color.blue.50",
-            "type": "color"
-          },
-          "text": {
-            "value": "$basic.color.bluegrey.900",
-            "type": "color"
-          },
-          "icon": {
-            "value": "$basic.color.blue.300",
-            "type": "color"
-          },
-          "outline": {
-            "value": "$basic.color.base.none",
-            "type": "color"
-          }
+        "text": {
+          "value": "{theme.color.invoiceStatus.inReview.text}",
+          "type": "color"
         },
-        "partPaid": {
-          "background": {
-            "value": "$basic.color.amber.50",
-            "type": "color"
-          },
-          "text": {
-            "value": "$basic.color.amber.900",
-            "type": "color"
-          },
-          "icon": {
-            "value": "$basic.color.amber.300",
-            "type": "color"
-          },
-          "outline": {
-            "value": "$basic.color.base.none",
-            "type": "color"
-          }
+        "icon": {
+          "value": "{theme.color.invoiceStatus.inReview.icon}",
+          "type": "color"
         },
-        "paid": {
-          "background": {
-            "value": "$basic.color.green.50",
-            "type": "color"
-          },
-          "text": {
-            "value": "$basic.color.bluegrey.900",
-            "type": "color"
-          },
-          "icon": {
-            "value": "$basic.color.green.300",
-            "type": "color"
-          },
-          "outline": {
-            "value": "$basic.color.base.none",
-            "type": "color"
-          }
+        "outline": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "approved": {
+        "background": {
+          "value": "{theme.color.invoiceStatus.approved.background}",
+          "type": "color"
         },
-        "failed": {
-          "background": {
-            "value": "$basic.color.red.50",
-            "type": "color"
-          },
-          "text": {
-            "value": "$basic.color.red.700",
-            "type": "color"
-          },
-          "icon": {
-            "value": "$basic.color.red.300",
-            "type": "color"
-          },
-          "outline": {
-            "value": "$basic.color.base.none",
-            "type": "color"
-          }
+        "text": {
+          "value": "{theme.color.invoiceStatus.approved.text}",
+          "type": "color"
         },
-        "refunded": {
-          "background": {
-            "value": "$basic.color.bluegrey.50",
-            "type": "color"
-          },
-          "text": {
-            "value": "$basic.color.bluegrey.900",
-            "type": "color"
-          },
-          "icon": {
-            "value": "$basic.color.bluegrey.300",
-            "type": "color"
-          },
-          "outline": {
-            "value": "$basic.color.base.none",
-            "type": "color"
-          }
+        "icon": {
+          "value": "{theme.color.invoiceStatus.approved.icon}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "rejected": {
+        "background": {
+          "value": "{theme.color.invoiceStatus.rejected.background}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.invoiceStatus.rejected.text}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.invoiceStatus.rejected.icon}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "scheduled": {
+        "background": {
+          "value": "{theme.color.invoiceStatus.scheduled.background}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.invoiceStatus.scheduled.text}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.invoiceStatus.scheduled.icon}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.invoiceStatus.scheduled.outline}",
+          "type": "color"
+        }
+      },
+      "processed": {
+        "background": {
+          "value": "{theme.color.invoiceStatus.processed.background}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.invoiceStatus.processed.text}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.invoiceStatus.processed.icon}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.invoiceStatus.processed.outline}",
+          "type": "color"
+        }
+      },
+      "paid": {
+        "background": {
+          "value": "{theme.color.invoiceStatus.paid.background}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.invoiceStatus.paid.text}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.invoiceStatus.paid.icon}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        }
+      },
+      "failed": {
+        "background": {
+          "value": "{theme.color.invoiceStatus.failed.background}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.invoiceStatus.failed.text}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.invoiceStatus.failed.icon}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.invoiceStatus.failed.outline}",
+          "type": "color"
+        }
+      },
+      "refunded": {
+        "background": {
+          "value": "{theme.color.invoiceStatus.refunded.background}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.invoiceStatus.refunded.text}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.invoiceStatus.refunded.icon}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.invoiceStatus.refunded.outline}",
+          "type": "color"
+        }
+      },
+      "partPaid": {
+        "background": {
+          "value": "{theme.color.invoiceStatus.partPaid.background}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.invoiceStatus.partPaid.text}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.invoiceStatus.partPaid.icon}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.invoiceStatus.partPaid.outline}",
+          "type": "color"
         }
       }
     }

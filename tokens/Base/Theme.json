@@ -258,9 +258,9 @@
             "type": "color"
           }
         },
-        "onApproval": {
+        "inReview": {
           "background": {
-            "value": "$basic.color.bluegrey.50",
+            "value": "$basic.color.indigo.50",
             "type": "color"
           },
           "text": {
@@ -278,37 +278,37 @@
         },
         "approved": {
           "background": {
-            "value": "$basic.color.green.50",
+            "value": "$basic.color.lightgreen.50",
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.green.700",
+            "value": "$basic.color.lightgreen.700",
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.green.300",
+            "value": "$basic.color.lightgreen.300",
             "type": "color"
           },
           "outline": {
-            "value": "$basic.color.green.300",
+            "value": "$basic.color.lightgreen.300",
             "type": "color"
           }
         },
         "rejected": {
           "background": {
-            "value": "$basic.color.red.50",
+            "value": "$basic.color.deeporange.50",
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.red.700",
+            "value": "$basic.color.deeporange.700",
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.red.300",
+            "value": "$basic.color.deeporange.300",
             "type": "color"
           },
           "outline": {
-            "value": "$basic.color.red.300",
+            "value": "$basic.color.deeporange.300",
             "type": "color"
           }
         },
@@ -318,7 +318,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.bluegrey.900",
+            "value": "$basic.color.blue.700",
             "type": "color"
           },
           "icon": {
@@ -332,15 +332,15 @@
         },
         "processed": {
           "background": {
-            "value": "$basic.color.green.50",
+            "value": "$basic.color.lightgreen.50",
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.bluegrey.900",
+            "value": "$basic.color.lightgreen.700",
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.green.300",
+            "value": "$basic.color.lightgreen.300",
             "type": "color"
           },
           "outline": {
@@ -350,15 +350,15 @@
         },
         "paid": {
           "background": {
-            "value": "$basic.color.green.50",
+            "value": "$basic.color.lightgreen.50",
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.bluegrey.900",
+            "value": "$basic.color.lightgreen.700",
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.green.300",
+            "value": "$basic.color.lightgreen.300",
             "type": "color"
           },
           "outline": {
@@ -368,15 +368,15 @@
         },
         "failed": {
           "background": {
-            "value": "$basic.color.red.50",
+            "value": "$basic.color.deeporange.50",
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.red.700",
+            "value": "$basic.color.deeporange.700",
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.red.300",
+            "value": "$basic.color.deeporange.300",
             "type": "color"
           },
           "outline": {
@@ -390,7 +390,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.bluegrey.900",
+            "value": "$basic.color.bluegrey.700",
             "type": "color"
           },
           "icon": {
@@ -404,15 +404,15 @@
         },
         "partPaid": {
           "background": {
-            "value": "$basic.color.amber.50",
+            "value": "$basic.color.orange.50",
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.amber.900",
+            "value": "$basic.color.orange.700",
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.amber.300",
+            "value": "$basic.color.orange.300",
             "type": "color"
           },
           "outline": {
@@ -426,7 +426,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.grey.500",
+            "value": "$basic.color.grey.700",
             "type": "color"
           },
           "icon": {
