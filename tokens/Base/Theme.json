@@ -232,7 +232,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.bluegrey.600",
+            "value": "$basic.color.bluegrey.500",
             "type": "color"
           },
           "outline": {
@@ -250,7 +250,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.bluegrey.600",
+            "value": "$basic.color.bluegrey.500",
             "type": "color"
           },
           "outline": {
@@ -268,7 +268,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.indigo.600",
+            "value": "$basic.color.indigo.500",
             "type": "color"
           },
           "outline": {
@@ -286,7 +286,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.lightgreen.600",
+            "value": "$basic.color.lightgreen.500",
             "type": "color"
           },
           "outline": {
@@ -322,7 +322,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.blue.600",
+            "value": "$basic.color.blue.500",
             "type": "color"
           },
           "outline": {
@@ -340,7 +340,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.lightgreen.600",
+            "value": "$basic.color.lightgreen.500",
             "type": "color"
           },
           "outline": {
@@ -358,7 +358,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.lightgreen.600",
+            "value": "$basic.color.lightgreen.500",
             "type": "color"
           },
           "outline": {
@@ -394,7 +394,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.bluegrey.600",
+            "value": "$basic.color.bluegrey.500",
             "type": "color"
           },
           "outline": {
@@ -412,7 +412,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.orange.600",
+            "value": "$basic.color.orange.500",
             "type": "color"
           },
           "outline": {
@@ -430,7 +430,7 @@
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.grey.600",
+            "value": "$basic.color.grey.500",
             "type": "color"
           },
           "outline": {
