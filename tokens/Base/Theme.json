@@ -137,7 +137,7 @@
           "type": "color"
         },
         "info": {
-          "value": "$basic.color.bluegrey.700",
+          "value": "$basic.color.bluegrey.600",
           "type": "color"
         },
         "onInfo": {
@@ -149,11 +149,11 @@
           "type": "color"
         },
         "onInfoContainer": {
-          "value": "$basic.color.bluegrey.700",
+          "value": "$basic.color.bluegrey.800",
           "type": "color"
         },
         "error": {
-          "value": "$basic.color.deeporange.700",
+          "value": "$basic.color.deeporange.600",
           "type": "color"
         },
         "onError": {
@@ -165,11 +165,11 @@
           "type": "color"
         },
         "onErrorContainer": {
-          "value": "$basic.color.deeporange.700",
+          "value": "$basic.color.deeporange.800",
           "type": "color"
         },
         "warning": {
-          "value": "$basic.color.orange.700",
+          "value": "$basic.color.orange.600",
           "type": "color"
         },
         "onWarning": {
@@ -181,11 +181,11 @@
           "type": "color"
         },
         "onWarningContainer": {
-          "value": "$basic.color.orange.700",
+          "value": "$basic.color.orange.800",
           "type": "color"
         },
         "success": {
-          "value": "$basic.color.lightgreen.700",
+          "value": "$basic.color.lightgreen.600",
           "type": "color"
         },
         "onSuccess": {
@@ -197,11 +197,11 @@
           "type": "color"
         },
         "onSuccessContainer": {
-          "value": "$basic.color.lightgreen.700",
+          "value": "$basic.color.lightgreen.800",
           "type": "color"
         },
         "destructive": {
-          "value": "$basic.color.deeporange.700",
+          "value": "$basic.color.deeporange.600",
           "type": "color"
         },
         "onDestructive": {
@@ -213,7 +213,7 @@
           "type": "color"
         },
         "onDestructiveContainer": {
-          "value": "$basic.color.deeporange.700",
+          "value": "$basic.color.deeporange.800",
           "type": "color"
         },
         "none": {
@@ -228,7 +228,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.bluegrey.700",
+            "value": "$basic.color.bluegrey.800",
             "type": "color"
           },
           "icon": {
@@ -246,7 +246,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.bluegrey.700",
+            "value": "$basic.color.bluegrey.800",
             "type": "color"
           },
           "icon": {
@@ -264,7 +264,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.indigo.700",
+            "value": "$basic.color.indigo.800",
             "type": "color"
           },
           "icon": {
@@ -282,7 +282,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.lightgreen.700",
+            "value": "$basic.color.lightgreen.800",
             "type": "color"
           },
           "icon": {
@@ -300,7 +300,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.deeporange.700",
+            "value": "$basic.color.deeporange.800",
             "type": "color"
           },
           "icon": {
@@ -318,7 +318,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.blue.700",
+            "value": "$basic.color.blue.800",
             "type": "color"
           },
           "icon": {
@@ -336,7 +336,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.lightgreen.700",
+            "value": "$basic.color.lightgreen.800",
             "type": "color"
           },
           "icon": {
@@ -354,7 +354,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.lightgreen.700",
+            "value": "$basic.color.lightgreen.800",
             "type": "color"
           },
           "icon": {
@@ -372,7 +372,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.deeporange.700",
+            "value": "$basic.color.deeporange.800",
             "type": "color"
           },
           "icon": {
@@ -390,7 +390,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.bluegrey.700",
+            "value": "$basic.color.bluegrey.800",
             "type": "color"
           },
           "icon": {
@@ -408,7 +408,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.orange.700",
+            "value": "$basic.color.orange.800",
             "type": "color"
           },
           "icon": {
@@ -426,7 +426,7 @@
             "type": "color"
           },
           "text": {
-            "value": "$basic.color.grey.700",
+            "value": "$basic.color.grey.800",
             "type": "color"
           },
           "icon": {
