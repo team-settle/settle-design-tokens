@@ -411,6 +411,34 @@
           "type": "color"
         }
       }
+    },
+    "typography": {
+      "desktop": {
+        "label": {
+          "value": {
+            "fontFamily": "{basic.fontFamilies.body}",
+            "fontWeight": "{basic.fontWeights.medium}",
+            "lineHeight": "{basic.lineHeights.desktop.100}",
+            "fontSize": "11",
+            "letterSpacing": "{basic.letterSpacing.desktop.100}",
+            "textCase": "uppercase"
+          },
+          "type": "typography"
+        }
+      },
+      "mobile": {
+        "label": {
+          "value": {
+            "fontFamily": "{basic.fontFamilies.body}",
+            "fontWeight": "{basic.fontWeights.medium}",
+            "lineHeight": "{basic.lineHeights.mobile.100}",
+            "fontSize": "11",
+            "letterSpacing": "{basic.letterSpacing.mobile.100}",
+            "textCase": "uppercase"
+          },
+          "type": "typography"
+        }
+      }
     }
   }
 }
