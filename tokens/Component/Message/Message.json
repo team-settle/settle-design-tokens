@@ -197,15 +197,15 @@
     "color": {
       "info": {
         "background": {
-          "value": "$theme.color.common.infoContainer",
+          "value": "{theme.color.common.infoContainer}",
           "type": "color"
         },
         "onBackground": {
-          "value": "$theme.color.common.info",
+          "value": "{theme.color.common.onInfoContainer}",
           "type": "color"
         },
         "outline": {
-          "value": "$basic.color.base.none",
+          "value": "{basic.color.base.none}",
           "type": "color"
         }
       },
@@ -215,39 +215,39 @@
           "type": "color"
         },
         "onBackground": {
-          "value": "{theme.color.common.warning}",
+          "value": "{theme.color.common.onWarningContainer}",
           "type": "color"
         },
         "outline": {
-          "value": "$basic.color.base.none",
+          "value": "{basic.color.base.none}",
           "type": "color"
         }
       },
       "error": {
         "background": {
-          "value": "$theme.color.common.errorContainer",
+          "value": "{theme.color.common.errorContainer}",
           "type": "color"
         },
         "onBackground": {
-          "value": "$theme.color.common.error",
+          "value": "{theme.color.common.onErrorContainer}",
           "type": "color"
         },
         "outline": {
-          "value": "$basic.color.base.none",
+          "value": "{basic.color.base.none}",
           "type": "color"
         }
       },
       "success": {
         "background": {
-          "value": "$theme.color.common.successContainer",
+          "value": "{theme.color.common.successContainer}",
           "type": "color"
         },
         "onBackground": {
-          "value": "{theme.color.common.success}",
+          "value": "{theme.color.common.onSuccessContainer}",
           "type": "color"
         },
         "outline": {
-          "value": "$basic.color.base.none",
+          "value": "{basic.color.base.none}",
           "type": "color"
         }
       }
