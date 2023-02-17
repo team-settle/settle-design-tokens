@@ -76,7 +76,7 @@
         },
         "common": {
           "hatch": {
-            "value": "rgba({basic.color.base.white}, 0.3)",
+            "value": "{basic.color.teal.900}",
             "type": "color"
           },
           "outline": {
