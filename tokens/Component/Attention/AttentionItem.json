@@ -47,7 +47,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{theme.color.invoiceStatus.unscheduled.text}",
+          "value": "{theme.color.invoiceStatus.unscheduled.textOnBackground}",
           "type": "color"
         },
         "icon": {
@@ -65,7 +65,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{theme.color.invoiceStatus.inReview.text}",
+          "value": "{theme.color.invoiceStatus.inReview.textOnBackground}",
           "type": "color"
         },
         "icon": {
@@ -83,7 +83,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{theme.color.invoiceStatus.approved.text}",
+          "value": "{theme.color.invoiceStatus.approved.textOnBackground}",
           "type": "color"
         },
         "icon": {
@@ -101,7 +101,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{theme.color.invoiceStatus.rejected.text}",
+          "value": "{theme.color.invoiceStatus.rejected.textOnBackground}",
           "type": "color"
         },
         "icon": {
@@ -119,7 +119,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{theme.color.invoiceStatus.scheduled.text}",
+          "value": "{theme.color.invoiceStatus.scheduled.textOnBackground}",
           "type": "color"
         },
         "icon": {
@@ -137,7 +137,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{theme.color.invoiceStatus.processed.text}",
+          "value": "{theme.color.invoiceStatus.processed.textOnBackground}",
           "type": "color"
         },
         "icon": {
@@ -155,7 +155,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{theme.color.invoiceStatus.paid.text}",
+          "value": "{theme.color.invoiceStatus.paid.textOnBackground}",
           "type": "color"
         },
         "icon": {
@@ -173,7 +173,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{theme.color.invoiceStatus.failed.text}",
+          "value": "{theme.color.invoiceStatus.failed.textOnBackground}",
           "type": "color"
         },
         "icon": {
@@ -191,7 +191,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{theme.color.invoiceStatus.refunded.text}",
+          "value": "{theme.color.invoiceStatus.refunded.textOnBackground}",
           "type": "color"
         },
         "icon": {
@@ -209,7 +209,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{theme.color.invoiceStatus.partPaid.text}",
+          "value": "{theme.color.invoiceStatus.partPaid.textOnBackground}",
           "type": "color"
         },
         "icon": {
