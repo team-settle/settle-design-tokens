@@ -1,0 +1,70 @@
+{
+  "container": {
+    "borderRadius": {
+      "desktop": {
+        "value": "{theme.borderRadius.large}",
+        "type": "borderRadius"
+      },
+      "mobile": {
+        "value": "$theme.borderRadius.mobile.none",
+        "type": "borderRadius"
+      }
+    },
+    "borderWidth": {
+      "default": {
+        "value": "$basic.borderWidth.100",
+        "type": "borderWidth"
+      }
+    },
+    "color": {
+      "default": {
+        "background": {
+          "value": "$theme.color.common.surface",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$theme.color.common.outline",
+          "type": "color"
+        }
+      }
+    },
+    "space": {
+      "desktop": {
+        "margin-left": {
+          "value": "{basic.size.scale.none}",
+          "type": "spacing"
+        },
+        "margin-right": {
+          "value": "{basic.size.scale.300}",
+          "type": "spacing"
+        },
+        "margin-top": {
+          "value": "{basic.size.scale.none}",
+          "type": "spacing"
+        },
+        "margin-bottom": {
+          "value": "{basic.size.scale.300}",
+          "type": "spacing"
+        }
+      },
+      "mobile": {
+        "margin-left": {
+          "value": "{basic.size.scale.none}",
+          "type": "spacing"
+        },
+        "margin-right": {
+          "value": "$basic.size.scale.mobile.none",
+          "type": "spacing"
+        },
+        "margin-top": {
+          "value": "{basic.size.scale.none}",
+          "type": "spacing"
+        },
+        "margin-bottom": {
+          "value": "$basic.size.scale.mobile.none",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "batchPaymentDrawer": {
+    "color": {
+      "content": {
+        "type": "color",
+        "value": "{theme.color.common.background}"
+      },
+      "separator": {
+        "type": "color",
+        "value": "{theme.color.common.separator}"
+      }
+    },
+    "size": {
+      "min-width": {
+        "value": "640",
+        "type": "sizing"
+      }
+    }
+  }
+}

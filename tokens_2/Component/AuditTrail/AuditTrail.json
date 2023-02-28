@@ -1,0 +1,98 @@
+{
+  "auditTrail": {
+    "color": {
+      "status": {
+        "unscheduled": {
+          "text": {
+            "value": "$basic.color.bluegrey.900",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.bluegrey.300",
+            "type": "color"
+          }
+        },
+        "inReview": {
+          "text": {
+            "value": "$basic.color.bluegrey.900",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.indigo.300",
+            "type": "color"
+          }
+        },
+        "approved": {
+          "text": {
+            "value": "$basic.color.green.700",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.green.300",
+            "type": "color"
+          }
+        },
+        "rejected": {
+          "text": {
+            "value": "$basic.color.red.700",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.red.300",
+            "type": "color"
+          }
+        },
+        "scheduled": {
+          "text": {
+            "value": "$basic.color.bluegrey.900",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.blue.300",
+            "type": "color"
+          }
+        },
+        "partPaid": {
+          "text": {
+            "value": "$basic.color.amber.900",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.amber.300",
+            "type": "color"
+          }
+        },
+        "paid": {
+          "text": {
+            "value": "$basic.color.bluegrey.900",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.green.300",
+            "type": "color"
+          }
+        },
+        "failed": {
+          "text": {
+            "value": "$basic.color.red.700",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.red.300",
+            "type": "color"
+          }
+        },
+        "refunded": {
+          "text": {
+            "value": "$basic.color.bluegrey.900",
+            "type": "color"
+          },
+          "icon": {
+            "value": "$basic.color.bluegrey.300",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
