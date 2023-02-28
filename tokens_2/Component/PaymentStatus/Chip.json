@@ -1,0 +1,254 @@
+{
+  "paymentStatusChip": {
+    "borderRadius": {
+      "medium": {
+        "value": "{paymentStatusChip.size.medium.height} * {basic.borderRadius.round}",
+        "type": "borderRadius"
+      },
+      "small": {
+        "value": "{paymentStatusChip.size.small.height} * {basic.borderRadius.round}",
+        "type": "borderRadius"
+      }
+    },
+    "spacing": {
+      "small": {
+        "padding": {
+          "value": "{basic.size.scale.50} {basic.size.scale.100}",
+          "type": "spacing"
+        }
+      },
+      "medium": {
+        "padding": {
+          "value": "{basic.size.scale.100} {basic.size.scale.150}",
+          "type": "spacing"
+        }
+      }
+    },
+    "borderWidth": {
+      "unscheduled": {
+        "value": "{basic.borderWidth.100}",
+        "type": "borderWidth"
+      },
+      "on-approval": {
+        "value": "{basic.borderWidth.100}",
+        "type": "borderWidth"
+      },
+      "approved": {
+        "value": "{basic.borderWidth.100}",
+        "type": "borderWidth"
+      },
+      "rejected": {
+        "value": "{basic.borderWidth.100}",
+        "type": "borderWidth"
+      },
+      "scheduled": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      },
+      "processed": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      },
+      "paid": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      },
+      "failed": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      },
+      "refunded": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      },
+      "part-paid": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      }
+    },
+    "color": {
+      "draft": {
+        "background": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        },
+        "text": {
+          "value": "$basic.color.bluegrey.700",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.bluegrey.200",
+          "type": "color"
+        }
+      },
+      "unscheduled": {
+        "background": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        },
+        "text": {
+          "value": "$basic.color.bluegrey.700",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.bluegrey.200",
+          "type": "color"
+        }
+      },
+      "inReview": {
+        "background": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        },
+        "text": {
+          "value": "$basic.color.indigo.700",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.indigo.200",
+          "type": "color"
+        }
+      },
+      "approved": {
+        "background": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        },
+        "text": {
+          "value": "$basic.color.green.700",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.green.300",
+          "type": "color"
+        }
+      },
+      "rejected": {
+        "background": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        },
+        "text": {
+          "value": "$basic.color.red.700",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.red.300",
+          "type": "color"
+        }
+      },
+      "scheduled": {
+        "background": {
+          "value": "$basic.color.blue.50",
+          "type": "color"
+        },
+        "text": {
+          "value": "$basic.color.bluegrey.900",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        }
+      },
+      "processed": {
+        "background": {
+          "value": "$basic.color.green.50",
+          "type": "color"
+        },
+        "text": {
+          "value": "$basic.color.bluegrey.900",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        }
+      },
+      "paid": {
+        "background": {
+          "value": "$basic.color.green.50",
+          "type": "color"
+        },
+        "text": {
+          "value": "$basic.color.bluegrey.900",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        }
+      },
+      "failed": {
+        "background": {
+          "value": "$basic.color.red.50",
+          "type": "color"
+        },
+        "text": {
+          "value": "$basic.color.red.700",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        }
+      },
+      "refunded": {
+        "background": {
+          "value": "$basic.color.bluegrey.50",
+          "type": "color"
+        },
+        "text": {
+          "value": "$basic.color.bluegrey.900",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        }
+      },
+      "partPaid": {
+        "background": {
+          "value": "$basic.color.amber.50",
+          "type": "color"
+        },
+        "text": {
+          "value": "$basic.color.amber.900",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        }
+      },
+      "deleted": {
+        "background": {
+          "value": "$basic.color.grey.100",
+          "type": "color"
+        },
+        "text": {
+          "value": "$basic.color.grey.500",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        }
+      }
+    },
+    "size": {
+      "small": {
+        "height": {
+          "value": "{theme.size.shape.xsmall}",
+          "type": "sizing"
+        }
+      },
+      "medium": {
+        "height": {
+          "value": "{theme.size.shape.small}",
+          "type": "sizing"
+        }
+      }
+    }
+  }
+}

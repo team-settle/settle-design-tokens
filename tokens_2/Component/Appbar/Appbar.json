@@ -1,0 +1,64 @@
+{
+  "appbar": {
+    "size": {
+      "desktop": {
+        "height": {
+          "value": "{basic.size.scale.900}",
+          "type": "sizing"
+        },
+        "l-slot": {
+          "value": "{basic.size.scale.1100}",
+          "type": "sizing"
+        }
+      },
+      "mobile": {
+        "height": {
+          "value": "$basic.size.scale.mobile.650",
+          "type": "sizing"
+        },
+        "l-slot": {
+          "value": "$basic.size.scale.mobile.900",
+          "type": "sizing"
+        }
+      }
+    },
+    "space": {
+      "desktop": {
+        "top": {
+          "value": "{basic.size.scale.200}",
+          "type": "spacing"
+        },
+        "bottom": {
+          "value": "{basic.size.scale.200}",
+          "type": "spacing"
+        },
+        "right": {
+          "value": "{basic.size.scale.300}",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "{basic.size.scale.150}",
+          "type": "spacing"
+        }
+      },
+      "mobile": {
+        "top": {
+          "value": "$basic.size.scale.mobile.150",
+          "type": "spacing"
+        },
+        "bottom": {
+          "value": "$basic.size.scale.mobile.none",
+          "type": "spacing"
+        },
+        "right": {
+          "value": "$basic.size.scale.mobile.300",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "$basic.size.scale.mobile.150",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

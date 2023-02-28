@@ -1,0 +1,100 @@
+{
+  "input": {
+    "base": {
+      "size": {
+        "small": {
+          "minHeight": {
+            "value": "{theme.size.shape.small}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "minHeight": {
+            "value": "{theme.size.shape.medium}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "minHeight": {
+            "value": "{theme.size.shape.large}",
+            "type": "spacing"
+          }
+        }
+      },
+      "spacing": {
+        "common": {
+          "text": {
+            "value": "2 {basic.size.scale.50}",
+            "type": "spacing"
+          },
+          "label": {
+            "value": "0 {basic.size.scale.50}",
+            "type": "spacing"
+          },
+          "helper": {
+            "value": "0 {basic.size.scale.50}",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "padding": {
+            "value": "{basic.size.scale.50}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{basic.size.scale.none}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding": {
+            "value": "{basic.size.scale.100}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{basic.size.scale.50}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding": {
+            "value": "{basic.size.scale.150}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{basic.size.scale.100}",
+            "type": "spacing"
+          }
+        }
+      },
+      "borderRadius": {
+        "large": {
+          "value": "{theme.borderRadius.large}",
+          "type": "borderRadius"
+        },
+        "medium": {
+          "value": "{theme.borderRadius.medium}",
+          "type": "borderRadius"
+        },
+        "small": {
+          "value": "{theme.borderRadius.small}",
+          "type": "borderRadius"
+        }
+      },
+      "typography": {
+        "label": {
+          "value": "{theme.typography.Caption}",
+          "type": "typography"
+        },
+        "helper": {
+          "value": "{theme.typography.Caption}",
+          "type": "typography"
+        },
+        "text": {
+          "value": "{theme.typography.Body2}",
+          "type": "typography"
+        }
+      }
+    }
+  }
+}

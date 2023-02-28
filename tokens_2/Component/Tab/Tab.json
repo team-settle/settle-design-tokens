@@ -1,0 +1,154 @@
+{
+  "tab": {
+    "size": {
+      "min-height": {
+        "value": "{theme.size.shape.small}",
+        "type": "sizing"
+      }
+    },
+    "spacing": {
+      "padding": {
+        "value": "{basic.size.scale.50} {basic.size.scale.150}",
+        "type": "spacing"
+      },
+      "gap": {
+        "value": "{basic.size.scale.50}",
+        "type": "spacing"
+      }
+    },
+    "borderWidth": {
+      "default": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      },
+      "hovered": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      },
+      "focused": {
+        "value": "{basic.borderWidth.200}",
+        "type": "borderWidth"
+      },
+      "disabled": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      },
+      "disabled-focused": {
+        "value": "{basic.borderWidth.200}",
+        "type": "borderWidth"
+      }
+    },
+    "color": {
+      "default": {
+        "background": {
+          "type": "color",
+          "value": "{theme.color.common.none}"
+        },
+        "text": {
+          "type": "color",
+          "value": "{theme.color.common.onSurfaceSecondary}"
+        },
+        "leading-icon": {
+          "type": "color",
+          "value": "{theme.color.common.onSurfaceSecondary}"
+        },
+        "indicator": {
+          "type": "color",
+          "value": "{theme.color.common.none}"
+        },
+        "outline": {
+          "type": "color",
+          "value": "{theme.color.common.none}"
+        }
+      },
+      "hovered": {
+        "background": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {theme.opacity.state.hovered})",
+          "type": "color"
+        },
+        "text": {
+          "type": "color",
+          "value": "{theme.color.common.onSurfacePrimary}"
+        },
+        "leading-icon": {
+          "type": "color",
+          "value": "{theme.color.common.onSurfacePrimary}"
+        },
+        "outline": {
+          "type": "color",
+          "value": "{theme.color.common.none}"
+        },
+        "indicator": {
+          "type": "color",
+          "value": "{theme.color.common.none}"
+        }
+      },
+      "selected": {
+        "background": {
+          "type": "color",
+          "value": "{theme.color.common.none}"
+        },
+        "text": {
+          "type": "color",
+          "value": "{theme.color.common.onSurfacePrimary}"
+        },
+        "leading-icon": {
+          "type": "color",
+          "value": "{theme.color.common.onSurfacePrimary}"
+        },
+        "outline": {
+          "type": "color",
+          "value": "{theme.color.common.none}"
+        },
+        "indicator": {
+          "type": "color",
+          "value": "{theme.color.common.primary}"
+        }
+      },
+      "disabled": {
+        "background": {
+          "type": "color",
+          "value": "{theme.color.common.none}"
+        },
+        "text": {
+          "type": "color",
+          "value": "{theme.color.common.onSurfaceTertiary}"
+        },
+        "leading-icon": {
+          "type": "color",
+          "value": "{theme.color.common.onSurfaceTertiary}"
+        },
+        "outline": {
+          "type": "color",
+          "value": "{theme.color.common.none}"
+        },
+        "indicator": {
+          "type": "color",
+          "value": "{theme.color.common.none}"
+        }
+      },
+      "selected-disabled": {
+        "background": {
+          "type": "color",
+          "value": "{theme.color.common.none}"
+        },
+        "text": {
+          "type": "color",
+          "value": "{theme.color.common.onSurfaceTertiary}"
+        },
+        "leading-icon": {
+          "type": "color",
+          "value": "{theme.color.common.onSurfaceTertiary}"
+        },
+        "outline": {
+          "type": "color",
+          "value": "{theme.color.common.none}"
+        },
+        "indicator": {
+          "type": "color",
+          "value": "{theme.color.common.onSurfaceTertiary}"
+        }
+      }
+    }
+  }
+}
