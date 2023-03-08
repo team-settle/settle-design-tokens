@@ -39,13 +39,21 @@
         "error-focused": {
           "value": "{basic.borderWidth.200}",
           "type": "borderWidth"
+        },
+        "warning": {
+          "value": "{basic.borderWidth.100}",
+          "type": "borderWidth"
+        },
+        "warning-focused": {
+          "value": "{basic.borderWidth.200}",
+          "type": "borderWidth"
         }
       },
       "color": {
         "idle": {
           "background": {
             "type": "color",
-            "value": "{theme.color.common.none}"
+            "value": "{theme.color.common.surface}"
           },
           "leading-icon": {
             "type": "color",
@@ -75,7 +83,7 @@
         "default": {
           "background": {
             "type": "color",
-            "value": "{theme.color.common.none}"
+            "value": "{theme.color.common.surface}"
           },
           "leading-icon": {
             "type": "color",
@@ -105,7 +113,7 @@
         "hovered": {
           "background": {
             "type": "color",
-            "value": "{theme.color.common.none}"
+            "value": "{theme.color.common.surface}"
           },
           "leading-icon": {
             "type": "color",
@@ -135,7 +143,7 @@
         "focused": {
           "background": {
             "type": "color",
-            "value": "{theme.color.common.none}"
+            "value": "{theme.color.common.surface}"
           },
           "leading-icon": {
             "type": "color",
@@ -165,7 +173,7 @@
         "disabled": {
           "background": {
             "type": "color",
-            "value": "{theme.color.common.none}"
+            "value": "{theme.color.common.surface}"
           },
           "leading-icon": {
             "type": "color",
@@ -195,7 +203,7 @@
         "error": {
           "background": {
             "type": "color",
-            "value": "{theme.color.common.none}"
+            "value": "{theme.color.common.surface}"
           },
           "leading-icon": {
             "type": "color",
@@ -225,7 +233,7 @@
         "error-focused": {
           "background": {
             "type": "color",
-            "value": "{theme.color.common.none}"
+            "value": "{theme.color.common.surface}"
           },
           "leading-icon": {
             "type": "color",
@@ -250,6 +258,66 @@
           "helper": {
             "type": "color",
             "value": "{theme.color.common.error}"
+          }
+        },
+        "warning": {
+          "background": {
+            "type": "color",
+            "value": "{theme.color.common.surface}"
+          },
+          "leading-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "trailing-icon": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          },
+          "text": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
+          },
+          "label": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          },
+          "helper": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          }
+        },
+        "warning-focused": {
+          "background": {
+            "type": "color",
+            "value": "{theme.color.common.surface}"
+          },
+          "leading-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "trailing-icon": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          },
+          "text": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
+          },
+          "label": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          },
+          "helper": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
           }
         }
       }

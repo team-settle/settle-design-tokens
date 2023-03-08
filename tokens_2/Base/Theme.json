@@ -88,22 +88,6 @@
           "value": "#F7F6F6",
           "type": "color"
         },
-        "_primary": {
-          "value": "$basic.color.teal.900",
-          "type": "color"
-        },
-        "_onPrimary": {
-          "value": "$basic.color.base.white",
-          "type": "color"
-        },
-        "_primaryContainer": {
-          "value": "$basic.color.teal.50",
-          "type": "color"
-        },
-        "_onPrimaryLink": {
-          "value": "$basic.color.teal.300",
-          "type": "color"
-        },
         "primary": {
           "value": "$basic.color.teal.600",
           "type": "color"
@@ -674,6 +658,40 @@
           "value": "{basic.size.scale.1400}",
           "type": "sizing"
         }
+      }
+    },
+    "lightness": {
+      "default": {
+        "value": "0.04",
+        "type": "other"
+      },
+      "default-inverted": {
+        "value": "1 - {theme.lightness.default}",
+        "type": "other"
+      },
+      "hover": {
+        "value": "0.08",
+        "type": "other"
+      },
+      "hover-inverted": {
+        "value": "1 - {theme.lightness.hover}",
+        "type": "other"
+      },
+      "focused": {
+        "value": "0.12",
+        "type": "other"
+      },
+      "focused-inverted": {
+        "value": "1 - {theme.lightness.focused}",
+        "type": "other"
+      },
+      "pressed": {
+        "value": "0.16",
+        "type": "other"
+      },
+      "pressed-inverted": {
+        "value": "1 - {theme.lightness.pressed}",
+        "type": "other"
       }
     }
   }
