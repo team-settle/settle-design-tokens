@@ -358,11 +358,11 @@
         },
         "text": {
           "type": "color",
-          "value": "{theme.color.common.onSurfacePrimary}"
+          "value": "{theme.color.common.secondary}"
         },
         "leading-icon": {
           "type": "color",
-          "value": "{theme.color.common.onSurfacePrimary}"
+          "value": "{theme.color.common.secondary}"
         },
         "outline": {
           "type": "color",
