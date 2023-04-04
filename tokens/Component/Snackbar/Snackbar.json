@@ -108,6 +108,20 @@
           "value": "$basic.color.base.none",
           "type": "color"
         }
+      },
+      "info": {
+        "background": {
+          "value": "{theme.color.common.info}",
+          "type": "color"
+        },
+        "onBackground": {
+          "value": "$theme.color.common.onInfo",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        }
       }
     },
     "shadow": {
