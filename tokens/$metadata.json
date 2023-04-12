@@ -1,7 +1,9 @@
 {
   "tokenSetOrder": [
     "Base/Basic",
-    "Base/Theme",
+    "Base/Theme-Settle-Base",
+    "Base/Theme-Settle-Light",
+    "Base/Theme-Escalon-Light",
     "Component/Appbar/Appbar",
     "Component/Attention/Attention",
     "Component/Attention/AttentionItem",
