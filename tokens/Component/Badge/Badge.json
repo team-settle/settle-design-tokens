@@ -35,7 +35,7 @@
       },
       "secondary": {
         "background": {
-          "value": "{basic.color.teal.600}",
+          "value": "{theme.color.common.secondary}",
           "type": "color"
         },
         "text": {
