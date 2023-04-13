@@ -1,0 +1,154 @@
+{
+  "tab": {
+    "size": {
+      "min-height": {
+        "value": "{theme.size.shape.small}",
+        "type": "sizing"
+      }
+    },
+    "spacing": {
+      "padding": {
+        "value": "{basic.size.scale.50} {basic.size.scale.150}",
+        "type": "spacing"
+      },
+      "gap": {
+        "value": "{basic.size.scale.50}",
+        "type": "spacing"
+      }
+    },
+    "borderWidth": {
+      "default": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      },
+      "hovered": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      },
+      "focused": {
+        "value": "{basic.borderWidth.200}",
+        "type": "borderWidth"
+      },
+      "disabled": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      },
+      "disabled-focused": {
+        "value": "{basic.borderWidth.200}",
+        "type": "borderWidth"
+      }
+    },
+    "color": {
+      "default": {
+        "background": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.common.onSurfaceSecondary}",
+          "type": "color"
+        },
+        "leading-icon": {
+          "value": "{theme.color.common.onSurfaceSecondary}",
+          "type": "color"
+        },
+        "indicator": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "hovered": {
+        "background": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {theme.opacity.state.hovered})",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.common.onSurfacePrimary}",
+          "type": "color"
+        },
+        "leading-icon": {
+          "value": "{theme.color.common.onSurfacePrimary}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "indicator": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "selected": {
+        "background": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.common.onSurfacePrimary}",
+          "type": "color"
+        },
+        "leading-icon": {
+          "value": "{theme.color.common.onSurfacePrimary}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "indicator": {
+          "value": "{theme.color.common.primary}",
+          "type": "color"
+        }
+      },
+      "disabled": {
+        "background": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.common.onSurfaceTertiary}",
+          "type": "color"
+        },
+        "leading-icon": {
+          "value": "{theme.color.common.onSurfaceTertiary}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "indicator": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "selected-disabled": {
+        "background": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.common.onSurfaceTertiary}",
+          "type": "color"
+        },
+        "leading-icon": {
+          "value": "{theme.color.common.onSurfaceTertiary}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "indicator": {
+          "value": "{theme.color.common.onSurfaceTertiary}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

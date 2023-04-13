@@ -1,0 +1,18 @@
+{
+  "input": {
+    "outlined": {
+      "color": {
+        "focused": {
+          "outline": {
+            "value": "{theme.color.common.onSurfacePrimary}",
+            "type": "color"
+          },
+          "label": {
+            "value": "{theme.color.common.onSurfacePrimary}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
