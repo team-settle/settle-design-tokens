@@ -1,0 +1,38 @@
+{
+  "dropdownMenu": {
+    "color": {
+      "background": {
+        "value": "{theme.color.common.surface}",
+        "type": "color"
+      }
+    },
+    "borderRadius": {
+      "desktop": {
+        "value": "{theme.size.shape.desktop.small} * {basic.borderRadius.small}",
+        "type": "borderRadius"
+      }
+    },
+    "spacing": {
+      "desktop": {
+        "padding-h": {
+          "value": "$basic.size.scale.desktop.none",
+          "type": "spacing"
+        },
+        "padding-v": {
+          "value": "$basic.size.scale.desktop.100",
+          "type": "spacing"
+        }
+      },
+      "mobile": {
+        "padding-h": {
+          "value": "$basic.size.scale.mobile.none",
+          "type": "spacing"
+        },
+        "padding-v": {
+          "value": "$basic.size.scale.mobile.100",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}
