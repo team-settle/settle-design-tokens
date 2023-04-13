@@ -65,7 +65,6 @@
       "Component/Table/TableRow": "enabled",
       "Component/Toggle/Toggle": "enabled",
       "Component/Tooltip/Tooltip": "enabled",
-      "Base/Escalon/Theme-Light": "disabled",
       "Settle/Theme-Base": "enabled",
       "Settle/Theme-Light": "enabled"
     },
@@ -138,8 +137,7 @@
       "Component/Toggle/Toggle": "enabled",
       "Component/Tooltip/Tooltip": "enabled",
       "Base/Escalon/Theme-Light": "enabled",
-      "Settle/Theme-Base": "enabled",
-      "Settle/Theme-Light": "disabled"
+      "Settle/Theme-Base": "enabled"
     },
     "$figmaStyleReferences": {}
   }
