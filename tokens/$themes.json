@@ -4,8 +4,6 @@
     "name": "Settle-Light",
     "selectedTokenSets": {
       "Base/Basic": "source",
-      "Base/Theme-Settle-Light": "enabled",
-      "Base/Theme-Settle-Base": "enabled",
       "Component/Appbar/Appbar": "enabled",
       "Component/Attention/Attention": "enabled",
       "Component/Attention/AttentionItem": "enabled",
@@ -66,7 +64,10 @@
       "Component/Tab/TabGroup": "enabled",
       "Component/Table/TableRow": "enabled",
       "Component/Toggle/Toggle": "enabled",
-      "Component/Tooltip/Tooltip": "enabled"
+      "Component/Tooltip/Tooltip": "enabled",
+      "Base/Escalon/Theme-Light": "disabled",
+      "Settle/Theme-Base": "enabled",
+      "Settle/Theme-Light": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -75,8 +76,6 @@
     "name": "Escalon-Light",
     "selectedTokenSets": {
       "Base/Basic": "source",
-      "Base/Theme-Settle-Base": "enabled",
-      "Base/Theme-Escalon-Light": "enabled",
       "Component/Appbar/Appbar": "enabled",
       "Component/Attention/Attention": "enabled",
       "Component/Attention/AttentionItem": "enabled",
@@ -137,7 +136,10 @@
       "Component/Tab/TabGroup": "enabled",
       "Component/Table/TableRow": "enabled",
       "Component/Toggle/Toggle": "enabled",
-      "Component/Tooltip/Tooltip": "enabled"
+      "Component/Tooltip/Tooltip": "enabled",
+      "Base/Escalon/Theme-Light": "enabled",
+      "Settle/Theme-Base": "enabled",
+      "Settle/Theme-Light": "disabled"
     },
     "$figmaStyleReferences": {}
   }
