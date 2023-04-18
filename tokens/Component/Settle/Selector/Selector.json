@@ -1,0 +1,156 @@
+{
+  "selector": {
+    "size": {
+      "desktop": {
+        "large": {
+          "value": "{theme.size.shape.desktop.large}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{theme.size.shape.desktop.medium}",
+          "type": "sizing"
+        },
+        "small": {
+          "value": "{theme.size.shape.desktop.small}",
+          "type": "sizing"
+        }
+      },
+      "mobile": {
+        "large": {
+          "value": "{theme.size.shape.mobile.large}",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "{theme.size.shape.mobile.medium}",
+          "type": "sizing"
+        },
+        "small": {
+          "value": "{theme.size.shape.mobile.small}",
+          "type": "sizing"
+        }
+      }
+    },
+    "borderRadius": {
+      "desktop": {
+        "large": {
+          "value": "$selector.size.desktop.large * {basic.borderRadius.round}",
+          "type": "borderRadius"
+        },
+        "medium": {
+          "value": "$selector.size.desktop.medium* {basic.borderRadius.round}",
+          "type": "borderRadius"
+        },
+        "small": {
+          "value": "$selector.size.desktop.small * {basic.borderRadius.round}",
+          "type": "borderRadius"
+        }
+      },
+      "mobile": {
+        "large": {
+          "value": "$selector.size.mobile.large * {basic.borderRadius.round}",
+          "type": "borderRadius"
+        },
+        "medium": {
+          "value": "$selector.size.mobile.medium * {basic.borderRadius.round}",
+          "type": "borderRadius"
+        },
+        "small": {
+          "value": "$selector.size.mobile.small* {basic.borderRadius.round}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "color": {
+      "unselected-default": {
+        "body": {
+          "value": "{theme.color.common.onSurfaceSecondary}",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "unselected-hovered": {
+        "body": {
+          "value": "{theme.color.common.onSurfaceSecondary}",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {theme.opacity.state.hovered})",
+          "type": "color"
+        }
+      },
+      "unselected-disabled": {
+        "body": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.200})",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "selected-default": {
+        "body": {
+          "value": "{theme.color.common.secondary}",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "selected-hovered": {
+        "body": {
+          "value": "{theme.color.common.secondary}",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "rgba({theme.color.common.primary}, {theme.opacity.state.hovered})",
+          "type": "color"
+        }
+      },
+      "selected-disabled": {
+        "body": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.200})",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "indeterminate-default": {
+        "body": {
+          "value": "{theme.color.common.secondary}",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "indeterminate-hovered": {
+        "body": {
+          "value": "{theme.color.common.secondary}",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "rgba({theme.color.common.primary}, {theme.opacity.state.hovered})",
+          "type": "color"
+        }
+      },
+      "indeterminate-disabled": {
+        "body": {
+          "value": "rgba({theme.color.common.onSurfaceOpaque}, {basic.opacity.200})",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

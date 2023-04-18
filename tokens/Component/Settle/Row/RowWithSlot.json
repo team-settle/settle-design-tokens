@@ -1,0 +1,36 @@
+{
+  "rowWithSlot": {
+    "row": {
+      "colors": {
+        "background": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "spacing": {
+        "padding-h": {
+          "desktop": {
+            "value": "$basic.size.scale.desktop.none",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "$basic.size.scale.desktop.none",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "slot": {
+      "size": {
+        "desktop": {
+          "value": "$basic.size.scale.desktop.1100",
+          "type": "spacing"
+        },
+        "mobile": {
+          "value": "$basic.size.scale.desktop.900",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}
