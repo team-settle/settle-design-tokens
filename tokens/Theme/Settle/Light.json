@@ -54,6 +54,10 @@
           "value": "$basic.color.teal.50",
           "type": "color"
         },
+        "onPrimaryContainer": {
+          "value": "$basic.color.teal.800",
+          "type": "color"
+        },
         "onPrimaryLink": {
           "value": "$basic.color.teal.300",
           "type": "color"
@@ -68,6 +72,10 @@
         },
         "secondaryContainer": {
           "value": "$basic.color.teal.50",
+          "type": "color"
+        },
+        "onSecondaryContainer": {
+          "value": "$basic.color.teal.800",
           "type": "color"
         },
         "info": {
