@@ -76,7 +76,7 @@ jobs:
               console.log(deployments)
 
               if (deployments.length > 1) {
-                const deployment = deployments.find((d) => d.meta.githubCommitSha === sha)
+                const deployment = deployments.find((d) => d.meta.githubCommitSha === githubCommitRef)
                 if (deployment) {
                   console.log(deployment)
                   const deploymentUrl = deployment.url
