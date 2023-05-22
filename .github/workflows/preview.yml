@@ -15,7 +15,7 @@ jobs:
         uses: thollander/actions-comment-pull-request@v2
         with:
           message: |
-            🌋🌋 Deployment initialized 🔃
+            🌋🌋 Initializing deployment 🔃
             🏗️🏗️ Building Next.js 🕧
             🚀🚀 Deploying to Vercel 🕧
             🛸🛸 Deployed to 🕧
