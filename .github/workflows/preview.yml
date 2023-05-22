@@ -11,6 +11,12 @@ jobs:
   Deploy-Preview:
     runs-on: ubuntu-latest
     steps:
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: 🚀🚀 Deployment started
+          comment_tag: preview_url
+
       - name: Checkout main
         uses: actions/checkout@v3
         with:
@@ -54,8 +60,20 @@ jobs:
       - name: Pull Vercel Environment Information
         run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
 
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: 🏗️🏗️ Building Next.js
+          comment_tag: preview_url
+
       - name: Build Project Artifacts
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: 🔃🔃 Deploying to Vercel
+          comment_tag: preview_url
 
       - name: Deploy Project Artifacts to Vercel
         id: deploy
@@ -92,6 +110,6 @@ jobs:
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v2
         with:
-          message: 🚀🚀 https://${{ steps.get-deployment-url.outputs.preview_url }}
+          message: 🛸🛸 https://${{ steps.get-deployment-url.outputs.preview_url }} ✅
           comment_tag: preview_url
 
