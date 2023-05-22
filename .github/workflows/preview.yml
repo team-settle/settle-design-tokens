@@ -67,7 +67,7 @@ jobs:
           github-token: ${{ secrets.BOT_PAT }}
           script: |
             try {
-              const sha = "6ea905ac6fea9b54c2598692952b642c343f57fb"
+              const githubCommitRef = "design-tokens-preview-6ea905ac6fea9b54c2598692952b642c343f57fb"
               const response = await fetch("https://api.vercel.com/v6/deployments?projectId=${{ secrets.VERCEL_PROJECT_ID }}&state=READY&target=preview&teamId=${{ secrets.VERCEL_ORG_ID }}", {
                 "headers": { "Authorization": "Bearer ${{ secrets.VERCEL_TOKEN }}" },
                 "method": "get"
