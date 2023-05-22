@@ -78,10 +78,8 @@ jobs:
               if (deployments.length > 1) {
                 const deployment = deployments.find((d) => d.meta.githubCommitRef === githubCommitRef)
                 if (deployment) {
-                  console.log(deployment)
                   const deploymentUrl = deployment.url
-                  console.log(deploymentUrl)
-                  core.setOutput("preview_url", deploymentUrl)
+                  core.setOutput("preview_url", deployment.url)
                 } else {
                   console.log('Deployment not found')
                 }
@@ -92,16 +90,9 @@ jobs:
               console.log(error)
             }
 
-      # - name: Get Vercel Preview URL
-      #   id: get-deployment-url
-      #   uses: ViktorJT/Get-vercel-preview-url@1.2.2
-      #   with:
-      #     vercel_access_token: ${{ secrets.VERCEL_TOKEN }}
-      #     vercel_team_id: ${{ secrets.VERCEL_ORG_ID }}
-      #     gh_token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v2
         with:
-          message: https://${{ steps.get-deployment-url.outputs.preview_url }}
+          message: 🚀🚀 https://${{ steps.get-deployment-url.outputs.preview_url }}
+          comment_tag: preview_url
 
