@@ -1,0 +1,105 @@
+name: Vercel Preview Deployment
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+  TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+  TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
+  TURBO_REMOTE_ONLY: true
+on:
+  pull_request
+jobs:
+  Deploy-Preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v3
+        with:
+            repository: ${{ secrets.WEB_REPO }}
+            ref: main
+            token: ${{ secrets.BOT_PAT }}
+
+      - name: Set pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8.x
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Cache node modules
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('./pnpm-lock.yaml') }}
+
+      - name: Install dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != true
+        run: pnpm i --frozen-lockfile
+
+      - name: Generate Design Tokens
+        run: |
+          git clone --branch ${{ github.head_ref }} https://github.com/team-settle/settle-design-tokens.git
+          pnpm design-tokens:process
+          rm -rf settle-design-tokens
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          git checkout -b design-tokens-preview-${{ github.sha }}
+
+      - name: Install Vercel CLI
+        run: npm install --global vercel@latest
+
+      - name: Pull Vercel Environment Information
+        run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Build Project Artifacts
+        run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Deploy Project Artifacts to Vercel
+        id: deploy
+        run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
+
+      - uses: actions/github-script@v6
+        id: get-deployment-url
+        with:
+          github-token: ${{ secrets.BOT_PAT }}
+          script: |
+            try {
+              const response = await fetch("https://api.vercel.com/v6/deployments?projectId=${{ secrets.VERCEL_PROJECT_ID }}&state=READY&target=preview&teamId=${{ secrets.VERCEL_ORG_ID }}", {
+                "headers": { "Authorization": "Bearer ${{ secrets.VERCEL_TOKEN }}" },
+                "method": "get"
+              })
+              const { deployments = []} = await response.json()
+
+              if (deployments.length > 1) {
+                const deployment = deployments.find((d) => d.meta.githubCommitSha === ${{github.sha}})
+                if (deployment) {
+                  console.log(deployment)
+                  const deploymentUrl = deployment.url
+                  console.log(deploymentUrl)
+                  core.setOutput("preview_url", deploymentUrl)
+                } else {
+                  console.log('Deployment not found')
+                }
+              } else {
+                console.log('Deployments missing')
+              }
+            } catch (error) {
+              console.log(error)
+            }
+
+      # - name: Get Vercel Preview URL
+      #   id: get-deployment-url
+      #   uses: ViktorJT/Get-vercel-preview-url@1.2.2
+      #   with:
+      #     vercel_access_token: ${{ secrets.VERCEL_TOKEN }}
+      #     vercel_team_id: ${{ secrets.VERCEL_ORG_ID }}
+      #     gh_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: https://${{ steps.get-deployment-url.outputs.preview_url }}
+
