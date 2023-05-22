@@ -73,7 +73,6 @@ jobs:
                 "method": "get"
               })
               const { deployments = []} = await response.json()
-              console.log(deployments)
 
               if (deployments.length > 1) {
                 const deployment = deployments.find((d) => d.meta.githubCommitRef === githubCommitRef)
@@ -81,7 +80,7 @@ jobs:
                   const deploymentUrl = deployment.url
                   core.setOutput("preview_url", deployment.url)
                 } else {
-                  console.log('Deployment not found')
+                  console.log('Deployment with the provided githubCommitRef not found')
                 }
               } else {
                 console.log('Deployments missing')
