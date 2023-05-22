@@ -14,7 +14,11 @@ jobs:
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v2
         with:
-          message: 🚀🚀 Deployment started
+          message: |
+            🌋🌋 Deployment initialized 🔃
+            🏗️🏗️ Building Next.js 🕧
+            🚀🚀 Deploying to Vercel 🕧
+            🛸🛸 Deployed to 🕧
           comment_tag: preview_url
 
       - name: Checkout main
@@ -63,7 +67,11 @@ jobs:
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v2
         with:
-          message: 🏗️🏗️ Building Next.js
+          message: |
+            🌋🌋 Deployment initialized ✅
+            🏗️🏗️ Building Next.js 🔃
+            🚀🚀 Deploying to Vercel 🕧
+            🛸🛸 Deployed to 🕧
           comment_tag: preview_url
 
       - name: Build Project Artifacts
@@ -72,7 +80,11 @@ jobs:
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v2
         with:
-          message: 🔃🔃 Deploying to Vercel
+          message: |
+            🌋🌋 Deployment initialized ✅
+            🏗️🏗️ Building Next.js ✅
+            🚀🚀 Deploying to Vercel 🔃
+            🛸🛸 Deployed to 🕧
           comment_tag: preview_url
 
       - name: Deploy Project Artifacts to Vercel
@@ -110,6 +122,10 @@ jobs:
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v2
         with:
-          message: 🛸🛸 https://${{ steps.get-deployment-url.outputs.preview_url }} ✅
+          message: |
+            🌋🌋 Deployment initialized ✅
+            🏗️🏗️ Building Next.js ✅
+            🚀🚀 Deploying to Vercel ✅
+            🛸🛸 Deployed to https://${{ steps.get-deployment-url.outputs.preview_url }}
           comment_tag: preview_url
 
