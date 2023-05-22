@@ -73,7 +73,7 @@ jobs:
                 "method": "get"
               })
               const { deployments = []} = await response.json()
-              console.log(deployments[0])
+              console.log(deployments)
 
               if (deployments.length > 1) {
                 const deployment = deployments.find((d) => d.meta.githubCommitSha === sha)
