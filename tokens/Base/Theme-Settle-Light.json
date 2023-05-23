@@ -59,7 +59,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "$basic.color.teal.700",
+          "value": "$basic.color.blue.700",
           "type": "color"
         },
         "onSecondary": {
