@@ -76,7 +76,7 @@
         },
         "selected": {
           "background": {
-            "value": "rgba({theme.color.common.primary}, {theme.opacity.state.focused})",
+            "value": "rgba( {theme.color.common.destructive}, {theme.opacity.state.focused})",
             "type": "color"
           },
           "icon": {
@@ -110,16 +110,24 @@
         "type": "spacing"
       }
     },
+    "typography": {
+      "text": {
+        "value": "{theme.typography.Body2}",
+        "type": "typography"
+      }
+    },
     "size": {
-      "width": {
-        "collapsed": {
-          "value": "48px",
-          "type": "sizing"
-        },
-        "expanded": {
-          "value": "226px",
-          "type": "sizing"
-        }
+      "min-height": {
+        "value": "{basic.size.scale.500}",
+        "type": "sizing"
+      }
+    }
+  },
+  "menuItem": {
+    "typography": {
+      "text": {
+        "value": "{theme.typography.Body2}",
+        "type": "typography"
       }
     }
   }
