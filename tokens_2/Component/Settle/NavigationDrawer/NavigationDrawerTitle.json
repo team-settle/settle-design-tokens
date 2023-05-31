@@ -1,0 +1,80 @@
+{
+  "navigationDrawerTitle": {
+    "color": {
+      "default": {
+        "background": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.common.onSurfaceTertiary}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.common.onSurfaceSecondary}",
+          "type": "color"
+        }
+      },
+      "hovered": {
+        "background": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.common.onSurfacePrimary}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.common.onSurfacePrimary}",
+          "type": "color"
+        }
+      },
+      "selected": {
+        "background": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "icon": {
+          "value": "{theme.color.common.onSurfaceTertiary}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.common.onSurfacePrimary}",
+          "type": "color"
+        }
+      }
+    },
+    "borderRadius": {
+      "medium": {
+        "value": "{theme.size.shape.small} * {basic.borderRadius.small}",
+        "type": "borderRadius"
+      }
+    },
+    "spacing": {
+      "padding": {
+        "value": "{basic.size.scale.50} {basic.size.scale.150}",
+        "type": "spacing"
+      },
+      "text": {
+        "value": "{basic.size.scale.50} {basic.size.scale.none}",
+        "type": "spacing"
+      },
+      "gap": {
+        "value": "{basic.size.scale.100}",
+        "type": "spacing"
+      }
+    },
+    "size": {
+      "width": {
+        "collapsed": {
+          "value": "48",
+          "type": "sizing"
+        },
+        "expanded": {
+          "value": "226",
+          "type": "sizing"
+        }
+      }
+    }
+  }
+}

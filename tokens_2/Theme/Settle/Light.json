@@ -23,7 +23,7 @@
           "type": "color"
         },
         "onSurfaceLink": {
-          "value": "#DE8A3D",
+          "value": "$basic.color.teal.700",
           "type": "color"
         },
         "onSurfaceContainer": {
@@ -43,7 +43,7 @@
           "type": "color"
         },
         "primary": {
-          "value": "$basic.color.teal.900",
+          "value": "$basic.color.teal.600",
           "type": "color"
         },
         "onPrimary": {
@@ -54,31 +54,9 @@
           "value": "$basic.color.teal.50",
           "type": "color"
         },
-        "onPrimaryLink": {
-          "value": "$basic.color.teal.300",
+        "onPrimaryContainer": {
+          "value": "$basic.color.teal.800",
           "type": "color"
-        },
-        "secondary": {
-          "value": "#ED9341",
-          "type": "color"
-        },
-        "onSecondary": {
-          "value": "$basic.color.base.white",
-          "type": "color"
-        },
-        "secondaryContainer": {
-          "value": "#ED9341",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": ".9",
-                "space": "lch",
-                "color": "$theme.color.common.surface"
-              }
-            }
-          }
         },
         "info": {
           "value": "$basic.color.bluegrey.600",
@@ -171,12 +149,8 @@
             "value": "$basic.color.bluegrey.50",
             "type": "color"
           },
-          "textOnBackground": {
+          "text": {
             "value": "$basic.color.bluegrey.800",
-            "type": "color"
-          },
-          "textOnSurface": {
-            "value": "$basic.color.bluegrey.600",
             "type": "color"
           },
           "icon": {
@@ -193,12 +167,8 @@
             "value": "$basic.color.bluegrey.50",
             "type": "color"
           },
-          "textOnBackground": {
+          "text": {
             "value": "$basic.color.bluegrey.800",
-            "type": "color"
-          },
-          "textOnSurface": {
-            "value": "$basic.color.bluegrey.600",
             "type": "color"
           },
           "icon": {
@@ -215,12 +185,8 @@
             "value": "$basic.color.indigo.50",
             "type": "color"
           },
-          "textOnBackground": {
+          "text": {
             "value": "$basic.color.indigo.800",
-            "type": "color"
-          },
-          "textOnSurface": {
-            "value": "$basic.color.indigo.600",
             "type": "color"
           },
           "icon": {
@@ -237,12 +203,8 @@
             "value": "$basic.color.lightgreen.50",
             "type": "color"
           },
-          "textOnBackground": {
-            "value": "$basic.color.lightgreen.900",
-            "type": "color"
-          },
-          "textOnSurface": {
-            "value": "$basic.color.lightgreen.700",
+          "text": {
+            "value": "$basic.color.lightgreen.800",
             "type": "color"
           },
           "icon": {
@@ -259,12 +221,8 @@
             "value": "$basic.color.deeporange.50",
             "type": "color"
           },
-          "textOnBackground": {
+          "text": {
             "value": "$basic.color.deeporange.800",
-            "type": "color"
-          },
-          "textOnSurface": {
-            "value": "$basic.color.deeporange.600",
             "type": "color"
           },
           "icon": {
@@ -281,11 +239,7 @@
             "value": "$basic.color.blue.50",
             "type": "color"
           },
-          "textOnBackground": {
-            "value": "$basic.color.blue.800",
-            "type": "color"
-          },
-          "textOnSurface": {
+          "text": {
             "value": "$basic.color.blue.800",
             "type": "color"
           },
@@ -303,12 +257,8 @@
             "value": "$basic.color.lightgreen.50",
             "type": "color"
           },
-          "textOnBackground": {
-            "value": "$basic.color.lightgreen.900",
-            "type": "color"
-          },
-          "textOnSurface": {
-            "value": "$basic.color.lightgreen.700",
+          "text": {
+            "value": "$basic.color.lightgreen.800",
             "type": "color"
           },
           "icon": {
@@ -325,12 +275,8 @@
             "value": "$basic.color.lightgreen.50",
             "type": "color"
           },
-          "textOnBackground": {
-            "value": "$basic.color.lightgreen.900",
-            "type": "color"
-          },
-          "textOnSurface": {
-            "value": "$basic.color.lightgreen.700",
+          "text": {
+            "value": "$basic.color.lightgreen.800",
             "type": "color"
           },
           "icon": {
@@ -347,12 +293,8 @@
             "value": "$basic.color.deeporange.50",
             "type": "color"
           },
-          "textOnBackground": {
+          "text": {
             "value": "$basic.color.deeporange.800",
-            "type": "color"
-          },
-          "textOnSurface": {
-            "value": "$basic.color.deeporange.600",
             "type": "color"
           },
           "icon": {
@@ -369,12 +311,8 @@
             "value": "$basic.color.bluegrey.50",
             "type": "color"
           },
-          "textOnBackground": {
+          "text": {
             "value": "$basic.color.bluegrey.800",
-            "type": "color"
-          },
-          "textOnSurface": {
-            "value": "$basic.color.bluegrey.600",
             "type": "color"
           },
           "icon": {
@@ -391,12 +329,8 @@
             "value": "$basic.color.orange.50",
             "type": "color"
           },
-          "textOnBackground": {
+          "text": {
             "value": "$basic.color.orange.800",
-            "type": "color"
-          },
-          "textOnSurface": {
-            "value": "$basic.color.orange.600",
             "type": "color"
           },
           "icon": {
@@ -413,12 +347,8 @@
             "value": "$basic.color.grey.100",
             "type": "color"
           },
-          "textOnBackground": {
-            "value": "$basic.color.grey.600",
-            "type": "color"
-          },
-          "textOnSurface": {
-            "value": "$basic.color.grey.600",
+          "text": {
+            "value": "$basic.color.grey.800",
             "type": "color"
           },
           "icon": {

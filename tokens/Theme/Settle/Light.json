@@ -23,7 +23,7 @@
           "type": "color"
         },
         "onSurfaceLink": {
-          "value": "#DE8A3D",
+          "value": "$basic.color.teal.700",
           "type": "color"
         },
         "onSurfaceContainer": {
@@ -59,7 +59,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "#ED9341",
+          "value": "$basic.color.teal.700",
           "type": "color"
         },
         "onSecondary": {
@@ -67,18 +67,8 @@
           "type": "color"
         },
         "secondaryContainer": {
-          "value": "#ED9341",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": ".9",
-                "space": "lch",
-                "color": "$theme.color.common.surface"
-              }
-            }
-          }
+          "value": "$basic.color.teal.50",
+          "type": "color"
         },
         "info": {
           "value": "$basic.color.bluegrey.600",

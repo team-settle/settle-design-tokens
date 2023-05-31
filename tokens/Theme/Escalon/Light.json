@@ -1,0 +1,42 @@
+{
+  "theme": {
+    "color": {
+      "common": {
+        "onSurfaceLink": {
+          "value": "#DE8A3D",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#ED9341",
+          "type": "color"
+        },
+        "onSecondary": {
+          "value": "$basic.color.base.white",
+          "type": "color"
+        },
+        "secondaryContainer": {
+          "value": "$theme.color.common.secondary",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": ".9",
+                "space": "lch",
+                "color": "$theme.color.common.surface"
+              }
+            }
+          }
+        },
+        "warningContainer": {
+          "value": "$basic.color.orange.50",
+          "type": "color"
+        },
+        "onWarningContainer": {
+          "value": "#664A33",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

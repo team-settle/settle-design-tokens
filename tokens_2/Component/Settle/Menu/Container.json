@@ -1,0 +1,30 @@
+{
+  "menuContainer": {
+    "spacing": {
+      "padding": {
+        "value": "{basic.size.scale.100} 0",
+        "type": "spacing"
+      },
+      "gap": {
+        "value": "{basic.size.scale.none}",
+        "type": "spacing"
+      }
+    },
+    "color": {
+      "background": {
+        "value": "{theme.color.common.surface}",
+        "type": "color"
+      },
+      "separator": {
+        "value": "{theme.color.common.separator}",
+        "type": "color"
+      }
+    },
+    "shadow": {
+      "container": {
+        "value": "{theme.shadow.medium}",
+        "type": "boxShadow"
+      }
+    }
+  }
+}
