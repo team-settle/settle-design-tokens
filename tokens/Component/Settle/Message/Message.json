@@ -181,15 +181,19 @@
         "value": "{basic.borderWidth.none}",
         "type": "borderWidth"
       },
-      "caution": {
+      "warning": {
         "value": "{basic.borderWidth.none}",
         "type": "borderWidth"
       },
-      "alert": {
+      "error": {
         "value": "{basic.borderWidth.none}",
         "type": "borderWidth"
       },
       "success": {
+        "value": "{basic.borderWidth.none}",
+        "type": "borderWidth"
+      },
+      "upsell": {
         "value": "{basic.borderWidth.none}",
         "type": "borderWidth"
       }
@@ -244,6 +248,24 @@
         },
         "onBackground": {
           "value": "{theme.color.common.onSuccessContainer}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{basic.color.base.none}",
+          "type": "color"
+        }
+      },
+      "upsell": {
+        "background": {
+          "value": "{theme.color.common.primaryContainer}",
+          "type": "color"
+        },
+        "onBackground": {
+          "value": "{theme.color.common.onPrimaryContainer}",
+          "type": "color"
+        },
+        "onBackgroundText": {
+          "value": "{theme.color.common.onSurfacePrimary}",
           "type": "color"
         },
         "outline": {

@@ -1,0 +1,90 @@
+{
+  "segmentedControlItem": {
+    "base": {
+      "size": {
+        "small": {
+          "height": {
+            "value": "{theme.size.shape.desktop.small}",
+            "type": "sizing"
+          }
+        },
+        "medium": {
+          "height": {
+            "value": "{theme.size.shape.desktop.medium}",
+            "type": "sizing"
+          }
+        },
+        "large": {
+          "height": {
+            "value": "{theme.size.shape.desktop.large}",
+            "type": "sizing"
+          }
+        }
+      },
+      "borderRadius": {
+        "large": {
+          "start": {
+            "value": "{theme.borderRadius.desktop.large} 0 0 {theme.borderRadius.desktop.large}",
+            "type": "borderRadius"
+          },
+          "middle": {
+            "value": "0",
+            "type": "borderRadius"
+          },
+          "end": {
+            "value": "0 {theme.borderRadius.desktop.large} {theme.borderRadius.desktop.large} 0",
+            "type": "borderRadius"
+          }
+        },
+        "medium": {
+          "start": {
+            "value": "{theme.borderRadius.desktop.medium} 0 0 {theme.borderRadius.desktop.medium}",
+            "type": "borderRadius"
+          },
+          "middle": {
+            "value": "0",
+            "type": "borderRadius"
+          },
+          "end": {
+            "value": "0 {theme.borderRadius.desktop.medium} {theme.borderRadius.desktop.medium} 0",
+            "type": "borderRadius"
+          }
+        },
+        "small": {
+          "start": {
+            "value": "{theme.borderRadius.desktop.small} 0 0 {theme.borderRadius.desktop.small}",
+            "type": "borderRadius"
+          },
+          "middle": {
+            "value": "0",
+            "type": "borderRadius"
+          },
+          "end": {
+            "value": "0 {theme.borderRadius.desktop.small} {theme.borderRadius.desktop.small} 0",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "spacing": {
+        "small": {
+          "padding": {
+            "value": "{basic.size.scale.desktop.50} {basic.size.scale.desktop.100}",
+            "type": "spacing"
+          }
+        },
+        "medium": {
+          "padding": {
+            "value": "{basic.size.scale.desktop.100} {basic.size.scale.desktop.150}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "padding": {
+            "value": "{basic.size.scale.desktop.150} {basic.size.scale.desktop.200}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  }
+}
