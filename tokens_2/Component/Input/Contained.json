@@ -1,0 +1,416 @@
+{
+  "input": {
+    "contained": {
+      "spacing": {
+        "medium": {
+          "vertical-space": {
+            "value": "{basic.size.scale.25}",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "vertical-space": {
+            "value": "{basic.size.scale.50}",
+            "type": "spacing"
+          }
+        }
+      },
+      "borderWidth": {
+        "default": {
+          "value": "{basic.borderWidth.none}",
+          "type": "borderWidth"
+        },
+        "hovered": {
+          "value": "{basic.borderWidth.none}",
+          "type": "borderWidth"
+        },
+        "focused": {
+          "value": "{basic.borderWidth.none}",
+          "type": "borderWidth"
+        },
+        "disabled": {
+          "value": "{basic.borderWidth.none}",
+          "type": "borderWidth"
+        },
+        "error": {
+          "value": "{basic.borderWidth.none}",
+          "type": "borderWidth"
+        },
+        "error-focused": {
+          "value": "{basic.borderWidth.none}",
+          "type": "borderWidth"
+        },
+        "warning": {
+          "value": "{basic.borderWidth.none}",
+          "type": "borderWidth"
+        },
+        "warning-focused": {
+          "value": "{basic.borderWidth.none}",
+          "type": "borderWidth"
+        }
+      },
+      "color": {
+        "idle": {
+          "background": {
+            "value": "{theme.color.common.onSurfaceOpaque}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "{theme.lightness.default-inverted}",
+                  "space": "lch",
+                  "color": "{theme.color.common.surface}"
+                }
+              }
+            }
+          },
+          "leading-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "trailing-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{theme.color.common.none}"
+          },
+          "text": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
+          },
+          "label": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
+          },
+          "helper": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
+          }
+        },
+        "default": {
+          "background": {
+            "value": "{theme.color.common.onSurfaceOpaque}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "{theme.lightness.default-inverted}",
+                  "space": "lch",
+                  "color": "{theme.color.common.surface}"
+                }
+              }
+            }
+          },
+          "leading-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "trailing-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{theme.color.common.none}"
+          },
+          "text": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
+          },
+          "label": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
+          },
+          "helper": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
+          }
+        },
+        "hovered": {
+          "background": {
+            "value": "{theme.color.common.onSurfaceOpaque}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "{theme.lightness.hover-inverted}",
+                  "space": "lch",
+                  "color": "{theme.color.common.surface}"
+                }
+              }
+            }
+          },
+          "leading-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "trailing-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{theme.color.common.none}"
+          },
+          "text": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
+          },
+          "label": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
+          },
+          "helper": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
+          }
+        },
+        "focused": {
+          "background": {
+            "value": "{theme.color.common.primary}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "{theme.lightness.focused-inverted}",
+                  "space": "lch",
+                  "color": "{theme.color.common.surface}"
+                }
+              }
+            }
+          },
+          "leading-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "trailing-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{theme.color.common.none}"
+          },
+          "text": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
+          },
+          "label": {
+            "type": "color",
+            "value": "{theme.color.common.primary}"
+          },
+          "helper": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceSecondary}"
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "{theme.color.common.onSurfaceOpaque}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "{theme.lightness.default-inverted}",
+                  "space": "lch",
+                  "color": "{theme.color.common.surface}"
+                }
+              }
+            }
+          },
+          "leading-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "trailing-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{theme.color.common.none}"
+          },
+          "text": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "label": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "helper": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          }
+        },
+        "error": {
+          "background": {
+            "value": "{theme.color.common.error}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "{theme.lightness.default-inverted}",
+                  "space": "lch",
+                  "color": "{theme.color.common.surface}"
+                }
+              }
+            }
+          },
+          "leading-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "trailing-icon": {
+            "type": "color",
+            "value": "{theme.color.common.error}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{theme.color.common.none}"
+          },
+          "text": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
+          },
+          "label": {
+            "type": "color",
+            "value": "{theme.color.common.error}"
+          },
+          "helper": {
+            "type": "color",
+            "value": "{theme.color.common.error}"
+          }
+        },
+        "error-focused": {
+          "background": {
+            "value": "{theme.color.common.error}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "{theme.lightness.focused-inverted}",
+                  "space": "lch",
+                  "color": "{theme.color.common.surface}"
+                }
+              }
+            }
+          },
+          "leading-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "trailing-icon": {
+            "type": "color",
+            "value": "{theme.color.common.error}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{theme.color.common.none}"
+          },
+          "text": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
+          },
+          "label": {
+            "type": "color",
+            "value": "{theme.color.common.error}"
+          },
+          "helper": {
+            "type": "color",
+            "value": "{theme.color.common.error}"
+          }
+        },
+        "warning": {
+          "background": {
+            "value": "{theme.color.common.warning}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "{theme.lightness.default-inverted}",
+                  "space": "lch",
+                  "color": "{theme.color.common.surface}"
+                }
+              }
+            }
+          },
+          "leading-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "trailing-icon": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{theme.color.common.none}"
+          },
+          "text": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
+          },
+          "label": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          },
+          "helper": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          }
+        },
+        "warning-focused": {
+          "background": {
+            "value": "{theme.color.common.warning}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "{theme.lightness.focused-inverted}",
+                  "space": "lch",
+                  "color": "{theme.color.common.surface}"
+                }
+              }
+            }
+          },
+          "leading-icon": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfaceTertiary}"
+          },
+          "trailing-icon": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          },
+          "outline": {
+            "type": "color",
+            "value": "{theme.color.common.none}"
+          },
+          "text": {
+            "type": "color",
+            "value": "{theme.color.common.onSurfacePrimary}"
+          },
+          "label": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          },
+          "helper": {
+            "type": "color",
+            "value": "{theme.color.common.warning}"
+          }
+        }
+      }
+    }
+  }
+}

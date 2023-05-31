@@ -1,0 +1,106 @@
+{
+  "modal": {
+    "size": {
+      "width": {
+        "desktop": {
+          "small": {
+            "value": "320",
+            "type": "spacing"
+          },
+          "medium": {
+            "value": "480",
+            "type": "spacing"
+          },
+          "large": {
+            "value": "640",
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": "800",
+            "type": "spacing"
+          },
+          "xxlarge": {
+            "value": "1320",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "container": {
+        "vertical": {
+          "desktop": {
+            "value": "{basic.size.scale.200}",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "{basic.size.scale.mobile.200}",
+            "type": "spacing"
+          }
+        }
+      },
+      "header": {
+        "bottom": {
+          "desktop": {
+            "value": "{basic.size.scale.200}",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "{basic.size.scale.mobile.200}",
+            "type": "spacing"
+          }
+        }
+      },
+      "content": {
+        "vertical": {
+          "desktop": {
+            "value": "{basic.size.scale.100}",
+            "type": "spacing"
+          },
+          "mobile": {
+            "value": "{basic.size.scale.mobile.100}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "color": {
+      "surface": {
+        "type": "color",
+        "value": "{theme.color.common.surface}"
+      },
+      "overlay": {
+        "value": "rgba({theme.color.common.onSurfaceOpaque}, 0.08)",
+        "type": "color"
+      },
+      "outline": {
+        "type": "color",
+        "value": "{theme.color.common.none}"
+      }
+    },
+    "borderRadius": {
+      "container": {
+        "desktop": {
+          "value": "8",
+          "type": "borderRadius"
+        },
+        "mobile": {
+          "value": "8",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "shadow": {
+      "container": {
+        "desktop": {
+          "value": "{theme.shadow.large}",
+          "type": "boxShadow"
+        },
+        "mobile": {
+          "value": "{theme.shadow.mobile.large}",
+          "type": "boxShadow"
+        }
+      }
+    }
+  }
+}

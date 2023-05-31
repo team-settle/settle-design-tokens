@@ -1,0 +1,42 @@
+{
+  "batchPaymentCard": {
+    "spacing": {
+      "verical": {
+        "desktop": {
+          "value": "{basic.size.scale.150}",
+          "type": "spacing"
+        },
+        "mobile": {
+          "value": "$basic.size.scale.mobile.150",
+          "type": "spacing"
+        }
+      }
+    },
+    "color": {
+      "background": {
+        "type": "color",
+        "value": "{theme.color.common.surface}"
+      },
+      "outline": {
+        "type": "color",
+        "value": "{theme.color.common.outline}"
+      }
+    },
+    "borderRadius": {
+      "desktop": {
+        "value": "{theme.borderRadius.medium}",
+        "type": "borderRadius"
+      },
+      "mobile": {
+        "value": "{theme.borderRadius.mobile.medium}",
+        "type": "borderRadius"
+      }
+    },
+    "borderWidth": {
+      "normal": {
+        "value": "{basic.borderWidth.100}",
+        "type": "borderWidth"
+      }
+    }
+  }
+}

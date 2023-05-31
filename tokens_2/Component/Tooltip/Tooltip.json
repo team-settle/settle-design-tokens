@@ -1,0 +1,108 @@
+{
+  "tooltip": {
+    "color": {
+      "default": {
+        "background": {
+          "value": "{basic.color.grey.900}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{basic.color.base.white}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{basic.color.base.none}",
+          "type": "color"
+        }
+      }
+    },
+    "size": {
+      "min-height": {
+        "desktop": {
+          "value": "{theme.size.shape.xsmall}",
+          "type": "sizing"
+        },
+        "mobile": {
+          "value": "$theme.size.shape.mobile.xsmall",
+          "type": "sizing"
+        }
+      },
+      "max-width": {
+        "desktop": {
+          "value": "216",
+          "type": "sizing"
+        },
+        "mobile": {
+          "value": "216",
+          "type": "sizing"
+        }
+      }
+    },
+    "spacing": {
+      "desktop": {
+        "vertical": {
+          "value": "{basic.size.scale.50}",
+          "type": "spacing"
+        },
+        "margin-top": {
+          "value": "{basic.size.scale.100}",
+          "type": "spacing"
+        },
+        "horizontal": {
+          "value": "{basic.size.scale.100}",
+          "type": "spacing"
+        }
+      },
+      "mobile": {
+        "vertical": {
+          "value": "$basic.size.scale.mobile.50",
+          "type": "spacing"
+        },
+        "margin-top": {
+          "value": "$basic.size.scale.mobile.100",
+          "type": "spacing"
+        },
+        "horizontal": {
+          "value": "$basic.size.scale.mobile.100",
+          "type": "spacing"
+        }
+      }
+    },
+    "borderRadius": {
+      "desktop": {
+        "value": "{theme.borderRadius.small}",
+        "type": "borderRadius"
+      },
+      "mobile": {
+        "value": "$theme.borderRadius.mobile.small",
+        "type": "borderRadius"
+      }
+    },
+    "borderWidth": {
+      "default": {
+        "value": "$basic.borderWidth.none",
+        "type": "borderWidth"
+      }
+    },
+    "shadow": {
+      "desktop": {
+        "value": "{theme.shadow.small}",
+        "type": "boxShadow"
+      },
+      "mobile": {
+        "value": "$theme.shadow.mobile.small",
+        "type": "boxShadow"
+      }
+    },
+    "typography": {
+      "desktop": {
+        "value": "{theme.typography.Caption}",
+        "type": "typography"
+      },
+      "mobile": {
+        "value": "$theme.typography.mobile.Caption",
+        "type": "typography"
+      }
+    }
+  }
+}

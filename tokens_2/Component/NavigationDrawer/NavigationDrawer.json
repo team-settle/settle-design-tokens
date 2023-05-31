@@ -1,0 +1,28 @@
+{
+  "navigationDrawer": {
+    "color": {
+      "background": {
+        "value": "$theme.color.common.background",
+        "type": "color"
+      }
+    },
+    "spacing": {
+      "padding": {
+        "value": "{basic.size.scale.100} {basic.size.scale.200}",
+        "type": "spacing"
+      }
+    },
+    "size": {
+      "width": {
+        "expanded": {
+          "value": "248",
+          "type": "sizing"
+        },
+        "collapsed": {
+          "value": "74",
+          "type": "sizing"
+        }
+      }
+    }
+  }
+}

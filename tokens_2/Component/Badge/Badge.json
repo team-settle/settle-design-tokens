@@ -1,0 +1,68 @@
+{
+  "badge": {
+    "size": {
+      "number-off": {
+        "desktop": {
+          "value": "{basic.size.scale.100}",
+          "type": "sizing"
+        },
+        "mobile": {
+          "value": "$basic.size.scale.mobile.100",
+          "type": "sizing"
+        }
+      },
+      "number-on": {
+        "desktop": {
+          "value": "{basic.size.scale.250}",
+          "type": "sizing"
+        },
+        "mobile": {
+          "value": "{basic.size.scale.mobile.250}",
+          "type": "sizing"
+        }
+      }
+    },
+    "color": {
+      "primary": {
+        "background": {
+          "value": "{basic.color.amber.600}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{theme.color.common._primary}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "background": {
+          "value": "{basic.color.teal.600}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{basic.color.base.white}",
+          "type": "color"
+        }
+      },
+      "tertiary": {
+        "background": {
+          "value": "{basic.color.grey.300}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{basic.color.grey.900}",
+          "type": "color"
+        }
+      },
+      "blank": {
+        "background": {
+          "value": "$theme.color.common.none",
+          "type": "color"
+        },
+        "text": {
+          "value": "{basic.color.grey.700}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
