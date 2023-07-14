@@ -23,7 +23,7 @@
           "type": "color"
         },
         "onSurfaceLink": {
-          "value": "$basic.color.teal.700",
+          "value": "{theme.color.common.secondary}",
           "type": "color"
         },
         "onSurfaceContainer": {
@@ -39,11 +39,11 @@
           "type": "color"
         },
         "background": {
-          "value": "#F7F6F6",
+          "value": "#F7F7F7",
           "type": "color"
         },
         "primary": {
-          "value": "$basic.color.teal.900",
+          "value": "#004D3B",
           "type": "color"
         },
         "onPrimary": {
@@ -51,19 +51,19 @@
           "type": "color"
         },
         "primaryContainer": {
-          "value": "$basic.color.teal.50",
+          "value": "#E3F4F0",
           "type": "color"
         },
         "onPrimaryContainer": {
-          "value": "$basic.color.teal.800",
+          "value": "{theme.color.common.primary}",
           "type": "color"
         },
         "onPrimaryLink": {
-          "value": "$basic.color.teal.300",
+          "value": "#71B69F",
           "type": "color"
         },
         "secondary": {
-          "value": "$basic.color.teal.700",
+          "value": "#3E8672",
           "type": "color"
         },
         "onSecondary": {
@@ -71,11 +71,11 @@
           "type": "color"
         },
         "secondaryContainer": {
-          "value": "$basic.color.teal.50",
+          "value": "#E3F4F0",
           "type": "color"
         },
         "onSecondaryContainer": {
-          "value": "$basic.color.teal.800",
+          "value": "{theme.color.common.secondary}",
           "type": "color"
         },
         "info": {
