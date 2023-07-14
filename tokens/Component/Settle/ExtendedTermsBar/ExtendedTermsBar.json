@@ -26,7 +26,7 @@
       "segment": {
         "100": {
           "background": {
-            "value": "{basic.color.teal.600}",
+            "value": "#3E8672",
             "type": "color"
           },
           "text": {
@@ -36,7 +36,7 @@
         },
         "200": {
           "background": {
-            "value": "{basic.color.teal.600}",
+            "value": "#3E8672",
             "type": "color"
           },
           "text": {
@@ -46,7 +46,7 @@
         },
         "300": {
           "background": {
-            "value": "{basic.color.teal.600}",
+            "value": "#3E8672",
             "type": "color"
           },
           "text": {
@@ -56,7 +56,7 @@
         },
         "400": {
           "background": {
-            "value": "{basic.color.teal.600}",
+            "value": "#3E8672",
             "type": "color"
           },
           "text": {
@@ -66,7 +66,7 @@
         },
         "500": {
           "background": {
-            "value": "{basic.color.teal.600}",
+            "value": "#3E8672",
             "type": "color"
           },
           "text": {
@@ -76,7 +76,7 @@
         },
         "common": {
           "hatch": {
-            "value": "{basic.color.teal.900}",
+            "value": "#004D3B",
             "type": "color"
           },
           "outline": {
