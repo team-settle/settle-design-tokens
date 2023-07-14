@@ -54,7 +54,7 @@
     "Component/Settle/NavigationDrawer/NavigationDrawer",
     "Component/Settle/NavigationDrawer/NavigationDrawerItem",
     "Component/Settle/NavigationDrawer/NavigationDrawerTitle",
-    "Component/Settle/RepaymentGraph/Chart",
+    "Component/Settle/CashPayments/Chart",
     "Component/Settle/Row/Row",
     "Component/Settle/Row/RowWithSlot",
     "Component/Settle/Selector/Selector",
