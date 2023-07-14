@@ -3,8 +3,7 @@
     "id": "b013a40406848dff2f7bdda493333da7d835d476",
     "name": "Settle-Light",
     "selectedTokenSets": {
-      "Base/Basic": "source",
-      "Component/Settle/CashPayments/Chart": "disabled"
+      "Base/Basic": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -12,8 +11,7 @@
     "id": "90351a9ab8d1a7e97cd0109c55b406507f3cacb6",
     "name": "Escalon-Light",
     "selectedTokenSets": {
-      "Base/Basic": "source",
-      "Component/Settle/CashPayments/Chart": "disabled"
+      "Base/Basic": "source"
     },
     "$figmaStyleReferences": {}
   }
