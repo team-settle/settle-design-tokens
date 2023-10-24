@@ -43,7 +43,7 @@
         "positive": {
           "default": {
             "background": {
-              "value": "rgba({theme.color.common.surface}, 1)",
+              "value": "{theme.color.common.surface}",
               "type": "color"
             },
             "onBackground": {
@@ -57,8 +57,18 @@
           },
           "hovered": {
             "background": {
-              "value": "rgba({theme.color.common.onSurfacePrimary}, {theme.opacity.state.hovered})",
-              "type": "color"
+              "value": "{theme.color.common.surface}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "{theme.opacity.state.hovered}",
+                    "space": "lch",
+                    "color": "{theme.color.common.onSurfaceOpaque}"
+                  }
+                }
+              }
             },
             "onBackground": {
               "value": "{theme.color.common.onSurfacePrimary}",
@@ -71,8 +81,17 @@
           },
           "pressed": {
             "background": {
-              "value": "rgba({theme.color.common.onSurfacePrimary}, {theme.opacity.state.pressed})",
-              "type": "color"
+              "value": "{theme.color.common.surface}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": " {theme.opacity.state.pressed}",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "onBackground": {
               "value": "{theme.color.common.onSurfacePrimary}",
@@ -101,7 +120,7 @@
         "destructive": {
           "default": {
             "background": {
-              "value": "{theme.color.common.none}",
+              "value": "{theme.color.common.surface}",
               "type": "color"
             },
             "onBackground": {
@@ -115,8 +134,18 @@
           },
           "hovered": {
             "background": {
-              "value": "rgba({theme.color.common.destructive}, {theme.opacity.state.hovered})",
-              "type": "color"
+              "value": "{theme.color.common.surface}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "{theme.opacity.state.hovered}",
+                    "space": "lch",
+                    "color": "{theme.color.common.destructive}"
+                  }
+                }
+              }
             },
             "onBackground": {
               "value": "{theme.color.common.destructive}",
@@ -129,8 +158,18 @@
           },
           "pressed": {
             "background": {
-              "value": "rgba({theme.color.common.destructive}, {theme.opacity.state.pressed})",
-              "type": "color"
+              "value": "{theme.color.common.surface}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "{theme.opacity.state.pressed}",
+                    "space": "lch",
+                    "color": "{theme.color.common.destructive}"
+                  }
+                }
+              }
             },
             "onBackground": {
               "value": "{theme.color.common.destructive}",
@@ -143,7 +182,7 @@
           },
           "disabled": {
             "background": {
-              "value": "{theme.color.common.none}",
+              "value": "{theme.color.common.surface}",
               "type": "color"
             },
             "onBackground": {
