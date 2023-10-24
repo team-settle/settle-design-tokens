@@ -19,8 +19,17 @@
           },
           "hovered": {
             "background": {
-              "value": "rgba({theme.color.common.secondary}, {theme.opacity.state.hoveredInverted})",
-              "type": "color"
+              "value": "{theme.color.common.secondary}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{theme.opacity.state.hovered}",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "onBackground": {
               "value": "{theme.color.common.onSecondary}",
@@ -33,8 +42,17 @@
           },
           "pressed": {
             "background": {
-              "value": "rgba({theme.color.common.secondary}, {theme.opacity.state.pressedInverted})",
-              "type": "color"
+              "value": "{theme.color.common.secondary}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{theme.opacity.state.pressed}",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "onBackground": {
               "value": "{theme.color.common.onSecondary}",
@@ -77,8 +95,17 @@
           },
           "hovered": {
             "background": {
-              "value": "rgba({theme.color.common.destructive}, {theme.opacity.state.hoveredInverted})",
-              "type": "color"
+              "value": "{theme.color.common.destructive}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{theme.opacity.state.hovered}",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "onBackground": {
               "value": "{theme.color.common.onDestructive}",
@@ -91,8 +118,17 @@
           },
           "pressed": {
             "background": {
-              "value": "rgba({theme.color.common.destructive}, {theme.opacity.state.pressedInverted})",
-              "type": "color"
+              "value": "{theme.color.common.destructive}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{theme.opacity.state.pressed}",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "onBackground": {
               "value": "{theme.color.common.onDestructive}",
