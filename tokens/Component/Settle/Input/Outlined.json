@@ -699,14 +699,6 @@
         "disabled": {
           "value": "{basic.borderWidth.100}",
           "type": "borderWidth"
-        },
-        "error": {
-          "value": "{basic.borderWidth.100}",
-          "type": "borderWidth"
-        },
-        "error-focused": {
-          "value": "{basic.borderWidth.200}",
-          "type": "borderWidth"
         }
       },
       "color": {
@@ -716,7 +708,7 @@
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.common.onSurfaceSecondary}",
+            "value": "{theme.color.common.onSurfaceTertiary}",
             "type": "color"
           },
           "trailing-icon": {
@@ -746,7 +738,7 @@
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.common.onSurfaceSecondary}",
+            "value": "{theme.color.common.onSurfaceTertiary}",
             "type": "color"
           },
           "trailing-icon": {
@@ -776,7 +768,7 @@
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.common.onSurfaceSecondary}",
+            "value": "{theme.color.common.onSurfaceTertiary}",
             "type": "color"
           },
           "trailing-icon": {
@@ -806,7 +798,7 @@
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.common.onSurfaceSecondary}",
+            "value": "{theme.color.common.onSurfaceTertiary}",
             "type": "color"
           },
           "trailing-icon": {
@@ -866,7 +858,7 @@
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.common.onSurfaceSecondary}",
+            "value": "{theme.color.common.onSurfaceTertiary}",
             "type": "color"
           },
           "trailing-icon": {
@@ -890,21 +882,21 @@
             "type": "color"
           }
         },
-        "error-focused": {
+        "warning": {
           "background": {
             "value": "{theme.color.common.none}",
             "type": "color"
           },
           "leading-icon": {
-            "value": "{theme.color.common.onSurfaceSecondary}",
+            "value": "{theme.color.common.onSurfaceTertiary}",
             "type": "color"
           },
           "trailing-icon": {
-            "value": "{theme.color.common.error}",
+            "value": "{theme.color.common.warning}",
             "type": "color"
           },
           "outline": {
-            "value": "{theme.color.common.error}",
+            "value": "{theme.color.common.warning}",
             "type": "color"
           },
           "text": {
@@ -912,11 +904,11 @@
             "type": "color"
           },
           "label": {
-            "value": "{theme.color.common.error}",
+            "value": "{theme.color.common.warning}",
             "type": "color"
           },
           "helper": {
-            "value": "{theme.color.common.error}",
+            "value": "{theme.color.common.warning}",
             "type": "color"
           }
         }
