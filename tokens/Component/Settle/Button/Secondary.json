@@ -57,8 +57,17 @@
           },
           "hovered": {
             "background": {
-              "value": "rgba({theme.color.common.secondary}, {theme.opacity.state.hovered})",
-              "type": "color"
+              "value": "{theme.color.common.secondary}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{theme.opacity.state.hoveredInverted}",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "onBackground": {
               "value": "{theme.color.common.secondary}",
@@ -71,8 +80,17 @@
           },
           "pressed": {
             "background": {
-              "value": "rgba({theme.color.common.secondary}, {theme.opacity.state.pressed})",
-              "type": "color"
+              "value": "{theme.color.common.secondary}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{theme.opacity.state.pressedInverted}",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "onBackground": {
               "value": "{theme.color.common.secondary}",
@@ -115,8 +133,17 @@
           },
           "hovered": {
             "background": {
-              "value": "rgba({theme.color.common.destructive}, {theme.opacity.state.hovered})",
-              "type": "color"
+              "value": "{theme.color.common.destructive}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{theme.opacity.state.hoveredInverted}",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "onBackground": {
               "value": "{theme.color.common.destructive}",
@@ -129,8 +156,17 @@
           },
           "pressed": {
             "background": {
-              "value": "rgba({theme.color.common.destructive}, {theme.opacity.state.pressed})",
-              "type": "color"
+              "value": "{theme.color.common.destructive}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{theme.opacity.state.pressedInverted}",
+                    "space": "lch"
+                  }
+                }
+              }
             },
             "onBackground": {
               "value": "{theme.color.common.destructive}",
@@ -138,6 +174,82 @@
             },
             "outline": {
               "value": "{theme.color.common.destructive}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "background": {
+              "value": "{theme.color.common.none}",
+              "type": "color"
+            },
+            "onBackground": {
+              "value": "{theme.color.common.onSurfaceTertiary}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{theme.color.common.outline}",
+              "type": "color"
+            }
+          }
+        },
+        "warning": {
+          "default": {
+            "background": {
+              "value": "{theme.color.common.none}",
+              "type": "color"
+            },
+            "onBackground": {
+              "value": "{theme.color.common.warning}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{theme.color.common.outline}",
+              "type": "color"
+            }
+          },
+          "hovered": {
+            "background": {
+              "value": "{theme.color.common.warning}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{theme.opacity.state.hoveredInverted}",
+                    "space": "lch"
+                  }
+                }
+              }
+            },
+            "onBackground": {
+              "value": "{theme.color.common.warning}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{theme.color.common.outline}",
+              "type": "color"
+            }
+          },
+          "pressed": {
+            "background": {
+              "value": "{theme.color.common.warning}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{theme.opacity.state.pressedInverted}",
+                    "space": "lch"
+                  }
+                }
+              }
+            },
+            "onBackground": {
+              "value": "{theme.color.common.warning}",
+              "type": "color"
+            },
+            "outline": {
+              "value": "{theme.color.common.warning}",
               "type": "color"
             }
           },
