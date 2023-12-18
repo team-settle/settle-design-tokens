@@ -47,7 +47,7 @@
               "type": "color"
             },
             "onBackground": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.onSurfaceSecondary}",
               "type": "color"
             },
             "outline": {
@@ -57,7 +57,7 @@
           },
           "hovered": {
             "background": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.onSurfaceOpaque}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -70,7 +70,7 @@
               }
             },
             "onBackground": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.onSurfaceSecondary}",
               "type": "color"
             },
             "outline": {
@@ -80,7 +80,7 @@
           },
           "pressed": {
             "background": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.onSurfaceOpaque}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -93,11 +93,11 @@
               }
             },
             "onBackground": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.onSurfaceSecondary}",
               "type": "color"
             },
             "outline": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.outline}",
               "type": "color"
             }
           },
@@ -173,7 +173,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{theme.color.common.destructive}",
+              "value": "{theme.color.common.outline}",
               "type": "color"
             }
           },
@@ -249,7 +249,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{theme.color.common.warning}",
+              "value": "{theme.color.common.outline}",
               "type": "color"
             }
           },

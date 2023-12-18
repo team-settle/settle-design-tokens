@@ -47,7 +47,7 @@
               "type": "color"
             },
             "onBackground": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.onSurfaceSecondary}",
               "type": "color"
             },
             "outline": {
@@ -57,7 +57,7 @@
           },
           "hovered": {
             "background": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.onSurfaceOpaque}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -70,7 +70,7 @@
               }
             },
             "onBackground": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.onSurfaceSecondary}",
               "type": "color"
             },
             "outline": {
@@ -80,7 +80,7 @@
           },
           "pressed": {
             "background": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.onSurfaceOpaque}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -93,7 +93,7 @@
               }
             },
             "onBackground": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.onSurfaceSecondary}",
               "type": "color"
             },
             "outline": {

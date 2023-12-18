@@ -71,7 +71,7 @@
               }
             },
             "onBackground": {
-              "value": "{theme.color.common.onSurfacePrimary}",
+              "value": "{theme.color.common.onSurfaceSecondary}",
               "type": "color"
             },
             "outline": {
@@ -94,11 +94,11 @@
               }
             },
             "onBackground": {
-              "value": "{theme.color.common.onSurfacePrimary}",
+              "value": "{theme.color.common.onSurfaceSecondary}",
               "type": "color"
             },
             "outline": {
-              "value": "{theme.color.common.onSurfaceTertiary}",
+              "value": "{theme.color.common.outline}",
               "type": "color"
             }
           },
