@@ -97,7 +97,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.outline}",
               "type": "color"
             }
           },
@@ -173,7 +173,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{theme.color.common.destructive}",
+              "value": "{theme.color.common.outline}",
               "type": "color"
             }
           },
@@ -249,7 +249,7 @@
               "type": "color"
             },
             "outline": {
-              "value": "{theme.color.common.warning}",
+              "value": "{theme.color.common.outline}",
               "type": "color"
             }
           },
