@@ -62,8 +62,8 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
-                    "value": "{theme.opacity.state.hoveredInverted}",
+                    "type": "alpha",
+                    "value": "{theme.opacity.state.hovered}",
                     "space": "lch"
                   }
                 }
@@ -85,8 +85,8 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
-                    "value": "{theme.opacity.state.pressedInverted}",
+                    "type": "alpha",
+                    "value": "{theme.opacity.state.pressed}",
                     "space": "lch"
                   }
                 }
@@ -138,8 +138,8 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
-                    "value": "{theme.opacity.state.hoveredInverted}",
+                    "type": "alpha",
+                    "value": "{theme.opacity.state.hovered}",
                     "space": "lch"
                   }
                 }
@@ -161,8 +161,8 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
-                    "value": "{theme.opacity.state.pressedInverted}",
+                    "type": "alpha",
+                    "value": "{theme.opacity.state.pressed}",
                     "space": "lch"
                   }
                 }
@@ -214,8 +214,8 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
-                    "value": "{theme.opacity.state.hoveredInverted}",
+                    "type": "alpha",
+                    "value": "{theme.opacity.state.hovered}",
                     "space": "lch"
                   }
                 }
@@ -237,8 +237,8 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
-                    "value": "{theme.opacity.state.pressedInverted}",
+                    "type": "alpha",
+                    "value": "{theme.opacity.state.pressed}",
                     "space": "lch"
                   }
                 }
