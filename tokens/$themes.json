@@ -938,7 +938,6 @@
       "fab.primary.color.warning.disabled.onBackground": "S:6117aa5255d79886285b275ea3a62f7d487f457a,",
       "fab.primary.color.warning.disabled.outline": "S:09a6542dc14e09c88abef46e431a2ac009994e2f,",
       "button.tertiary.color.warning.default.background": "S:174e3f643de988d0ca2da161396a5f6f942ab6fc,",
-      "button.tertiary.color.warning.default.warning": "S:00465ce13277bf7564b35b8dfd5fde71eb505b5f,",
       "button.tertiary.color.warning.default.outline": "S:b08510c0a62cca6221323526acabb9aa574bdab5,",
       "button.tertiary.color.warning.hovered.background": "S:62d39929854c46ed34e2afd2e7260ce3564e94d5,",
       "button.tertiary.color.warning.hovered.onBackground": "S:a405a7d6dba8ff071e383ce1c92c04729b070149,",
@@ -972,7 +971,8 @@
       "button.primary.color.warning.pressed.outline": "S:076dab6a1bcb556c2eeeaeb9fdbbec7c9a7a0c34,",
       "button.primary.color.warning.disabled.background": "S:b00d237aa847b84dcf22d770374d9418ef5651bb,",
       "button.primary.color.warning.disabled.onBackground": "S:9b3530b9998031530a9ae51b53e599fd91971a99,",
-      "button.primary.color.warning.disabled.outline": "S:811b5a8d0966f2d1e99a8d835926f265217a3c40,"
+      "button.primary.color.warning.disabled.outline": "S:811b5a8d0966f2d1e99a8d835926f265217a3c40,",
+      "button.tertiary.color.warning.default.onBackground": "S:00465ce13277bf7564b35b8dfd5fde71eb505b5f,"
     }
   },
   {
