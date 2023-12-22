@@ -2,41 +2,21 @@
   "button": {
     "primary": {
       "borderWidth": {
-        "positive": {
-          "default": {
-            "value": "{basic.borderWidth.none}",
-            "type": "borderWidth"
-          },
-          "hovered": {
-            "value": "{basic.borderWidth.none}",
-            "type": "borderWidth"
-          },
-          "pressed": {
-            "value": "{basic.borderWidth.none}",
-            "type": "borderWidth"
-          },
-          "disabled": {
-            "value": "{basic.borderWidth.none}",
-            "type": "borderWidth"
-          }
+        "default": {
+          "value": "{basic.borderWidth.none}",
+          "type": "borderWidth"
         },
-        "destructive": {
-          "default": {
-            "value": "{basic.borderWidth.none}",
-            "type": "borderWidth"
-          },
-          "hovered": {
-            "value": "{basic.borderWidth.none}",
-            "type": "borderWidth"
-          },
-          "pressed": {
-            "value": "{basic.borderWidth.none}",
-            "type": "borderWidth"
-          },
-          "disabled": {
-            "value": "{basic.borderWidth.none}",
-            "type": "borderWidth"
-          }
+        "hovered": {
+          "value": "{basic.borderWidth.none}",
+          "type": "borderWidth"
+        },
+        "pressed": {
+          "value": "{basic.borderWidth.none}",
+          "type": "borderWidth"
+        },
+        "disabled": {
+          "value": "{basic.borderWidth.none}",
+          "type": "borderWidth"
         }
       },
       "color": {
@@ -62,7 +42,7 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
+                    "type": "darken",
                     "value": "{theme.opacity.state.hovered}",
                     "space": "lch"
                   }
@@ -85,7 +65,7 @@
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "lighten",
+                    "type": "darken",
                     "value": "{theme.opacity.state.pressed}",
                     "space": "lch"
                   }
