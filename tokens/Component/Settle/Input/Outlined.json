@@ -704,7 +704,7 @@
       "color": {
         "idle": {
           "background": {
-            "value": "{theme.color.common.none}",
+            "value": "{theme.color.common.surface}",
             "type": "color"
           },
           "leading-icon": {
@@ -734,7 +734,7 @@
         },
         "default": {
           "background": {
-            "value": "{theme.color.common.none}",
+            "value": "{theme.color.common.surface}",
             "type": "color"
           },
           "leading-icon": {
@@ -764,7 +764,7 @@
         },
         "hovered": {
           "background": {
-            "value": "{theme.color.common.none}",
+            "value": "{theme.color.common.surface}",
             "type": "color"
           },
           "leading-icon": {
@@ -794,7 +794,7 @@
         },
         "focused": {
           "background": {
-            "value": "{theme.color.common.none}",
+            "value": "{theme.color.common.surface}",
             "type": "color"
           },
           "leading-icon": {
@@ -824,7 +824,7 @@
         },
         "disabled": {
           "background": {
-            "value": "{theme.color.common.none}",
+            "value": "{theme.color.common.surface}",
             "type": "color"
           },
           "leading-icon": {
@@ -854,7 +854,7 @@
         },
         "error": {
           "background": {
-            "value": "{theme.color.common.none}",
+            "value": "{theme.color.common.surface}",
             "type": "color"
           },
           "leading-icon": {
@@ -862,7 +862,7 @@
             "type": "color"
           },
           "trailing-icon": {
-            "value": "{theme.color.common.error}",
+            "value": "{theme.color.common.onSurfaceSecondary}",
             "type": "color"
           },
           "outline": {
@@ -884,7 +884,7 @@
         },
         "warning": {
           "background": {
-            "value": "{theme.color.common.none}",
+            "value": "{theme.color.common.surface}",
             "type": "color"
           },
           "leading-icon": {
@@ -892,7 +892,7 @@
             "type": "color"
           },
           "trailing-icon": {
-            "value": "{theme.color.common.warning}",
+            "value": "{theme.color.common.onSurfaceSecondary}",
             "type": "color"
           },
           "outline": {

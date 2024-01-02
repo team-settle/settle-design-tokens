@@ -979,7 +979,10 @@
     "id": "90351a9ab8d1a7e97cd0109c55b406507f3cacb6",
     "name": "Escalon-Light",
     "selectedTokenSets": {
-      "Base/Basic": "source"
+      "Base/Basic": "source",
+      "Theme/Settle/Base": "source",
+      "Theme/Settle/Light": "enabled",
+      "Theme/Escalon/Light": "enabled"
     },
     "$figmaStyleReferences": {}
   }
