@@ -166,23 +166,23 @@
       "invoiceStatus": {
         "draft": {
           "background": {
-            "value": "$basic.color.bluegrey.50",
+            "value": "$basic.color.grey.50",
             "type": "color"
           },
           "textOnBackground": {
-            "value": "$basic.color.bluegrey.800",
+            "value": "$basic.color.grey.800",
             "type": "color"
           },
           "textOnSurface": {
-            "value": "$basic.color.bluegrey.600",
+            "value": "$basic.color.grey.600",
             "type": "color"
           },
           "icon": {
-            "value": "$basic.color.bluegrey.500",
+            "value": "$basic.color.grey.500",
             "type": "color"
           },
           "outline": {
-            "value": "$basic.color.bluegrey.200",
+            "value": "$basic.color.grey.200",
             "type": "color"
           }
         },
