@@ -264,10 +264,6 @@
           "value": "{theme.color.common.onPrimaryContainer}",
           "type": "color"
         },
-        "onBackgroundText": {
-          "value": "{theme.color.common.onSurfacePrimary}",
-          "type": "color"
-        },
         "outline": {
           "value": "{basic.color.base.none}",
           "type": "color"

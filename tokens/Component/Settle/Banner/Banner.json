@@ -21,7 +21,7 @@
           "type": "spacing"
         },
         "vertical": {
-          "value": "$basic.size.scale.desktop.150",
+          "value": "$basic.size.scale.desktop.100",
           "type": "spacing"
         },
         "gap": {
@@ -39,7 +39,7 @@
           "type": "spacing"
         },
         "vertical": {
-          "value": "$basic.size.scale.mobile.150",
+          "value": "$basic.size.scale.mobile.100",
           "type": "spacing"
         },
         "gap": {
@@ -116,6 +116,20 @@
         },
         "onBackground": {
           "value": "{theme.color.common.onSuccessContainer}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "$basic.color.base.none",
+          "type": "color"
+        }
+      },
+      "upsell": {
+        "background": {
+          "value": "{theme.color.common.secondaryContainer}",
+          "type": "color"
+        },
+        "onBackground": {
+          "value": "{theme.color.common.onSecondaryContainer}",
           "type": "color"
         },
         "outline": {
