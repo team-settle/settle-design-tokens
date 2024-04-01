@@ -11,7 +11,7 @@
           "type": "spacing"
         },
         "vertical": {
-          "value": "$basic.size.scale.desktop.100",
+          "value": "$basic.size.scale.desktop.75",
           "type": "spacing"
         }
       },
@@ -25,7 +25,7 @@
           "type": "spacing"
         },
         "vertical": {
-          "value": "$basic.size.scale.mobile.100",
+          "value": "$basic.size.scale.mobile.75",
           "type": "spacing"
         }
       }
