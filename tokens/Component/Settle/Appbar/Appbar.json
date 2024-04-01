@@ -3,7 +3,7 @@
     "size": {
       "desktop": {
         "height": {
-          "value": "$basic.size.scale.desktop.900",
+          "value": "$basic.size.scale.desktop.800",
           "type": "sizing"
         },
         "l-slot": {
@@ -25,15 +25,15 @@
     "space": {
       "desktop": {
         "top": {
-          "value": "$basic.size.scale.desktop.200",
+          "value": "$basic.size.scale.desktop.150",
           "type": "spacing"
         },
         "bottom": {
-          "value": "$basic.size.scale.desktop.200",
+          "value": "$basic.size.scale.desktop.150",
           "type": "spacing"
         },
         "right": {
-          "value": "$basic.size.scale.desktop.300",
+          "value": "$basic.size.scale.desktop.200",
           "type": "spacing"
         },
         "gap": {
@@ -51,7 +51,7 @@
           "type": "spacing"
         },
         "right": {
-          "value": "$basic.size.scale.mobile.300",
+          "value": "$basic.size.scale.mobile.200",
           "type": "spacing"
         },
         "gap": {
