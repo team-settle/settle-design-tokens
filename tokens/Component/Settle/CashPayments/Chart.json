@@ -4,7 +4,11 @@
       "default": {
         "segment": {
           "pending": {
-            "value": "$basic.color.indigo.50",
+            "value": "$basic.color.indigo.100",
+            "type": "color"
+          },
+          "expected": {
+            "value": "$basic.color.grey.200",
             "type": "color"
           },
           "cashpayment": {
