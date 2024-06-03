@@ -1,0 +1,170 @@
+{
+  "material": {
+    "color": {
+      "default": {
+        "0": {
+          "background": {
+            "value": "{basic.color.indigo.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.indigo.500}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.color.indigo.200}",
+            "type": "color"
+          }
+        },
+        "1": {
+          "background": {
+            "value": "{basic.color.deeppurple.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.deeppurple.500}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.color.deeppurple.200}",
+            "type": "color"
+          }
+        },
+        "2": {
+          "background": {
+            "value": "{basic.color.purple.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.purple.500}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.color.purple.200}",
+            "type": "color"
+          }
+        },
+        "3": {
+          "background": {
+            "value": "{basic.color.blue.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.blue.700}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.color.blue.200}",
+            "type": "color"
+          }
+        },
+        "4": {
+          "background": {
+            "value": "{basic.color.cyan.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.cyan.700}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.color.cyan.200}",
+            "type": "color"
+          }
+        },
+        "5": {
+          "background": {
+            "value": "{basic.color.teal.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.teal.500}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.color.teal.200}",
+            "type": "color"
+          }
+        },
+        "6": {
+          "background": {
+            "value": "{basic.color.lightgreen.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.lightgreen.800}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.color.lightgreen.200}",
+            "type": "color"
+          }
+        },
+        "7": {
+          "background": {
+            "value": "{basic.color.amber.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.amber.800}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.color.amber.200}",
+            "type": "color"
+          }
+        },
+        "8": {
+          "background": {
+            "value": "{basic.color.orange.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.orange.700}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.color.orange.200}",
+            "type": "color"
+          }
+        },
+        "9": {
+          "background": {
+            "value": "{basic.color.deeporange.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.deeporange.400}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.color.deeporange.200}",
+            "type": "color"
+          }
+        }
+      },
+      "other": {
+        "custom": {
+          "background": {
+            "value": "{basic.color.bluegrey.50}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.bluegrey.500}",
+            "type": "color"
+          }
+        },
+        "archived": {
+          "background": {
+            "value": "{basic.color.grey.100}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.color.grey.500}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

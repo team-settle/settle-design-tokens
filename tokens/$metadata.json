@@ -66,6 +66,7 @@
     "Component/Settle/Tab/TabGroup",
     "Component/Settle/Table/TableRow",
     "Component/Settle/Toggle/Toggle",
-    "Component/Settle/Tooltip/Tooltip"
+    "Component/Settle/Tooltip/Tooltip",
+    "Component/Settle/BOM/Material"
   ]
 }

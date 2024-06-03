@@ -68,7 +68,8 @@
       "Component/Settle/Tab/TabGroup": "enabled",
       "Component/Settle/Table/TableRow": "enabled",
       "Component/Settle/Toggle/Toggle": "enabled",
-      "Component/Settle/Tooltip/Tooltip": "enabled"
+      "Component/Settle/Tooltip/Tooltip": "enabled",
+      "Component/Settle/BOM/Material": "enabled"
     },
     "$figmaStyleReferences": {
       "tooltip.color.default.background": "S:ac92d773e18400d45bf4901053bf9e0042d5fbb3,",
@@ -3225,7 +3226,8 @@
       "Base/Basic": "source",
       "Theme/Settle/Base": "source",
       "Theme/Settle/Light": "enabled",
-      "Theme/Escalon/Light": "enabled"
+      "Theme/Escalon/Light": "enabled",
+      "Component/Settle/BOM/Material": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:19898:51528",
