@@ -3226,8 +3226,7 @@
       "Base/Basic": "source",
       "Theme/Settle/Base": "source",
       "Theme/Settle/Light": "enabled",
-      "Theme/Escalon/Light": "enabled",
-      "Component/Settle/BOM/Material": "disabled"
+      "Theme/Escalon/Light": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:19898:51528",
