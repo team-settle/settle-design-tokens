@@ -1717,6 +1717,10 @@
         "value": "Medium",
         "type": "fontWeights"
       },
+      "semiBold": {
+        "value": "Semi Bold",
+        "type": "fontWeights"
+      },
       "bold": {
         "value": "Bold",
         "type": "fontWeights"
