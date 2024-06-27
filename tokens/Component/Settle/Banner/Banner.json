@@ -129,7 +129,7 @@
           "type": "color"
         },
         "onBackground": {
-          "value": "{theme.color.common.onSecondaryContainer}",
+          "value": "{theme.color.common.onPrimaryContainer}",
           "type": "color"
         },
         "outline": {
