@@ -51,8 +51,17 @@
           "type": "color"
         },
         "primaryContainer": {
-          "value": "#E3F4F0",
-          "type": "color"
+          "value": "{theme.color.common.primary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1 - {theme.opacity.state.default}",
+                "space": "lch"
+              }
+            }
+          }
         },
         "onPrimaryContainer": {
           "value": "{theme.color.common.primary}",
@@ -71,8 +80,17 @@
           "type": "color"
         },
         "secondaryContainer": {
-          "value": "#E3F4F0",
-          "type": "color"
+          "value": "{theme.color.common.secondary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1 - {basic.opacity.200}",
+                "space": "lch"
+              }
+            }
+          }
         },
         "onSecondaryContainer": {
           "value": "{theme.color.common.secondary}",
