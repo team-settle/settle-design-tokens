@@ -13,7 +13,7 @@
       },
       "hovered": {
         "background": {
-          "value": "{basic.color.grey.50}",
+          "value": "{theme.color.common.onSurfaceContainer}",
           "type": "color"
         },
         "text": {
@@ -23,7 +23,7 @@
       },
       "selected": {
         "background": {
-          "value": "{basic.color.teal.50}",
+          "value": "{theme.color.common.secondaryContainer}",
           "type": "color"
         },
         "text": {
