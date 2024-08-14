@@ -1,25 +1,13 @@
 {
   "invoiceModalAside": {
     "spacing": {
-      "desktop": {
-        "horizontal": {
-          "value": "$basic.size.scale.desktop.300",
-          "type": "spacing"
-        },
-        "vertical": {
-          "value": "$basic.size.scale.desktop.200",
-          "type": "spacing"
-        }
+      "horizontal": {
+        "value": "$basic.size.scale.desktop.300",
+        "type": "spacing"
       },
-      "mobile": {
-        "horizontal": {
-          "value": "$basic.size.scale.mobile.300",
-          "type": "spacing"
-        },
-        "vertical": {
-          "value": "$basic.size.scale.mobile.200",
-          "type": "spacing"
-        }
+      "vertical": {
+        "value": "$basic.size.scale.desktop.200",
+        "type": "spacing"
       }
     },
     "color": {
@@ -31,17 +19,9 @@
       }
     },
     "size": {
-      "desktop": {
-        "width": {
-          "value": "360",
-          "type": "sizing"
-        }
-      },
-      "mobile": {
-        "width": {
-          "value": "100%",
-          "type": "sizing"
-        }
+      "width": {
+        "value": "400",
+        "type": "sizing"
       }
     }
   }
