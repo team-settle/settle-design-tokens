@@ -3,27 +3,35 @@
     "opacity": {
       "state": {
         "default": {
-          "value": "0.04",
+          "value": "{basic.opacity.100}",
           "type": "opacity"
         },
         "hovered": {
-          "value": "0.08",
+          "value": "{basic.opacity.150}",
           "type": "opacity"
         },
         "hoveredInverted": {
-          "value": "0.92",
-          "type": "opacity"
-        },
-        "pressedInverted": {
-          "value": "0.84",
-          "type": "opacity"
-        },
-        "focused": {
-          "value": "0.12",
+          "value": "1 - {theme.opacity.state.hovered}",
           "type": "opacity"
         },
         "pressed": {
           "value": "0.16",
+          "type": "opacity"
+        },
+        "pressedInverted": {
+          "value": "1 - {theme.opacity.state.pressed}",
+          "type": "opacity"
+        },
+        "focused": {
+          "value": "{basic.opacity.200}",
+          "type": "opacity"
+        },
+        "focusedInverted": {
+          "value": "1 - {basic.opacity.200}",
+          "type": "opacity"
+        },
+        "disabled": {
+          "value": "{basic.opacity.100}",
           "type": "opacity"
         }
       }

@@ -13,8 +13,17 @@
       },
       "hovered": {
         "background": {
-          "value": "{theme.color.common.onSurfaceContainer}",
-          "type": "color"
+          "value": "{theme.color.common.onSurfaceOpaque}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{theme.opacity.state.hoveredInverted}",
+                "space": "lch"
+              }
+            }
+          }
         },
         "text": {
           "value": "{theme.color.common.onSurfacePrimary}",

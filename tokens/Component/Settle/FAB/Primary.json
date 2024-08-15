@@ -71,7 +71,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "lighten",
-                    "value": "1 - {theme.opacity.state.default}",
+                    "value": "1 - {theme.opacity.state.disabled}",
                     "space": "lch"
                   }
                 }
@@ -150,7 +150,7 @@
           },
           "disabled": {
             "background": {
-              "value": "{theme.color.common.background}",
+              "value": "{theme.color.common.onSurfaceOpaque}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {

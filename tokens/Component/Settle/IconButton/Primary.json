@@ -89,7 +89,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{theme.opacity.state.default}",
+                    "value": "{theme.opacity.state.disabled}",
                     "space": "lch",
                     "color": "{modal.color.surface} "
                   }
@@ -175,7 +175,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{theme.opacity.state.default}",
+                    "value": "{theme.opacity.state.disabled}",
                     "space": "lch"
                   }
                 }
@@ -260,7 +260,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "{theme.opacity.state.default}",
+                    "value": "{theme.opacity.state.disabled}",
                     "space": "lch"
                   }
                 }
