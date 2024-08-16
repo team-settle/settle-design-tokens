@@ -2,27 +2,25 @@
   "modal": {
     "size": {
       "width": {
-        "desktop": {
-          "small": {
-            "value": "320",
-            "type": "spacing"
-          },
-          "medium": {
-            "value": "480",
-            "type": "spacing"
-          },
-          "large": {
-            "value": "640",
-            "type": "spacing"
-          },
-          "xlarge": {
-            "value": "800",
-            "type": "spacing"
-          },
-          "xxlarge": {
-            "value": "1320",
-            "type": "spacing"
-          }
+        "small": {
+          "value": "320",
+          "type": "spacing"
+        },
+        "medium": {
+          "value": "480",
+          "type": "spacing"
+        },
+        "large": {
+          "value": "640",
+          "type": "spacing"
+        },
+        "xlarge": {
+          "value": "800",
+          "type": "spacing"
+        },
+        "xxlarge": {
+          "value": "1320",
+          "type": "spacing"
         }
       }
     },
@@ -80,26 +78,14 @@
     },
     "borderRadius": {
       "container": {
-        "desktop": {
-          "value": "8",
-          "type": "borderRadius"
-        },
-        "mobile": {
-          "value": "8",
-          "type": "borderRadius"
-        }
+        "value": "8",
+        "type": "borderRadius"
       }
     },
     "shadow": {
       "container": {
-        "desktop": {
-          "value": "{theme.shadow.desktop.large}",
-          "type": "boxShadow"
-        },
-        "mobile": {
-          "value": "{theme.shadow.mobile.large}",
-          "type": "boxShadow"
-        }
+        "value": "{theme.shadow.desktop.large}",
+        "type": "boxShadow"
       }
     }
   }

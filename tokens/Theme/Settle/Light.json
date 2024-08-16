@@ -27,8 +27,17 @@
           "type": "color"
         },
         "onSurfaceContainer": {
-          "value": "rgba($basic.color.base.black, {basic.opacity.50})",
-          "type": "color"
+          "value": "{basic.color.base.black}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1 - {basic.opacity.50}",
+                "space": "lch"
+              }
+            }
+          }
         },
         "outline": {
           "value": "rgba($basic.color.base.black, {basic.opacity.200})",
@@ -39,8 +48,17 @@
           "type": "color"
         },
         "background": {
-          "value": "#F7F7F7",
-          "type": "color"
+          "value": "{basic.color.base.black}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1 - {basic.opacity.50}",
+                "space": "lch"
+              }
+            }
+          }
         },
         "primary": {
           "value": "#004D3B",
@@ -51,8 +69,17 @@
           "type": "color"
         },
         "primaryContainer": {
-          "value": "#E3F4F0",
-          "type": "color"
+          "value": "{theme.color.common.primary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1 - {theme.opacity.state.default}",
+                "space": "lch"
+              }
+            }
+          }
         },
         "onPrimaryContainer": {
           "value": "{theme.color.common.primary}",
@@ -71,8 +98,17 @@
           "type": "color"
         },
         "secondaryContainer": {
-          "value": "#E3F4F0",
-          "type": "color"
+          "value": "{theme.color.common.secondary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1 - {basic.opacity.200}",
+                "space": "lch"
+              }
+            }
+          }
         },
         "onSecondaryContainer": {
           "value": "{theme.color.common.secondary}",

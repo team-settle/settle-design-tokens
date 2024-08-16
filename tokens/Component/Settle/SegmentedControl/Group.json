@@ -1,0 +1,58 @@
+{
+  "segmentedControl": {
+    "group": {
+      "color": {
+        "background": {
+          "value": "{theme.color.common.background}",
+          "type": "color"
+        },
+        "separator": {
+          "value": "{theme.color.common.separator}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.common.none}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "spacing": {
+          "small": {
+            "gap": {
+              "value": "1",
+              "type": "spacing"
+            }
+          },
+          "medium": {
+            "gap": {
+              "value": "1",
+              "type": "spacing"
+            }
+          },
+          "large": {
+            "gap": {
+              "value": "1",
+              "type": "spacing"
+            }
+          }
+        }
+      },
+      "base": {
+        "borderRadius": {
+          "large": {
+            "value": "{theme.borderRadius.desktop.large}",
+            "type": "borderRadius"
+          },
+          "medium": {
+            "value": "{theme.borderRadius.desktop.medium}",
+            "type": "borderRadius"
+          },
+          "small": {
+            "value": "{theme.borderRadius.desktop.small}",
+            "type": "borderRadius"
+          }
+        }
+      }
+    }
+  }
+}

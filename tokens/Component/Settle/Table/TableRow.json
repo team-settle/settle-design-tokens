@@ -13,8 +13,17 @@
       },
       "hovered": {
         "background": {
-          "value": "{basic.color.grey.50}",
-          "type": "color"
+          "value": "{theme.color.common.onSurfaceOpaque}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{theme.opacity.state.hoveredInverted}",
+                "space": "lch"
+              }
+            }
+          }
         },
         "text": {
           "value": "{theme.color.common.onSurfacePrimary}",
@@ -23,7 +32,7 @@
       },
       "selected": {
         "background": {
-          "value": "{basic.color.teal.50}",
+          "value": "{theme.color.common.secondaryContainer}",
           "type": "color"
         },
         "text": {
