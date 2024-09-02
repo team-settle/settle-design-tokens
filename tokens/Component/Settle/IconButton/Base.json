@@ -3,16 +3,34 @@
     "base": {
       "size": {
         "large": {
-          "value": "{theme.size.shape.desktop.large}",
-          "type": "sizing"
+          "min-h": {
+            "value": "{theme.size.shape.desktop.large}",
+            "type": "sizing"
+          },
+          "min-w": {
+            "value": "{theme.size.shape.desktop.large}+8",
+            "type": "sizing"
+          }
         },
         "medium": {
-          "value": "{theme.size.shape.desktop.medium}",
-          "type": "sizing"
+          "min-h": {
+            "value": "{theme.size.shape.desktop.medium}",
+            "type": "sizing"
+          },
+          "min-w": {
+            "value": "{theme.size.shape.desktop.medium}+8",
+            "type": "sizing"
+          }
         },
         "small": {
-          "value": "{theme.size.shape.desktop.small}",
-          "type": "sizing"
+          "min-h": {
+            "value": "{theme.size.shape.desktop.small}",
+            "type": "sizing"
+          },
+          "min-w": {
+            "value": "{theme.size.shape.desktop.small}",
+            "type": "sizing"
+          }
         }
       },
       "borderRadius": {
