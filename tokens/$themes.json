@@ -3260,9 +3260,6 @@
       "iconButton.base.spacing.medium.right": "02707981d2d292a685eae37105474588439545dd",
       "iconButton.base.spacing.large.left": "80b1ee7614db7435afd8933404cd4e7ff9208d9e",
       "iconButton.base.spacing.large.right": "f74f61f1db0d66522bea75ae2e50e48ea79adfbc",
-      "iconButton.base.size.large": "db33c6389a3823b3254339e2b5db89ae9e90fd16",
-      "iconButton.base.size.medium": "21cc1e83971940eeb231169b3c8acd654c549b8f",
-      "iconButton.base.size.small": "33b3701bdf004f6d84cabd39c0488a4475a5698e",
       "iconButton.primary.borderWidth.default": "a51ad1a20ac57ea4795b390289979b66c4a17314",
       "iconButton.primary.borderWidth.hovered": "361736c8fb60b40b466faaddd7f3645da26f6495",
       "iconButton.primary.borderWidth.pressed": "7774aa617383354bb9bddb090d5129cc21219b22",
@@ -3283,7 +3280,10 @@
       "modal.borderRadius.container": "d64ce4d4ab73fe2274d3e4474749cde15e97a459",
       "invoiceModalAside.spacing.horizontal": "b71ff973fd42e43554261321d78668be49e5d25e",
       "invoiceModalAside.spacing.vertical": "7e520a3010471a30a804ab37fdecad5ed1cd8350",
-      "invoiceModalAside.size.width": "85357f9588aba9852bdb5041d4bb24afdccbb01e"
+      "invoiceModalAside.size.width": "85357f9588aba9852bdb5041d4bb24afdccbb01e",
+      "iconButton.base.size.large.min-h": "db33c6389a3823b3254339e2b5db89ae9e90fd16",
+      "iconButton.base.size.medium.min-h": "21cc1e83971940eeb231169b3c8acd654c549b8f",
+      "iconButton.base.size.small.min-h": "33b3701bdf004f6d84cabd39c0488a4475a5698e"
     }
   },
   {
