@@ -27,7 +27,7 @@
               "type": "color"
             },
             "onBackground": {
-              "value": "{theme.color.common.onPrimary}",
+              "value": "{theme.color.common.onSecondary}",
               "type": "color"
             },
             "outline": {
@@ -50,7 +50,7 @@
               }
             },
             "onBackground": {
-              "value": "{theme.color.common.onPrimary}",
+              "value": "{theme.color.common.onSecondary}",
               "type": "color"
             },
             "outline": {
@@ -73,7 +73,7 @@
               }
             },
             "onBackground": {
-              "value": "{theme.color.common.onPrimary}",
+              "value": "{theme.color.common.onSecondary}",
               "type": "color"
             },
             "outline": {
