@@ -18,8 +18,8 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "lighten",
-                "value": "{theme.opacity.state.hoveredInverted}",
+                "type": "alpha",
+                "value": "{theme.opacity.state.hovered}",
                 "space": "lch"
               }
             }
@@ -32,8 +32,17 @@
       },
       "selected": {
         "background": {
-          "value": "{theme.color.common.secondaryContainer}",
-          "type": "color"
+          "value": "{theme.color.common.secondary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "{theme.opacity.state.pressed}",
+                "space": "lch"
+              }
+            }
+          }
         },
         "text": {
           "value": "{theme.color.common.onSurfacePrimary}",
