@@ -81,20 +81,20 @@
           },
           "pressed": {
             "background": {
-              "value": "{theme.color.common.surface}",
+              "value": "{theme.color.common.secondary}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
-                    "type": "darken",
-                    "value": " {theme.opacity.state.pressed}",
+                    "type": "lighten",
+                    "value": " {theme.opacity.state.pressedInverted}",
                     "space": "lch"
                   }
                 }
               }
             },
             "onBackground": {
-              "value": "{theme.color.common.onSurfaceSecondary}",
+              "value": "{theme.color.common.secondary}",
               "type": "color"
             },
             "outline": {

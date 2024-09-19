@@ -60,7 +60,7 @@
           },
           "pressed": {
             "background": {
-              "value": "{theme.color.common.onSurfaceOpaque}",
+              "value": "{theme.color.common.secondary}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -73,7 +73,7 @@
               }
             },
             "onBackground": {
-              "value": "{theme.color.common.onSurfaceSecondary}",
+              "value": "{theme.color.common.secondary}",
               "type": "color"
             },
             "outline": {

@@ -37,7 +37,7 @@
           },
           "hovered": {
             "background": {
-              "value": "{theme.color.common.secondary}",
+              "value": "{theme.color.common.onSurfaceOpaque}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
