@@ -2,11 +2,11 @@
   "labelGroup": {
     "spacing": {
       "gap-x": {
-        "value": "{basic.size.scale.desktop.50}",
+        "value": "{basic.size.scale.desktop.100}",
         "type": "spacing"
       },
       "gap-y": {
-        "value": "{basic.size.scale.desktop.50}",
+        "value": "{basic.size.scale.desktop.100}",
         "type": "spacing"
       }
     },
