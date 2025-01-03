@@ -70,8 +70,8 @@
       "Component/Settle/BOM/Material": "enabled",
       "Component/Settle/SegmentedControl/Group": "enabled",
       "Component/Settle/SegmentedControl/Item": "enabled",
-      "Label/Label": "disabled",
-      "Label/LabelGroup": "disabled"
+      "Label/Label": "enabled",
+      "Label/LabelGroup": "enabled"
     },
     "$figmaStyleReferences": {
       "tooltip.color.default.background": "S:ac92d773e18400d45bf4901053bf9e0042d5fbb3,",
@@ -1062,7 +1062,31 @@
       "segmentedControl.item.color.disabled.background": "S:fa08610d8a8d15917a9008557d92f76c5aabaade,",
       "segmentedControl.item.color.disabled.onBackground": "S:8735d4995af6c41704585a86d2f9a45b5a3396ff,",
       "segmentedControl.item.color.disabled.outline": "S:a042d51e33447dd289b427d849a4982afadacff9,",
-      "modal.shadow.container": "S:32b631eb62e72f01c946a9e369ba4669cdc9f6df,"
+      "modal.shadow.container": "S:32b631eb62e72f01c946a9e369ba4669cdc9f6df,",
+      "label.color.red.background": "S:ad015f5f651c0619a082b5905f6c136aa11e9d46,",
+      "label.color.red.text": "S:7e79676887222a10a067703ce8902a023c6315e7,",
+      "label.color.orange.background": "S:9b2de2eaf13fef96d50c546e1db935da6727542b,",
+      "label.color.orange.text": "S:c66fc04463cfddf3e2aa79811cb7c1e6e73f8bd3,",
+      "label.color.green.background": "S:9822617d1e1806dba22baf83760aac8ba15a1132,",
+      "label.color.green.text": "S:ab29f2959a2c8042461e90fcf6435bef5af1ac36,",
+      "label.color.teal.background": "S:b79b813b2045863e2accd8f4ebe5af0c52e32c57,",
+      "label.color.teal.text": "S:9c43c7506f41b7b2ebbb25e5de27eb34631ce74c,",
+      "label.color.cyan.background": "S:63492829c7cc973652c7fba49d6e800f616fc7c7,",
+      "label.color.cyan.text": "S:c98bb02fcd06dd318f6dd94869116cfb249b2cbe,",
+      "label.color.blue.background": "S:fcb016c5cd2d584370ff55582665a9ee8e72aeec,",
+      "label.color.blue.text": "S:5c3763c36319c42fb1ff744253bc872e2f9a972e,",
+      "label.color.indigo.background": "S:353a59b71a5fb74d6c388b65375edce8d1ac8738,",
+      "label.color.indigo.text": "S:08a53fc32ee8543a7ce3ba2994f95c12a972adaa,",
+      "label.color.deep-purple.background": "S:e3dcf6a12e022f7b16349129039810246ed0ce27,",
+      "label.color.deep-purple.text": "S:d05b6bd262a742f8fcb2ccdc90b27fcba29cbd27,",
+      "label.color.purple.background": "S:a4b1b95e7291dab67b52b5b091f83693d8125a74,",
+      "label.color.purple.text": "S:0248e07521c88d9cf330641ce75c9651e54aa653,",
+      "label.color.brown.background": "S:3971fcb9ccce1cce02f7f07d27b3ed5a69ed30b1,",
+      "label.color.brown.text": "S:9f386a27bbc4c0d594f2113d752052dede1c136a,",
+      "label.color.blue-grey.background": "S:162f2cf5868c3a1e5abbcfcc87701b811ae6a4b1,",
+      "label.color.blue-grey.text": "S:26079f51c7b8eea6c53ca509c866f5e6b16d8a33,",
+      "label.color.grey.background": "S:79b3d646c60335a73d722a9a7b9d2ee5c8460a4b,",
+      "label.color.grey.text": "S:c0c3fa044674e56b8fdfc4a541dbeb94c178f2fd,"
     },
     "$figmaCollectionId": "VariableCollectionId:19898:49303",
     "$figmaModeId": "19898:0",
@@ -3295,9 +3319,7 @@
       "Base/Basic": "source",
       "Theme/Settle/Base": "source",
       "Theme/Settle/Light": "enabled",
-      "Theme/Escalon/Light": "enabled",
-      "Label/Label": "disabled",
-      "Label/LabelGroup": "disabled"
+      "Theme/Escalon/Light": "enabled"
     },
     "$figmaStyleReferences": {
       "theme.color.common.onSurfaceLink": "S:fa8913fc16d655d15bf8730b6d8a23558e956e6b,",

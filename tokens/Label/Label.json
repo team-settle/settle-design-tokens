@@ -147,6 +147,12 @@
         "value": "body2",
         "type": "other"
       }
+    },
+    "borderRadius": {
+      "container": {
+        "value": "2",
+        "type": "borderRadius"
+      }
     }
   }
 }
