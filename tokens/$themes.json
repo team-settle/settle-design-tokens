@@ -69,7 +69,9 @@
       "Component/Settle/Tooltip/Tooltip": "enabled",
       "Component/Settle/BOM/Material": "enabled",
       "Component/Settle/SegmentedControl/Group": "enabled",
-      "Component/Settle/SegmentedControl/Item": "enabled"
+      "Component/Settle/SegmentedControl/Item": "enabled",
+      "Label/Label": "disabled",
+      "Label/LabelGroup": "disabled"
     },
     "$figmaStyleReferences": {
       "tooltip.color.default.background": "S:ac92d773e18400d45bf4901053bf9e0042d5fbb3,",
@@ -3293,7 +3295,9 @@
       "Base/Basic": "source",
       "Theme/Settle/Base": "source",
       "Theme/Settle/Light": "enabled",
-      "Theme/Escalon/Light": "enabled"
+      "Theme/Escalon/Light": "enabled",
+      "Label/Label": "disabled",
+      "Label/LabelGroup": "disabled"
     },
     "$figmaStyleReferences": {
       "theme.color.common.onSurfaceLink": "S:fa8913fc16d655d15bf8730b6d8a23558e956e6b,",

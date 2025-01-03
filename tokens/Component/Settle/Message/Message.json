@@ -257,7 +257,7 @@
       },
       "upsell": {
         "background": {
-          "value": "{theme.color.common.primaryContainer}",
+          "value": "{theme.color.common.secondaryContainer}",
           "type": "color"
         },
         "onBackground": {
