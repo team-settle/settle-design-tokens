@@ -1,6 +1,10 @@
 {
   "navigationDrawerSection": {
     "spacing": {
+      "px": {
+        "value": "{basic.size.scale.desktop.none}",
+        "type": "spacing"
+      },
       "py": {
         "value": "{basic.size.scale.desktop.75}",
         "type": "spacing"

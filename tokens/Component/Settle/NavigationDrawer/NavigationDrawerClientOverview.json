@@ -143,7 +143,7 @@
     },
     "size": {
       "container-h": {
-        "value": "{basic.size.scale.desktop.400}",
+        "value": "{basic.size.scale.desktop.500}",
         "type": "sizing"
       },
       "adorn-container": {
