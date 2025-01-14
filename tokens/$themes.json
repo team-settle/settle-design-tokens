@@ -51,7 +51,6 @@
       "Component/Settle/InvoicesList/Toolbar": "enabled",
       "Component/Settle/Message/Message": "enabled",
       "Component/Settle/Modal/Modal": "enabled",
-      "Component/Settle/NavigationDrawer/NavigationDrawer": "enabled",
       "Component/Settle/NavigationDrawer/NavigationDrawerItem": "enabled",
       "Component/Settle/NavigationDrawer/NavigationDrawerTitle": "enabled",
       "Component/Settle/CashPayments/Chart": "enabled",
@@ -71,7 +70,11 @@
       "Component/Settle/SegmentedControl/Group": "enabled",
       "Component/Settle/SegmentedControl/Item": "enabled",
       "Label/Label": "enabled",
-      "Label/LabelGroup": "enabled"
+      "Label/LabelGroup": "enabled",
+      "Component/Settle/NavigationDrawer/NavigationDrawerBusiness": "disabled",
+      "Component/Settle/NavigationDrawer/NavigationDrawerClientOverview": "disabled",
+      "Component/Settle/NavigationDrawer/NavigationDrawerSection": "disabled",
+      "Component/Settle/NavigationDrawer/NavigationDrawerComp": "enabled"
     },
     "$figmaStyleReferences": {
       "tooltip.color.default.background": "S:ac92d773e18400d45bf4901053bf9e0042d5fbb3,",
@@ -1486,15 +1489,9 @@
       "navigationDrawerItem.color.disabled.background": "585f98524b40d3105390a96c65db0073b3ebb065",
       "navigationDrawerItem.color.disabled.icon": "209c42975be9824b6e831872580b8d34fa9c4a9d",
       "navigationDrawerItem.color.disabled.text": "129e2352026dffef88ca834f279d48619e7112b8",
-      "navigationDrawerItem.borderRadius.desktop": "c8184b63799713d8c0a7adffbf51b182ebc540f4",
-      "navigationDrawerItem.borderRadius.mobile": "a97ff51551b9a05a9af3293c583827937e22d4f3",
       "navigationDrawer.color.background": "bcffea79035af7fe1f698e9db38f090657b25444",
-      "navigationDrawer.spacing.desktop.horizontal": "aa296d05e2d6834ae734eea2f87f88fc157dbdb1",
-      "navigationDrawer.spacing.desktop.vertical": "614d42d141eac8ea2642b96541983403737b4845",
       "navigationDrawer.spacing.mobile.horizontal": "47aee2c15e7e7ba30c92c330bb3dc62280d9ff0a",
       "navigationDrawer.spacing.mobile.vertical": "022cca993491e684b637be77496f89719115fd51",
-      "navigationDrawer.size.desktop.width.expanded": "717826032227b1c960089a5629fc30da3234f3a0",
-      "navigationDrawer.size.desktop.width.collapsed": "609d516f0da316c775d65812de3845b4f50d37df",
       "modal.spacing.container.vertical.desktop": "3390f80e11296757f87482ed0b9f19feba6bcfdc",
       "modal.spacing.container.vertical.mobile": "4eb9ce991d3b355236ebd62a8c5f2bbcef776fcc",
       "modal.spacing.header.bottom.desktop": "5e184e5dffe3ebd273fba28e01c61ea23e79c585",
@@ -3309,7 +3306,11 @@
       "invoiceModalAside.size.width": "85357f9588aba9852bdb5041d4bb24afdccbb01e",
       "iconButton.base.size.large.min-h": "db33c6389a3823b3254339e2b5db89ae9e90fd16",
       "iconButton.base.size.medium.min-h": "21cc1e83971940eeb231169b3c8acd654c549b8f",
-      "iconButton.base.size.small.min-h": "33b3701bdf004f6d84cabd39c0488a4475a5698e"
+      "iconButton.base.size.small.min-h": "33b3701bdf004f6d84cabd39c0488a4475a5698e",
+      "navigationDrawerItem.borderRadius": "c8184b63799713d8c0a7adffbf51b182ebc540f4",
+      "navigationDrawer.spacing.px": "aa296d05e2d6834ae734eea2f87f88fc157dbdb1",
+      "navigationDrawer.spacing.py": "614d42d141eac8ea2642b96541983403737b4845",
+      "navigationDrawer.size.width.expanded": "717826032227b1c960089a5629fc30da3234f3a0"
     }
   },
   {
@@ -3319,7 +3320,11 @@
       "Base/Basic": "source",
       "Theme/Settle/Base": "source",
       "Theme/Settle/Light": "enabled",
-      "Theme/Escalon/Light": "enabled"
+      "Theme/Escalon/Light": "enabled",
+      "Component/Settle/NavigationDrawer/NavigationDrawerBusiness": "disabled",
+      "Component/Settle/NavigationDrawer/NavigationDrawerClientOverview": "disabled",
+      "Component/Settle/NavigationDrawer/NavigationDrawerSection": "disabled",
+      "Component/Settle/NavigationDrawer/NavigationDrawerComp": "disabled"
     },
     "$figmaStyleReferences": {
       "theme.color.common.onSurfaceLink": "S:fa8913fc16d655d15bf8730b6d8a23558e956e6b,",

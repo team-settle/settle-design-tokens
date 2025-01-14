@@ -1,9 +1,13 @@
 {
-  "navigationDrawerItem": {
+  "navigationDrawerClientOverview": {
     "color": {
       "default": {
         "background": {
           "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.common.outline}",
           "type": "color"
         },
         "icon": {
@@ -29,6 +33,10 @@
             }
           }
         },
+        "outline": {
+          "value": "{theme.color.common.outline}",
+          "type": "color"
+        },
         "icon": {
           "value": "{theme.color.common.onSurfaceSecondary}",
           "type": "color"
@@ -52,6 +60,10 @@
             }
           }
         },
+        "outline": {
+          "value": "{theme.color.common.outline}",
+          "type": "color"
+        },
         "icon": {
           "value": "{theme.color.common.secondary}",
           "type": "color"
@@ -64,6 +76,10 @@
       "disabled": {
         "background": {
           "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.common.outline}",
           "type": "color"
         },
         "icon": {
@@ -87,6 +103,10 @@
       "loading": {
         "background": {
           "value": "{theme.color.common.none}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{theme.color.common.outline}",
           "type": "color"
         },
         "icon": {
