@@ -1,0 +1,24 @@
+{
+  "labelGroup": {
+    "spacing": {
+      "gap-x": {
+        "value": "{basic.size.scale.desktop.100}",
+        "type": "spacing"
+      },
+      "gap-y": {
+        "value": "{basic.size.scale.desktop.100}",
+        "type": "spacing"
+      }
+    },
+    "size": {
+      "min-w": {
+        "value": "{basic.size.scale.desktop.300}",
+        "type": "sizing"
+      },
+      "min-h": {
+        "value": "{basic.size.scale.desktop.300}",
+        "type": "sizing"
+      }
+    }
+  }
+}

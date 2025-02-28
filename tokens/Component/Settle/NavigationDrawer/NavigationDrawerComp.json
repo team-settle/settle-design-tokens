@@ -1,0 +1,28 @@
+{
+  "navigationDrawerComp": {
+    "color": {
+      "background": {
+        "value": "{theme.color.common.background}",
+        "type": "color"
+      }
+    },
+    "spacing": {
+      "px": {
+        "value": "{basic.size.scale.desktop.100}",
+        "type": "spacing"
+      },
+      "py": {
+        "value": "{basic.size.scale.desktop.100}",
+        "type": "spacing"
+      }
+    },
+    "size": {
+      "width": {
+        "expanded": {
+          "value": "248",
+          "type": "sizing"
+        }
+      }
+    }
+  }
+}

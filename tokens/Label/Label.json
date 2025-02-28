@@ -1,0 +1,74 @@
+{
+  "label": {
+    "color": {
+      "background": {
+        "value": "{basic.color.grey.100}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{basic.color.grey.800}",
+        "type": "color"
+      },
+      "state": {
+        "value": "{theme.color.common.onSurfaceOpaque}",
+        "type": "color"
+      }
+    },
+    "size": {
+      "min-h": {
+        "value": "{basic.size.scale.desktop.250}",
+        "type": "sizing"
+      },
+      "min-w": {
+        "value": "{basic.size.scale.desktop.300}",
+        "type": "sizing"
+      }
+    },
+    "spacing": {
+      "px": {
+        "value": "{basic.size.scale.desktop.50}",
+        "type": "spacing"
+      },
+      "py": {
+        "value": "{basic.size.scale.desktop.none}",
+        "type": "spacing"
+      },
+      "gap": {
+        "value": "{basic.size.scale.desktop.none}",
+        "type": "spacing"
+      },
+      "label-px": {
+        "value": "{basic.size.scale.desktop.50}",
+        "type": "spacing"
+      }
+    },
+    "typography": {
+      "label": {
+        "value": "caption",
+        "type": "other"
+      }
+    },
+    "borderRadius": {
+      "container": {
+        "value": "2",
+        "type": "borderRadius"
+      }
+    },
+    "opacity": {
+      "state": {
+        "default": {
+          "value": "0",
+          "type": "opacity"
+        },
+        "hovered": {
+          "value": "{theme.opacity.state.hovered}",
+          "type": "opacity"
+        },
+        "pressed": {
+          "value": "{theme.opacity.state.pressed}",
+          "type": "opacity"
+        }
+      }
+    }
+  }
+}
