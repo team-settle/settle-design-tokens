@@ -689,7 +689,7 @@
           "type": "borderWidth"
         },
         "hovered": {
-          "value": "{basic.borderWidth.200}",
+          "value": "{basic.borderWidth.100}",
           "type": "borderWidth"
         },
         "focused": {
@@ -776,7 +776,7 @@
             "type": "color"
           },
           "outline": {
-            "value": "{theme.color.common.outline}",
+            "value": "{theme.color.common.onSurfaceTertiary}",
             "type": "color"
           },
           "text": {
