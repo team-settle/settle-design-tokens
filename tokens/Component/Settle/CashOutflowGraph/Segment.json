@@ -1,0 +1,99 @@
+{
+  "cashOutflowGraphSegment": {
+    "color": {
+      "expected-bill": {
+        "background": {
+          "value": "{theme.color.common.surface}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{basic.color.grey.300}",
+          "type": "color"
+        }
+      },
+      "expected-po": {
+        "background": {
+          "value": "{basic.color.grey.300}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{basic.color.base.none}",
+          "type": "color"
+        }
+      },
+      "pending": {
+        "background": {
+          "value": "{basic.color.indigo.100}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{basic.color.base.none}",
+          "type": "color"
+        }
+      },
+      "failed": {
+        "background": {
+          "value": "{basic.color.red.200}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{basic.color.base.none}",
+          "type": "color"
+        }
+      },
+      "interest": {
+        "backgroud": {
+          "value": "{theme.color.common.secondary}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": ".4",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "outline": {
+          "value": "{basic.color.base.none}",
+          "type": "color"
+        }
+      },
+      "repayment": {
+        "background": {
+          "value": "{theme.color.common.secondary}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{basic.color.base.none}",
+          "type": "color"
+        }
+      },
+      "cashpayment": {
+        "background": {
+          "value": "{basic.color.bluegrey.300}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{basic.color.base.none}",
+          "type": "color"
+        }
+      },
+      "card": {
+        "background": {
+          "value": "#E7C181",
+          "type": "color"
+        },
+        "outline": {
+          "value": "{basic.color.base.none}",
+          "type": "color"
+        }
+      }
+    },
+    "borderRadius": {
+      "value": "$theme.borderRadius.desktop.small",
+      "type": "borderRadius"
+    }
+  }
+}

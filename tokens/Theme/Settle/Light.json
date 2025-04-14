@@ -115,7 +115,7 @@
           "type": "color"
         },
         "info": {
-          "value": "$basic.color.bluegrey.600",
+          "value": "$basic.color.grey.600",
           "type": "color"
         },
         "onInfo": {
@@ -123,11 +123,11 @@
           "type": "color"
         },
         "infoContainer": {
-          "value": "$basic.color.bluegrey.50",
+          "value": "$basic.color.grey.50",
           "type": "color"
         },
         "onInfoContainer": {
-          "value": "$basic.color.bluegrey.800",
+          "value": "$basic.color.grey.800",
           "type": "color"
         },
         "error": {
