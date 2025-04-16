@@ -53,7 +53,6 @@
       "Component/Settle/Modal/Modal": "enabled",
       "Component/Settle/NavigationDrawer/NavigationDrawerItem": "enabled",
       "Component/Settle/NavigationDrawer/NavigationDrawerTitle": "enabled",
-      "Component/Settle/CashPayments/Chart": "enabled",
       "Component/Settle/Row/Row": "enabled",
       "Component/Settle/Row/RowWithSlot": "enabled",
       "Component/Settle/Selector/Selector": "enabled",
@@ -74,7 +73,8 @@
       "Component/Settle/NavigationDrawer/NavigationDrawerClientOverview": "enabled",
       "Component/Settle/NavigationDrawer/NavigationDrawerSection": "enabled",
       "Component/Settle/Label/LabelGroup": "enabled",
-      "Component/Settle/Label/Label": "enabled"
+      "Component/Settle/Label/Label": "enabled",
+      "Component/Settle/CashOutflowGraph/Segment": "enabled"
     },
     "$figmaStyleReferences": {
       "tooltip.color.default.background": "S:ac92d773e18400d45bf4901053bf9e0042d5fbb3,",
@@ -1547,12 +1547,6 @@
       "row.spacing.large.padding-h.mobile.m": "5feb58ce9e5629977e7225076ad40c42a41c2e9e",
       "row.spacing.large.padding-h.mobile.l": "9dddf7bfc1a10316f90425182d4ad37136abce61",
       "row.spacing.large.padding-h.mobile.none": "85f23dbdac3d871636c35850df82aaa33d10bed0",
-      "cashPaymentsChart.color.default.segment.pending": "e130a893cf27d86e02c3587a873a48e48ab7be97",
-      "cashPaymentsChart.color.default.segment.cashpayment": "7964eeb08f504e1657e945906d4f15a0f9d94102",
-      "cashPaymentsChart.color.default.segment.financed": "4ce0cf13a75d27b6cf776e13793fc99ffd91fef2",
-      "cashPaymentsChart.color.default.segment.fees": "47e53bfa0c1762903c88ac663d94772b3bc367d3",
-      "cashPaymentsChart.color.default.segment.failed": "4f892e517f5f442d71da064c6b4c0752b13aec06",
-      "cashPaymentsChart.color.default.segment.card": "eb26079e11078316e5be01885ded06abe8c18174",
       "cashPaymentsChart.color.default.hover": "a2b9ee7c74ee6ee8b8e284adf3adf5a9bddcce33",
       "cashPaymentsChart.spacing.desktop.gap": "1fad2cdf383a5f201e11fc88ac105a01cc54b024",
       "cashPaymentsChart.borderRadius.desktop": "84449d7a0a5956edcf51c67e51c4e25d3bfc4dfa",
@@ -3403,7 +3397,13 @@
       "navigationDrawerItem.borderRadius": "c8184b63799713d8c0a7adffbf51b182ebc540f4",
       "navigationDrawer.spacing.px": "aa296d05e2d6834ae734eea2f87f88fc157dbdb1",
       "navigationDrawer.spacing.py": "614d42d141eac8ea2642b96541983403737b4845",
-      "navigationDrawer.size.width.expanded": "717826032227b1c960089a5629fc30da3234f3a0"
+      "navigationDrawer.size.width.expanded": "717826032227b1c960089a5629fc30da3234f3a0",
+      "cashPaymentsChart.color.default.segment.pending.background": "e130a893cf27d86e02c3587a873a48e48ab7be97",
+      "cashPaymentsChart.color.default.segment.failed.background": "4f892e517f5f442d71da064c6b4c0752b13aec06",
+      "cashPaymentsChart.color.default.segment.interest.backgroud": "47e53bfa0c1762903c88ac663d94772b3bc367d3",
+      "cashPaymentsChart.color.default.segment.repayment.background": "4ce0cf13a75d27b6cf776e13793fc99ffd91fef2",
+      "cashPaymentsChart.color.default.segment.cashpayment.background": "7964eeb08f504e1657e945906d4f15a0f9d94102",
+      "cashPaymentsChart.color.default.segment.card.background": "eb26079e11078316e5be01885ded06abe8c18174"
     }
   },
   {
@@ -3414,8 +3414,7 @@
       "Theme/Settle/Base": "source",
       "Theme/Settle/Light": "enabled",
       "Theme/Escalon/Light": "enabled",
-      "Component/Settle/Label/LabelGroup": "disabled",
-      "Component/Settle/Label/Label": "disabled"
+      "Component/Settle/CashOutflowGraph/Segment": "disabled"
     },
     "$figmaStyleReferences": {
       "theme.color.common.onSurfaceLink": "S:fa8913fc16d655d15bf8730b6d8a23558e956e6b,",

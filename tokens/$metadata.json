@@ -57,7 +57,7 @@
     "Component/Settle/NavigationDrawer/NavigationDrawerItem",
     "Component/Settle/NavigationDrawer/NavigationDrawerBusiness",
     "Component/Settle/NavigationDrawer/NavigationDrawerClientOverview",
-    "Component/Settle/CashPayments/Chart",
+    "Component/Settle/CashOutflowGraph/Segment",
     "Component/Settle/Row/Row",
     "Component/Settle/Row/RowWithSlot",
     "Component/Settle/Selector/Selector",
