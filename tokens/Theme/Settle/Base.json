@@ -7,7 +7,7 @@
           "type": "opacity"
         },
         "hovered": {
-          "value": "{basic.opacity.150}",
+          "value": "{basic.opacity.100}",
           "type": "opacity"
         },
         "hoveredInverted": {
@@ -15,7 +15,7 @@
           "type": "opacity"
         },
         "pressed": {
-          "value": "0.16",
+          "value": "{basic.opacity.150}",
           "type": "opacity"
         },
         "pressedInverted": {
@@ -23,7 +23,7 @@
           "type": "opacity"
         },
         "focused": {
-          "value": "{basic.opacity.200}",
+          "value": "{basic.opacity.150}",
           "type": "opacity"
         },
         "focusedInverted": {
