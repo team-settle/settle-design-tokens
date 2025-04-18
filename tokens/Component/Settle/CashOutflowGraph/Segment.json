@@ -17,7 +17,7 @@
           "type": "color"
         },
         "outline": {
-          "value": "{basic.color.base.none}",
+          "value": "{cashOutflowGraphSegment.color.expected-po.background}",
           "type": "color"
         }
       },
@@ -27,7 +27,7 @@
           "type": "color"
         },
         "outline": {
-          "value": "{basic.color.base.none}",
+          "value": "{cashOutflowGraphSegment.color.pending.background}",
           "type": "color"
         }
       },
@@ -37,7 +37,7 @@
           "type": "color"
         },
         "outline": {
-          "value": "{basic.color.base.none}",
+          "value": "{cashOutflowGraphSegment.color.failed.background}",
           "type": "color"
         }
       },
@@ -56,7 +56,7 @@
           }
         },
         "outline": {
-          "value": "{basic.color.base.none}",
+          "value": "{cashOutflowGraphSegment.color.interest.backgroud}",
           "type": "color"
         }
       },
@@ -66,7 +66,7 @@
           "type": "color"
         },
         "outline": {
-          "value": "{basic.color.base.none}",
+          "value": "{cashOutflowGraphSegment.color.repayment.background}",
           "type": "color"
         }
       },
@@ -76,17 +76,7 @@
           "type": "color"
         },
         "outline": {
-          "value": "{basic.color.base.none}",
-          "type": "color"
-        }
-      },
-      "card": {
-        "background": {
-          "value": "#E7C181",
-          "type": "color"
-        },
-        "outline": {
-          "value": "{basic.color.base.none}",
+          "value": "{cashOutflowGraphSegment.color.cashpayment.background}",
           "type": "color"
         }
       }
