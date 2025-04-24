@@ -14,51 +14,55 @@ jobs:
   Deploy-Preview:
     runs-on: ubuntu-latest
     steps:
-      - name: Comment PR
-        uses: thollander/actions-comment-pull-request@v2
+      - name: Find Comment
+        uses: peter-evans/find-comment@3eae4d37986fb5a8592848f6a574fdf654e61f9e # v3.1.0
+        id: fc
         with:
-          message: |
-            🌋🌋 Initializing deployment 🔃
-            🏗️🏗️ Building Next.js 🕧
-            🚀🚀 Deploying to Vercel 🕧
-            🛸🛸 Deployed to 🕧
-          comment_tag: preview_url
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: Preview Deployment
 
-      - name: Checkout main
-        uses: actions/checkout@v3
+      - name: Comment PR
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4.0.0
+        id: comment
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          body: |
+            ## Preview Deployment
+            🌋 Initializing deployment 🔃
+            🏗️ Building Next.js 🕧
+            🚀 Deploying to Vercel 🕧
+            🛸 Deployed to 🕧
+          edit-mode: replace
+
+      - name: Checkout web repo
+        uses: actions/checkout@v4
         with:
             repository: ${{ secrets.WEB_REPO }}
             ref: main
             token: ${{ secrets.BOT_PAT }}
 
-      - name: Set pnpm
-        uses: pnpm/action-setup@v2
+      - name: Checkout self
+        uses: actions/checkout@v4
         with:
-          version: 9.x
+          path: ${{ github.event.repository.name }}
+
+      - name: Set pnpm
+        uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4.1.0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20.x
-
-      - name: Cache node modules
-        id: cache-node-modules
-        uses: actions/cache@v3
-        with:
-          path: node_modules
-          key: node-modules-${{ hashFiles('./pnpm-lock.yaml') }}
+          cache: pnpm
 
       - name: Install dependencies
-        if: steps.cache-node-modules.outputs.cache-hit != true
         run: pnpm i --frozen-lockfile
 
       - name: Generate Design Tokens
         run: |
-          git clone --branch ${{ github.head_ref }} https://github.com/team-settle/settle-design-tokens.git
           pnpm design-tokens:process
-          rm -rf settle-design-tokens
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
           git checkout -b design-tokens-preview-${{ github.sha }}
 
       - name: Install Vercel CLI
@@ -67,36 +71,40 @@ jobs:
       - name: Pull Vercel Environment Information
         run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
 
-      - name: Comment PR
-        uses: thollander/actions-comment-pull-request@v2
+      - name: Update Comment
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4.0.0
         with:
-          message: |
-            🌋🌋 Initializing deployment ✅
-            🏗️🏗️ Building Next.js 🔃
-            🚀🚀 Deploying to Vercel 🕧
-            🛸🛸 Deployed to 🕧
-          comment_tag: preview_url
+          comment-id: ${{ steps.comment.outputs.comment-id }}
+          body: |
+            ## Preview Deployment
+            🌋 Initializing deployment ✅
+            🏗️ Building Next.js 🔃
+            🚀 Deploying to Vercel 🕧
+            🛸 Deployed to 🕧
+          edit-mode: replace
 
       - name: Build Project Artifacts
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
         env:
           NODE_OPTIONS: "--max_old_space_size=4096"
 
-      - name: Comment PR
-        uses: thollander/actions-comment-pull-request@v2
+      - name: Update Comment
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4.0.0
         with:
-          message: |
-            🌋🌋 Initializing deployment ✅
-            🏗️🏗️ Building Next.js ✅
-            🚀🚀 Deploying to Vercel 🔃
-            🛸🛸 Deployed to 🕧
-          comment_tag: preview_url
+          comment-id: ${{ steps.comment.outputs.comment-id }}
+          body: |
+            ## Preview Deployment
+            🌋 Initializing deployment ✅
+            🏗️ Building Next.js ✅
+            🚀 Deploying to Vercel 🔃
+            🛸 Deployed to 🕧
+          edit-mode: replace
 
       - name: Deploy Project Artifacts to Vercel
         id: deploy
         run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
 
-      - uses: actions/github-script@v6
+      - uses: actions/github-script@v7
         id: get-deployment-url
         with:
           github-token: ${{ secrets.BOT_PAT }}
@@ -124,13 +132,14 @@ jobs:
               console.log(error)
             }
 
-      - name: Comment PR
-        uses: thollander/actions-comment-pull-request@v2
+      - name: Update Comment
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 # v4.0.0
         with:
-          message: |
-            🌋🌋 Initializing deployment ✅
-            🏗️🏗️ Building Next.js ✅
-            🚀🚀 Deploying to Vercel ✅
-            🛸🛸 Deployed to https://${{ steps.get-deployment-url.outputs.preview_url }}
-          comment_tag: preview_url
-
+          comment-id: ${{ steps.comment.outputs.comment-id }}
+          body: |
+            ## Preview Deployment  
+            🌋 Initializing deployment ✅
+            🏗️ Building Next.js ✅
+            🚀 Deploying to Vercel ✅
+            🛸 Deployed to https://${{ steps.get-deployment-url.outputs.preview_url }} ✅
+          edit-mode: replace
