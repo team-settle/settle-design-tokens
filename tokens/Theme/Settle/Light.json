@@ -194,6 +194,22 @@
           "value": "$basic.color.deeporange.800",
           "type": "color"
         },
+        "onboarding": {
+          "value": "$basic.color.lavender.600",
+          "type": "color"
+        },
+        "onOnboarding": {
+          "value": "$basic.color.base.white",
+          "type": "color"
+        },
+        "onboardingContainer": {
+          "value": "$basic.color.lavender.50",
+          "type": "color"
+        },
+        "onOnboardingContainer": {
+          "value": "$basic.color.lavender.800",
+          "type": "color"
+        },
         "none": {
           "value": "rgba($basic.color.base.white, 0)",
           "type": "color"
