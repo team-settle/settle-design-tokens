@@ -65,11 +65,11 @@
         "desktop": {
           "small": {
             "left": {
-              "value": "$basic.size.scale.desktop.none",
+              "value": "{basic.size.scale.desktop.100}",
               "type": "spacing"
             },
             "right": {
-              "value": "$basic.size.scale.desktop.none",
+              "value": "{basic.size.scale.desktop.100}",
               "type": "spacing"
             }
           },
