@@ -1198,7 +1198,11 @@
       "cashOutflowGraphSegment.color.cashpayment.background": "S:f2a1313fa798b8b21e9383ee43d4678369677b7e,",
       "cashOutflowGraphSegment.color.cashpayment.outline": "S:ebd24af8fc0f66275c93accc06232e95d3e9d27c,",
       "cashOutflowGraphSegment.color.card.background": "S:c2c2006808b017845d3620963cab0367186af280,",
-      "cashOutflowGraphSegment.color.card.outline": "S:518f7ac9d161ecd569eb35b836725d41cd2e92a3,"
+      "cashOutflowGraphSegment.color.card.outline": "S:518f7ac9d161ecd569eb35b836725d41cd2e92a3,",
+      "theme.color.common.onboarding": "S:0c32cb40b87033739a13a9a0454b1bd5cb8bcefe,",
+      "theme.color.common.onOnboarding": "S:c80abe213e4fd5b0c230e657cee40809d5e49c8f,",
+      "theme.color.common.onboardingContainer": "S:cbfcef0f4e17a3f7341a1035f0339c7b92ffe96a,",
+      "theme.color.common.onOnboardingContainer": "S:cc267fc0c22b207f6b8d1191688bec8a442f0fa4,"
     },
     "$figmaCollectionId": "VariableCollectionId:19898:49303",
     "$figmaModeId": "19898:0",
