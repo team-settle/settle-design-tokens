@@ -127,7 +127,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "lighten",
-                  "value": "1 - {theme.opacity.state.pressed}",
+                  "value": "1 - {basic.opacity.200}",
                   "space": "lch"
                 }
               }
