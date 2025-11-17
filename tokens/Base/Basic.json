@@ -71,6 +71,10 @@
         "value": "0.12",
         "type": "opacity"
       },
+      "300": {
+        "value": "0.16",
+        "type": "opacity"
+      },
       "400": {
         "value": "0.38",
         "type": "opacity"
