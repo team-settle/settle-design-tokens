@@ -13,11 +13,11 @@
     "spacing": {
       "desktop": {
         "left": {
-          "value": "$basic.size.scale.desktop.300",
+          "value": "$basic.size.scale.desktop.200",
           "type": "spacing"
         },
         "right": {
-          "value": "$basic.size.scale.desktop.300",
+          "value": "$basic.size.scale.desktop.200",
           "type": "spacing"
         },
         "vertical": {
@@ -25,7 +25,7 @@
           "type": "spacing"
         },
         "gap": {
-          "value": "$basic.size.scale.desktop.100",
+          "value": "$basic.size.scale.desktop.150",
           "type": "spacing"
         }
       },
