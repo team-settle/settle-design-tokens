@@ -13,6 +13,10 @@
         "large": {
           "value": "960",
           "type": "spacing"
+        },
+        "xlarge": {
+          "value": "1200",
+          "type": "spacing"
         }
       }
     },
