@@ -210,8 +210,17 @@
         },
         "read-only": {
           "background": {
-            "value": "{theme.color.common.surface}",
-            "type": "color"
+            "value": "{theme.color.common.onSurfaceOpaque}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "0.975",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "leading-icon": {
             "value": "{theme.color.common.onSurfaceTertiary}",
@@ -240,8 +249,17 @@
         },
         "read-only-focused": {
           "background": {
-            "value": "{theme.color.common.surface}",
-            "type": "color"
+            "value": "{theme.color.common.onSurfaceOpaque}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "0.975",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "leading-icon": {
             "value": "{theme.color.common.onSurfaceTertiary}",
