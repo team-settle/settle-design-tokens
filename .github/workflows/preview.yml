@@ -57,6 +57,14 @@ jobs:
           node-version: 24.x
           cache: pnpm
 
+      # Written user-level because pnpm ignores auth settings in a repo .npmrc.
+      - name: Authenticate to GitHub Packages
+        env:
+          NPM_RC: ${{ secrets.NPM_RC }}
+        run: |
+          test -n "$NPM_RC" || { echo "::error::NPM_RC secret is not set"; exit 1; }
+          printf '%s\n' "$NPM_RC" >> ~/.npmrc
+
       - name: Install dependencies
         run: pnpm i --frozen-lockfile
 
