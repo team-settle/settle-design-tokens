@@ -46,14 +46,6 @@
           "value": "$basic.size.scale.desktop.200",
           "type": "spacing"
         },
-        "stackVertical": {
-          "value": "$basic.size.scale.desktop.none",
-          "type": "spacing"
-        },
-        "textVertical": {
-          "value": "$basic.size.scale.desktop.none",
-          "type": "spacing"
-        },
         "textRight": {
           "value": "$basic.size.scale.desktop.100",
           "type": "spacing"
@@ -74,14 +66,6 @@
         },
         "gap": {
           "value": "$basic.size.scale.desktop.200",
-          "type": "spacing"
-        },
-        "stackVertical": {
-          "value": "$basic.size.scale.desktop.50",
-          "type": "spacing"
-        },
-        "textVertical": {
-          "value": "$basic.size.scale.desktop.25",
           "type": "spacing"
         },
         "textRight": {
