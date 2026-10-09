@@ -50,6 +50,7 @@
       "Component/Settle/InvoicesList/Container": "enabled",
       "Component/Settle/InvoicesList/Toolbar": "enabled",
       "Component/Settle/Message/Message": "enabled",
+      "Component/Settle/MessageCard/MessageCard": "enabled",
       "Component/Settle/Modal/Modal": "enabled",
       "Component/Settle/NavigationDrawer/NavigationDrawerItem": "enabled",
       "Component/Settle/NavigationDrawer/NavigationDrawerTitle": "enabled",
