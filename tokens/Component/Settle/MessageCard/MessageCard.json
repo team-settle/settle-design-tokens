@@ -2,34 +2,16 @@
   "messageCard": {
     "size": {
       "default": {
-        "desktop": {
-          "value": "{theme.size.shape.desktop.medium}",
-          "type": "sizing"
-        },
-        "mobile": {
-          "value": "{theme.size.shape.mobile.medium}",
-          "type": "sizing"
-        }
+        "value": "{theme.size.shape.desktop.medium}",
+        "type": "sizing"
       },
       "table": {
-        "desktop": {
-          "value": "{theme.size.shape.desktop.small}",
-          "type": "sizing"
-        },
-        "mobile": {
-          "value": "{theme.size.shape.mobile.small}",
-          "type": "sizing"
-        }
+        "value": "{theme.size.shape.desktop.small}",
+        "type": "sizing"
       },
       "icon": {
-        "desktop": {
-          "value": "{theme.size.shape.desktop.small}",
-          "type": "sizing"
-        },
-        "mobile": {
-          "value": "{theme.size.shape.mobile.small}",
-          "type": "sizing"
-        }
+        "value": "{theme.size.shape.desktop.small}",
+        "type": "sizing"
       },
       "textMinWidth": {
         "value": "138",
@@ -37,14 +19,8 @@
       }
     },
     "borderRadius": {
-      "desktop": {
-        "value": "$messageCard.size.default.desktop * {basic.borderRadius.small}",
-        "type": "borderRadius"
-      },
-      "mobile": {
-        "value": "$messageCard.size.default.mobile * {basic.borderRadius.small}",
-        "type": "borderRadius"
-      }
+      "value": "$messageCard.size.default * {basic.borderRadius.small}",
+      "type": "borderRadius"
     },
     "borderWidth": {
       "normal": {
@@ -54,127 +30,63 @@
     },
     "spacing": {
       "default": {
-        "desktop": {
-          "left": {
-            "value": "$basic.size.scale.desktop.200",
-            "type": "spacing"
-          },
-          "right": {
-            "value": "$basic.size.scale.desktop.100",
-            "type": "spacing"
-          },
-          "vertical": {
-            "value": "$basic.size.scale.desktop.100",
-            "type": "spacing"
-          },
-          "gap": {
-            "value": "$basic.size.scale.desktop.200",
-            "type": "spacing"
-          },
-          "stackVertical": {
-            "value": "$basic.size.scale.desktop.none",
-            "type": "spacing"
-          },
-          "textVertical": {
-            "value": "$basic.size.scale.desktop.none",
-            "type": "spacing"
-          },
-          "textRight": {
-            "value": "$basic.size.scale.desktop.100",
-            "type": "spacing"
-          }
+        "left": {
+          "value": "$basic.size.scale.desktop.200",
+          "type": "spacing"
         },
-        "mobile": {
-          "left": {
-            "value": "$basic.size.scale.mobile.200",
-            "type": "spacing"
-          },
-          "right": {
-            "value": "$basic.size.scale.mobile.100",
-            "type": "spacing"
-          },
-          "vertical": {
-            "value": "$basic.size.scale.mobile.100",
-            "type": "spacing"
-          },
-          "gap": {
-            "value": "$basic.size.scale.mobile.200",
-            "type": "spacing"
-          },
-          "stackVertical": {
-            "value": "$basic.size.scale.mobile.none",
-            "type": "spacing"
-          },
-          "textVertical": {
-            "value": "$basic.size.scale.mobile.none",
-            "type": "spacing"
-          },
-          "textRight": {
-            "value": "$basic.size.scale.mobile.100",
-            "type": "spacing"
-          }
+        "right": {
+          "value": "$basic.size.scale.desktop.100",
+          "type": "spacing"
+        },
+        "vertical": {
+          "value": "$basic.size.scale.desktop.100",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "$basic.size.scale.desktop.200",
+          "type": "spacing"
+        },
+        "stackVertical": {
+          "value": "$basic.size.scale.desktop.none",
+          "type": "spacing"
+        },
+        "textVertical": {
+          "value": "$basic.size.scale.desktop.none",
+          "type": "spacing"
+        },
+        "textRight": {
+          "value": "$basic.size.scale.desktop.100",
+          "type": "spacing"
         }
       },
       "table": {
-        "desktop": {
-          "left": {
-            "value": "$basic.size.scale.desktop.100",
-            "type": "spacing"
-          },
-          "right": {
-            "value": "$basic.size.scale.desktop.100",
-            "type": "spacing"
-          },
-          "vertical": {
-            "value": "$basic.size.scale.desktop.none",
-            "type": "spacing"
-          },
-          "gap": {
-            "value": "$basic.size.scale.desktop.200",
-            "type": "spacing"
-          },
-          "stackVertical": {
-            "value": "$basic.size.scale.desktop.50",
-            "type": "spacing"
-          },
-          "textVertical": {
-            "value": "$basic.size.scale.desktop.25",
-            "type": "spacing"
-          },
-          "textRight": {
-            "value": "$basic.size.scale.desktop.100",
-            "type": "spacing"
-          }
+        "left": {
+          "value": "$basic.size.scale.desktop.100",
+          "type": "spacing"
         },
-        "mobile": {
-          "left": {
-            "value": "$basic.size.scale.mobile.100",
-            "type": "spacing"
-          },
-          "right": {
-            "value": "$basic.size.scale.mobile.100",
-            "type": "spacing"
-          },
-          "vertical": {
-            "value": "$basic.size.scale.mobile.none",
-            "type": "spacing"
-          },
-          "gap": {
-            "value": "$basic.size.scale.mobile.200",
-            "type": "spacing"
-          },
-          "stackVertical": {
-            "value": "$basic.size.scale.mobile.50",
-            "type": "spacing"
-          },
-          "textVertical": {
-            "value": "$basic.size.scale.mobile.25",
-            "type": "spacing"
-          },
-          "textRight": {
-            "value": "$basic.size.scale.mobile.100",
-            "type": "spacing"
-          }
+        "right": {
+          "value": "$basic.size.scale.desktop.100",
+          "type": "spacing"
+        },
+        "vertical": {
+          "value": "$basic.size.scale.desktop.none",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "$basic.size.scale.desktop.200",
+          "type": "spacing"
+        },
+        "stackVertical": {
+          "value": "$basic.size.scale.desktop.50",
+          "type": "spacing"
+        },
+        "textVertical": {
+          "value": "$basic.size.scale.desktop.25",
+          "type": "spacing"
+        },
+        "textRight": {
+          "value": "$basic.size.scale.desktop.100",
+          "type": "spacing"
         }
       }
     },
@@ -261,7 +173,7 @@
           "type": "color"
         },
         "outline": {
-          "value": "{basic.color.base.none}",
+          "value": "$basic.color.base.none",
           "type": "color"
         },
         "icon": {
