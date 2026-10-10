@@ -50,6 +50,7 @@
     "Component/Settle/InvoicesList/Container",
     "Component/Settle/InvoicesList/Toolbar",
     "Component/Settle/Message/Message",
+    "Component/Settle/MessageCard/MessageCard",
     "Component/Settle/Modal/Modal",
     "Component/Settle/NavigationDrawer/NavigationDrawerComp",
     "Component/Settle/NavigationDrawer/NavigationDrawerSection",
